@@ -1,8 +1,8 @@
 {
-  "version": "2.2.3",
+  "version": "2.3.0",
   "builtAt": "2026-11-14",
-  "apk": "download/pokker-2.2.3.apk",
-  "apkSha256": "d3a6c540d7fd3d452457e6227695e91fe84f889cf91d92b2e4ed6705485e75fd",
+  "apk": "download/pokker-2.3.0.apk",
+  "apkSha256": "d97f5d364127655f6aff3b9e9be1e657aa624fd1e6fd57e44b66b8f814865e6e",
   "apkSizeMB": "3.6",
   "certSha256": "95:EA:42:09:EB:F5:D3:C3:FC:09:C7:1B:93:C9:12:48:8B:95:97:34:A6:C7:7D:F7:22:C4:8C:44:1B:BA:3E:E0"
 }

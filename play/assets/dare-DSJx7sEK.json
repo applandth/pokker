@@ -1,0 +1,961 @@
+{
+  "mode_title": "Dare",
+  "description": "กล้าไหม? ถ้ากล้าก็ทำเลย",
+  "cards": [
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนที่วงเลือกแข่งกินขนม 1 ชิ้นให้หมดก่อน ใครหมดก่อนชนะ คนแพ้รับโทษ{lv:3}",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DR001",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 3"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนทางซ้ายเป่ายิ้งฉุบ 3 รอบ คนแพ้รับโทษ{lv:4}",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DR002",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 4
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 4",
+      "partner": "left"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนที่วงเลือกจ้องตากัน ใครกระพริบตาก่อนรับโทษ{lv:4}",
+      "Target": "คนนั่งตรงข้ามคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DR003",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "level": 4,
+            "whoText": "คนที่กระพริบตาก่อน"
+          }
+        ]
+      },
+      "Penalty": "คนที่กระพริบตาก่อน รับโทษระดับ 4"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนทางขวาแข่งพูดชื่อดาราให้ได้มากสุดใน 30 วินาที คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DR004",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 3",
+      "partner": "right"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนที่วงเลือกทำหน้าตลกแข่ง — วงโหวต ใครหน้าตลกน้อยกว่ารับโทษ",
+      "Target": "คนใส่เสื้อสีดำ",
+      "TargetType": "Condition",
+      "id": "DR005",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "level": 3,
+            "whoText": "คนที่หน้าตลกน้อยกว่า"
+          }
+        ]
+      },
+      "Penalty": "คนที่หน้าตลกน้อยกว่า รับโทษระดับ 3"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนทางซ้ายนับถอยหลังจาก 20 เป็นภาษาอังกฤษแข่งกัน คนผิดก่อนรับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DR006",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "level": 3,
+            "whoText": "คนที่ผิดก่อน"
+          }
+        ]
+      },
+      "Penalty": "คนที่ผิดก่อน รับโทษระดับ 3",
+      "partner": "left"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนที่วงเลือกแข่งกันร้องเพลงที่วงขอ ใครร้องได้นานกว่าชนะ คนแพ้รับโทษ",
+      "Target": "คนใส่เสื้อสีขาว",
+      "TargetType": "Condition",
+      "id": "DR007",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 3"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนทางขวาแข่งกดปุ่มโทรศัพท์ให้เร็วที่สุด — พิมพ์ประโยคเดียวกัน คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DR008",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 3",
+      "partner": "right"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนที่วงเลือก thumb war คนแพ้รับโทษ{lv:4}",
+      "Target": "คนใส่แว่น",
+      "TargetType": "Condition",
+      "id": "DR009",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 4
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 4"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนทางซ้ายแข่งทายใจ — ทั้งคู่คิดตัวเลข 1-10 ใครทายใจอีกฝ่ายไม่ถูกใน 3 ครั้งรับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DR010",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3",
+      "partner": "left"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนที่วงเลือกแข่งยืนขาเดียว ใครล้มก่อนรับโทษ{lv:3}",
+      "Target": "คนใส่นาฬิกา",
+      "TargetType": "Condition",
+      "id": "DR011",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "level": 3,
+            "whoText": "คนที่ล้มก่อน"
+          }
+        ]
+      },
+      "Penalty": "คนที่ล้มก่อน รับโทษระดับ 3"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนทางขวาแข่งกัน — ใครพูดชื่อประเทศได้มากกว่าใน 30 วินาทีชนะ คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DR012",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 3",
+      "partner": "right"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนที่วงเลือกดีเบตเรื่องที่วงเลือกให้ 1 นาที วงโหวตว่าใครชนะ คนแพ้รับโทษ",
+      "Target": "คนไม่มีเครื่องประดับใดๆ",
+      "TargetType": "Condition",
+      "id": "DR013",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 3"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนทางซ้ายแข่งกันแนะนำตัวให้น่าประทับใจที่สุดใน 20 วินาที วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DR014",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 3",
+      "partner": "left"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนที่วงเลือกแข่งจำเมนูอาหารให้ได้มากที่สุดใน 30 วินาที คนแพ้รับโทษ",
+      "Target": "คนผมสั้นที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "DR015",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 3"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนทางขวาแข่งกันพูดคำที่ขึ้นต้นด้วยพยัญชนะที่วงเลือก ใครหยุดก่อนรับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DR016",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "level": 3,
+            "whoText": "คนที่หยุดก่อน"
+          }
+        ]
+      },
+      "Penalty": "คนที่หยุดก่อน รับโทษระดับ 3",
+      "partner": "right"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนที่วงเลือกแข่งกันโกหกให้น่าเชื่อที่สุด วงโหวต คนโกหกได้น่าเชื่อน้อยกว่ารับโทษ",
+      "Target": "คนตัวเตี้ยที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "DR017",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนทางซ้ายแข่งกันพับกระดาษหรือสร้างอะไรก็ได้จากของในมือใน 1 นาที วงตัดสิน",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DR018",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3",
+      "partner": "left"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนที่วงเลือกแข่งกันทำท่าโยคะที่วงขอ ใครทำได้ดีกว่าชนะ วงโหวต คนแพ้รับโทษ",
+      "Target": "คนที่หัวเราะล่าสุด",
+      "TargetType": "Condition",
+      "id": "DR019",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 3"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนทางขวาแข่งกันฮัมเพลงให้วงทาย ใครให้วงทายถูกเร็วกว่าชนะ คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DR020",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 3",
+      "partner": "right"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนที่วงเลือกแข่งกันพูดคำชมที่ไม่ซ้ำกันให้ได้มากสุด ใครหมดคำชมก่อนรับโทษ",
+      "Target": "คนที่เพิ่งโดนโทษในรอบก่อน",
+      "TargetType": "Condition",
+      "id": "DR021",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "level": 3,
+            "whoText": "คนที่หมดคำชมก่อน"
+          }
+        ]
+      },
+      "Penalty": "คนที่หมดคำชมก่อน รับโทษระดับ 3"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนทางซ้ายแข่งกันจำลำดับตัวอักษร ก-ฮ ใครพลาดก่อนรับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DR022",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "level": 3,
+            "whoText": "คนที่พลาดก่อน"
+          }
+        ]
+      },
+      "Penalty": "คนที่พลาดก่อน รับโทษระดับ 3",
+      "partner": "left"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนที่วงเลือกแข่งกัน — ใครบอกชื่ออาหารไทยได้มากกว่าใน 30 วินาทีชนะ คนแพ้รับโทษ",
+      "Target": "คนใส่กางเกงขาสั้น",
+      "TargetType": "Condition",
+      "id": "DR023",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 3"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนทางขวาแข่งกันทำเสียงสัตว์ที่วงขอ วงโหวตว่าใครเหมือนกว่า คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DR024",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 3",
+      "partner": "right"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนที่วงเลือกแข่งกันวาดรูปที่วงขอในอากาศ วงโหวตว่าของใครเห็นชัดกว่า คนแพ้รับโทษ",
+      "Target": "คนใส่เสื้อแขนยาว",
+      "TargetType": "Condition",
+      "id": "DR025",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 3"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนทางซ้ายแข่งกัน — ใครตั้งคำถามที่ตอบได้ยากกว่าชนะ วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DR026",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 3",
+      "partner": "left"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนที่วงเลือกบอกว่ามึงมีข้อดีอะไรบ้าง ใครบอกได้มากกว่าใน 30 วินาทีชนะ คนแพ้รับโทษ",
+      "Target": "คนที่ยังไม่โดนโทษรอบนี้",
+      "TargetType": "Condition",
+      "id": "DR027",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 3"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนทางขวาแข่งกัน — ใครสามารถอธิบายภาพยนตร์เรื่องหนึ่งโดยไม่บอกชื่อให้วงทายได้เร็วกว่าชนะ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DR028",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3",
+      "partner": "right"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนที่วงเลือกแข่งกันนำเสนอตัวเองให้น่าจ้างงานที่สุดใน 30 วินาที วงโหวต คนแพ้รับโทษ",
+      "Target": "คนที่ผมมีสีย้อม",
+      "TargetType": "Condition",
+      "id": "DR029",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 3"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนทางซ้ายแข่งกันบอกเหตุผลว่าทำไมตัวเองถึงเป็นคนที่ดีที่สุดในวง วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DR030",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 3",
+      "partner": "left"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนที่วงเลือก — ใครสามารถทำให้คนในวงหัวเราะได้เร็วกว่าชนะ คนแพ้รับโทษ{lv:4}",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DR031",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 4
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 4"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนทางขวาแข่งกันแสดงท่าทางที่บ้าที่สุดที่คิดได้ วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DR032",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 3",
+      "partner": "right"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนที่วงเลือกแข่งพับกระดาษเป็นเครื่องบินแล้วร่อน ใครไปไกลกว่าชนะ คนแพ้รับโทษ",
+      "Target": "คนนั่งตรงข้ามคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DR033",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 3"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนทางซ้ายแข่งกัน — ใครพูดชื่อตัวเลขสลับภาษาไทย-อังกฤษได้ยาวกว่าโดยไม่ผิดชนะ คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DR034",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 3",
+      "partner": "left"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนที่วงเลือก rock-paper-scissors แบบดัดแปลง — แพ้ต้องรับโทษ ชนะต้องสั่งให้อีกฝ่ายทำอะไรก็ได้",
+      "Target": "คนใส่เสื้อสีดำ",
+      "TargetType": "Condition",
+      "id": "DR035",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนแพ้",
+            "specific": "ทำตามที่ผู้ชนะสั่ง (ในขอบเขต)",
+            "fixed": true
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ ทำตามที่ผู้ชนะสั่ง (ในขอบเขต)"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนทางขวาแข่งกันบอกว่าใครรู้จักอีกฝ่ายได้ดีกว่า ตอบคำถามเรื่องอีกฝ่าย ใครตอบถูกน้อยกว่ารับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DR036",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "level": 3,
+            "whoText": "คนที่ตอบถูกน้อยกว่า"
+          }
+        ]
+      },
+      "Penalty": "คนที่ตอบถูกน้อยกว่า รับโทษระดับ 3",
+      "partner": "right"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนที่วงเลือกแข่งกันพูดชื่อ emoji ให้ได้มากที่สุดใน 30 วินาที คนแพ้รับโทษ",
+      "Target": "คนใส่เสื้อสีขาว",
+      "TargetType": "Condition",
+      "id": "DR037",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 3"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนทางซ้าย staring contest นาน 1 นาที ใครยอมแพ้ก่อนรับโทษ{lv:4}",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DR038",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "level": 4,
+            "whoText": "คนที่ยอมแพ้ก่อน"
+          }
+        ]
+      },
+      "Penalty": "คนที่ยอมแพ้ก่อน รับโทษระดับ 4",
+      "partner": "left"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนที่วงเลือกแข่งกันพูดประโยคที่ยาวที่สุดโดยไม่หายใจ คนแพ้รับโทษ",
+      "Target": "คนใส่แว่น",
+      "TargetType": "Condition",
+      "id": "DR039",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 3"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนทางขวาแข่งกัน — ใครแสดงสีหน้าเศร้าได้น่าเห็นใจมากกว่าชนะ วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DR040",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 3",
+      "partner": "right"
+    },
+    {
+      "Category": "Dare",
+      "Content": "มึงท้าคนที่วงเลือกแข่งกันทำท่าที่วงขอพร้อมกัน วงโหวตว่าใครทำได้ตรงกว่า คนแพ้รับโทษ",
+      "Target": "คนใส่นาฬิกา",
+      "TargetType": "Condition",
+      "id": "DR041",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 3"
+    }
+  ]
+}

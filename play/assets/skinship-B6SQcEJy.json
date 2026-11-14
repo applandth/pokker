@@ -1,0 +1,1390 @@
+{
+  "mode_title": "Skinship",
+  "description": "สัมผัสอย่างสุภาพ เพิ่มความสนิท",
+  "cards": [
+    {
+      "Category": "Skinship",
+      "Content": "กอดคนที่นั่งทางซ้าย 5 วินาที ต้องได้รับความยินยอมก่อน ถ้าไม่กอด รับโทษ{lv:2}",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK001",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ถ้าไม่กอด"
+          }
+        ]
+      },
+      "Penalty": "ถ้าไม่กอด: รับโทษระดับ 2",
+      "partner": "left"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "จับมือคนทางขวาไว้ 10 วินาที พร้อมสบตา ปล่อยมือก่อนหรือหัวเราะ รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK002",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่ปล่อยมือก่อนหรือหัวเราะ",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนที่ปล่อยมือก่อนหรือหัวเราะ รับโทษระดับ 2",
+      "partner": "right"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "โอบไหล่คนทางซ้าย 5 วินาที แล้วบอกว่า 'กูอยู่ตรงนี้เสมอ' ถ้าไม่ทำ รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK003",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2",
+      "partner": "left"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "เลือกคนในวง 1 คน แล้วนวดไหล่ให้ 30 วินาที ต้องได้รับความยินยอม ถ้าไม่ทำ รับโทษ{lv:3}",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "SK004",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "ให้คนทางขวาอ่านเส้นมือมึง แล้วทำนายอนาคต ถ้าคนทางขวาไม่ยอมจับมือ มันรับโทษ{lv:2}",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK005",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ถ้าไม่ยอมจับมือ",
+            "who": "custom",
+            "whoText": "คนทางขวา",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ถ้าไม่ยอมจับมือ: คนทางขวา รับโทษระดับ 2",
+      "partner": "right"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "ตบหลังคนทางซ้ายแบบเพื่อนๆ แล้วบอกคำชม 1 ประโยค ถ้าไม่ทำ รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK006",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2",
+      "partner": "left"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "ทำ fist bump กับทุกคนในวงพร้อมบอกชื่อแต่ละคน ลืมชื่อใครรับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "SK007",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "ทุกคนยื่นมือมากองกลาง นับ 3 2 1 ยกขึ้นพร้อมกัน ใครช้าสุดรับโทษ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "SK008",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "level": 2,
+            "whoText": "คนที่ช้าสุด"
+          }
+        ]
+      },
+      "Penalty": "คนที่ช้าสุด รับโทษระดับ 2"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "วาดรูปบนหลังมือคนทางซ้ายด้วยนิ้ว แล้วให้มันทาย ทายผิด มันรับโทษ ทายถูก มึงรับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK009",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ถ้าทายผิด",
+            "who": "custom",
+            "whoText": "คนทางซ้าย",
+            "level": 2
+          },
+          {
+            "when": "ถ้าทายถูก",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ถ้าทายผิด: คนทางซ้าย รับโทษระดับ 2 / ถ้าทายถูก: คนจั่ว รับโทษระดับ 2",
+      "partner": "left"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "เลือกคนในวง ทำ pinky promise แล้วบอกว่าสัญญาเรื่องอะไร ถ้าไม่ทำ รับโทษ",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "SK010",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "ทุกคนกอดคนทางขวา 3 วินาที พร้อมกัน ใครไม่กอดรับโทษ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "SK011",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "วัดขนาดมือตัวเองกับมือทุกคนในวง แล้วบอกว่าใครมือใหญ่สุด ถ้าไม่วัด รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "SK012",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "จับมือคนทางซ้ายแล้วสบตา 10 วินาที ใครหัวเราะก่อน รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK013",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "level": 2,
+            "whoText": "คนที่หัวเราะก่อน"
+          }
+        ]
+      },
+      "Penalty": "คนที่หัวเราะก่อน รับโทษระดับ 2",
+      "partner": "left"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "ลูบหัวคนที่นั่งทางขวาแบบน้องๆ แล้วบอกว่า 'เก่งมากเลยนะ' ถ้าไม่ทำ รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK014",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2",
+      "partner": "right"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "ทุกคนทำ buddy stretch จับมือคู่ทางซ้ายแล้วยืดแขนด้วยกัน 5 วินาที ใครไม่ทำรับโทษ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "SK015",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "ออกแบบ handshake พิเศษกับคนทางขวาใน 20 วินาที ต้องมีอย่างน้อย 3 ท่า ถ้าทำไม่ทัน รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK016",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ถ้าทำไม่ทัน",
+            "who": "custom",
+            "whoText": "ทั้งคู่",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ถ้าทำไม่ทัน: ทั้งคู่ รับโทษระดับ 2",
+      "partner": "right"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "เลือกคนในวง แล้วซบไหล่ 5 วินาที ต้องได้รับความยินยอม ห้ามทำกับแฟนของคนในวง ถ้าไม่ทำ รับโทษ{lv:2}",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "SK017",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "เขียนชื่อตัวเองด้วยนิ้วบนหลังมือคนทางซ้าย ให้มันทายว่าเขียนอะไร ทายผิดรับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK018",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ถ้าทายผิด",
+            "who": "custom",
+            "whoText": "คนทางซ้าย",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ถ้าทายผิด: คนทางซ้าย รับโทษระดับ 2",
+      "partner": "left"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "ทุกคน high five รอบวง ใครทำช้าสุดรับโทษ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "SK019",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "level": 2,
+            "whoText": "คนที่ทำช้าสุด"
+          }
+        ]
+      },
+      "Penalty": "คนที่ทำช้าสุด รับโทษระดับ 2"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "โบกมือทักทายทุกคนในวงแต่ละคนด้วยท่าที่ต่างกัน ใครได้ท่าซ้ำรับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "SK020",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "ให้คนในวงจับมือแล้วบอกว่ารู้สึกยังไง ถ้าไม่ยื่นมือ รับโทษ{lv:3}",
+      "Target": "คนที่มีแฟนอยู่",
+      "TargetType": "Condition",
+      "id": "SK021",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "นวดมือให้คนทางขวา 15 วินาที ต้องได้รับความยินยอม ถ้าไม่ทำ รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK022",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2",
+      "partner": "right"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "ทุกคนแตะไหล่คนทางขวาแล้วบอกว่า 'มึงเจ๋งนะ' พร้อมกัน ใครไม่บอกรับโทษ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "SK023",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "ให้คนในวงทุกคนฟัง heartbeat มึง โดยแตะมือที่หน้าอกมึง ถ้ามึงไม่ยอม รับโทษ{lv:3}",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "SK024",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "ทำ group hug ให้ได้ 3 คนขึ้นไป ถ้าหาคนไม่ครบ รับโทษ{lv:2} ถ้าได้ ทุกคนที่ร่วมได้รับเสียงปรบมือจากวง",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "SK025",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ถ้าหาคนไม่ครบ",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ถ้าหาคนไม่ครบ: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "ชี้บอกว่าส่วนไหนของหน้าคนจั่วที่ดูดีที่สุด แล้วบอกเหตุผล ถ้าไม่บอก รับโทษ",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK026",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "สบตาคนทางซ้าย นับ 1-10 ในหัว ใครกะพริบก่อนหรือหัวเราะก่อนรับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK027",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "level": 2,
+            "whoText": "คนที่กะพริบก่อนหรือหัวเราะก่อน"
+          }
+        ]
+      },
+      "Penalty": "คนที่กะพริบก่อนหรือหัวเราะก่อน รับโทษระดับ 2",
+      "partner": "left"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "ทุกคนทำ human chain ต่อกันด้วยมือบนไหล่คนข้างหน้า แล้วเดินรอบโต๊ะ 1 รอบ ใครทำลายลูกโซ่รับโทษ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "SK028",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "แปะมือ (high five) กับทุกคน แต่ต้องพูดสิ่งที่ชอบในตัวแต่ละคนพร้อมด้วย ถ้าพูดซ้ำ รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK029",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "หอมแก้มคนทางซ้าย ต้องได้รับความยินยอม ห้ามทำกับแฟนของคนในวง ถ้าไม่ทำ รับโทษ{lv:3}",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK030",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3",
+      "partner": "left"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "จับข้อมือคนทางขวาแล้วนับชีพจร 10 วินาที แล้วบอกว่าเต้นเท่าไหร่ต่อนาที ถ้าไม่ทำ รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK031",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2",
+      "partner": "right"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "ให้คนในวงออกแบบ handshake ให้มึง มึงต้องจำและทำตามได้ ถ้าทำผิด รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK032",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "มึงต้องกอดคนในวงทุกคนก่อนจะนั่งลง ถ้าไม่ยอมรับโทษ{lv:3}",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK033",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "ทั้งคู่ทำท่า high-five ให้วงดู แต่ต้องทำช้าที่สุดเท่าที่จะทำได้",
+      "Target": "คนนั่งตรงข้ามคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK034",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Skinship",
+      "Content": "มึงเลือกคนในวง แล้วทั้งคู่ทำท่า handshake ที่ซับซ้อนที่สุดที่คิดได้ใน 30 วินาที",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "SK035",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "คนจั่วนวดไหล่ให้คนทางซ้ายนาน 30 วินาที",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK036",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "partner": "left"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "มึงต้องเขียนตัวอักษรบนหลังมือของคนทางขวา ให้มันทาย ถ้าทายไม่ถูกรับโทษ{lv:2} คนละข้อ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK037",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ถ้าทายไม่ถูก",
+            "who": "custom",
+            "whoText": "คนทางขวา",
+            "level": 2,
+            "per": "ต่อข้อ"
+          }
+        ]
+      },
+      "Penalty": "ถ้าทายไม่ถูก: คนทางขวา รับโทษระดับ 2 ต่อข้อ",
+      "partner": "right"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "ทุกคนต้องจับมือคนทางซ้ายพร้อมกันนาน 10 วินาที ใครปล่อยก่อนรับโทษ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "SK038",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "level": 2,
+            "whoText": "คนที่ปล่อยก่อน"
+          }
+        ]
+      },
+      "Penalty": "คนที่ปล่อยก่อน รับโทษระดับ 2"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "มึงและคนที่วงเลือกต้องทำท่า trust fall เล็กๆ น้อยๆ — แกล้มไปทางซ้าย คนนั้นต้องรับ",
+      "Target": "คนตัวสูงที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "SK039",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Skinship",
+      "Content": "คนจั่วและคนทางขวาเล่นเกมมือ — ใครแพ้ 2 ใน 3 รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK040",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2",
+      "partner": "right"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "มึงต้องแตะจมูกของตัวเองแล้วแตะจมูกคนทางซ้ายโดยไม่ใช้มือ — ใช้แค่สายตานำ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK041",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "partner": "left"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "ทุกคนต้องแปะมือ (high five) กับทุกคนในวงพร้อมตะโกน 'เย่!' ในภาษาที่ตัวเองเลือก ใครพลาดมือรับโทษ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "SK042",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่พลาดมือ",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "คนที่พลาดมือ รับโทษระดับ 1"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "มึงเลือกคนในวง แล้วทั้งคู่แข่งกันทำแขนท่าเดียว ใครทำได้นานกว่าชนะ คนแพ้รับโทษ",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "SK043",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "ทั้งคู่ยิ้มใส่กัน 10 วินาที ใครหัวเราะก่อนรับโทษ",
+      "Target": "คนนั่งตรงข้ามคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK044",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "level": 2,
+            "whoText": "คนที่หัวเราะก่อน"
+          }
+        ]
+      },
+      "Penalty": "คนที่หัวเราะก่อน รับโทษระดับ 2"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "มึงต้องบอกให้คนทางขวาหยิบสิ่งของในห้องให้มึงโดยไม่พูด — ใช้แค่ท่าทางนำ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK045",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "partner": "right"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "คนจั่วและคนทางซ้ายยืนชนหลังกัน แล้วค่อยๆ เอนไปพิงกัน",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK046",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "partner": "left"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "ทุกคนต้องแตะหัวคนทางขวาแล้วพูดว่า 'มึงเป็นคนดี' พร้อมกัน",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "SK047",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "มึงและคนที่วงเลือกต้องแข่งกันรีดแขนเหมือนมวย เล่น 3 รอบ คนแพ้รับโทษ",
+      "Target": "คนใส่รองเท้าแตะ",
+      "TargetType": "Condition",
+      "id": "SK048",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "คนจั่วลากเส้นบนฝ่ามือของคนทางขวาแล้วบอก 'ดวงชะตามึง' วงตัดสินว่าดีหรือแย่",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK049",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "partner": "right"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "มึงต้องทำท่า 'โค้ง' ให้กับทุกคนในวงทีละคน ถ้าใครไม่โค้งตอบรับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "SK050",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "ทุกคนแลกเปลี่ยนของชิ้นเล็กที่สุดในกระเป๋ากับคนทางซ้าย แล้วคืนกันหลังจากนี้",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "SK051",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "มึงต้องจับมือคนทางซ้ายแล้วเดินรอบโต๊ะ 1 รอบ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK052",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "partner": "left"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "ทั้งคู่ต้องโยกหัวตามจังหวะเพลงที่วงฮัมให้พร้อมกัน",
+      "Target": "คนนั่งตรงข้ามคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK053",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Skinship",
+      "Content": "มึงเขียน 'ฉันรักมึง' บนหลังมือของคนที่มึงเลือกในวง",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "SK054",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "ทุกคนต้องกอดตัวเอง 5 วินาที แล้วบอกว่า 'ฉันโอเคแล้ว' ใครไม่ทำรับโทษ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "SK055",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "มึงและคนทางขวาแข่งกันทำ thumb war คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK056",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2",
+      "partner": "right"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "คนจั่วและคนทางซ้ายต้องเดินเข้าหากัน 5 ก้าว ช้าที่สุด คนที่เร็วกว่ารับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK057",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่เดินเร็วกว่า",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนที่เดินเร็วกว่า รับโทษระดับ 2",
+      "partner": "left"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "มึงแกล้งทำเป็นจับชีพจรคนทางขวาแล้วบอกวงว่ามันเป็นยังไง",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK058",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "partner": "right"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "ทุกคนต้องตบไหล่คนทางขวาแล้วพูดว่า 'สู้ๆ นะ' ใครตบแรงเกินไปรับโทษ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "SK059",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "มึงต้องจับมือคนที่มึงคิดว่าต้องการกำลังใจที่สุดในวงนี้",
+      "Target": "คนที่มีแฟนอยู่",
+      "TargetType": "Condition",
+      "id": "SK060",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Skinship",
+      "Content": "คนจั่วทำท่าอะไรก็ได้ คนทางขวาต้องเลียนแบบทุกอย่างนาน 30 วินาที",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK061",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "partner": "right"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "มึงต้องให้คนในวงทุกคนชนหมัดกับมึง ใครชนหมัดแรงสุดรับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "SK062",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "มึงและคนที่วงเลือกต้องทำ secret handshake ที่คิดขึ้นใหม่ใน 30 วินาที แล้วโชว์วง",
+      "Target": "คนที่เพิ่งโดนโทษในรอบก่อน",
+      "TargetType": "Condition",
+      "id": "SK063",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Skinship",
+      "Content": "คนจั่วและคนทางซ้ายทำท่าอ้อนขอของจากกัน วงโหวตว่าใครน่ารักกว่า คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK064",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2",
+      "partner": "left"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "ทุกคนยืดแขนขึ้นพร้อมกันแล้วตะโกน 'เย้' ใครเสียงเบาสุดรับโทษ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "SK065",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "มึงต้องตบหลังคนทางขวาอย่างเป็นมิตรแล้วบอกว่า 'มึงเจ๋งมาก'",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK066",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "partner": "right"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "ทั้งคู่ยืนชนหน้าผากกัน 5 วินาที ใครหัวเราะก่อนรับโทษ",
+      "Target": "คนนั่งขวามือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK067",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "level": 2,
+            "whoText": "คนที่หัวเราะก่อน"
+          }
+        ]
+      },
+      "Penalty": "คนที่หัวเราะก่อน รับโทษระดับ 2"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "มึงและคนทางซ้ายต้องแข่งกันปรบมือตามจังหวะที่วงนับ คนที่หลุดจังหวะก่อนรับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK068",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2",
+      "partner": "left"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "ทุกคนจับมือทุกคนในวงพร้อมกันภายใน 10 วินาที",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "SK069",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "มึงต้องวาดหัวใจบนฝ่ามือคนที่มึงเลือกในวง",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "SK070",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "ทั้งคู่ต้องทำท่าโบกมือลาให้กัน แล้วทำเป็นร้องไห้ ใครหัวเราะก่อนรับโทษ",
+      "Target": "คนนั่งตรงข้ามคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK071",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "level": 2,
+            "whoText": "คนที่หัวเราะก่อน"
+          }
+        ]
+      },
+      "Penalty": "คนที่หัวเราะก่อน รับโทษระดับ 2"
+    },
+    {
+      "Category": "Skinship",
+      "Content": "มึงนวดมือให้คนทางขวานาน 20 วินาที",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SK072",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "partner": "right"
+    }
+  ]
+}

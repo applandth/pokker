@@ -1,0 +1,313 @@
+{
+  "mode_title": "Confession",
+  "description": "สารภาพความลับ ห้ามโกหก",
+  "cards": [
+    {
+      "Category": "Confession",
+      "Content": "หันไปหาคนทางซ้าย สบตา และบอกสิ่งที่คิดถึงเขาจริงๆ แต่ไม่เคยพูด ถ้าไม่พูดรับโทษ{lv:3}",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "CF001",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "target_position": "left",
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3",
+      "partner": "left"
+    },
+    {
+      "Category": "Confession",
+      "Content": "เลือกคนในวงคนหนึ่ง แล้วสารภาพว่าเคยคิดอะไรเกี่ยวกับเขาที่ยังไม่เคยบอก",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "CF002",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Confession",
+      "Content": "หันไปหาคนทางขวา บอกว่าชอบอะไรในตัวเขามากที่สุด โดยพูดตรงๆ ไม่ถ่อมตัว",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "CF003",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "target_position": "right",
+      "card_type": "penalty",
+      "partner": "right"
+    },
+    {
+      "Category": "Confession",
+      "Content": "สารภาพกับวงทั้งหมดว่ามีอะไรที่มึงยังทำไม่ได้แต่บอกคนอื่นว่าทำได้",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "CF004",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Confession",
+      "Content": "เลือกคนในวงแล้วบอกเขาต่อหน้าทุกคนว่ามึงเป็นห่วงเขาเรื่องอะไร",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "CF005",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Confession",
+      "Content": "สารภาพกับคนทางซ้ายว่าเคยคิดอะไรเกี่ยวกับเขาในแง่ลบ แต่ตอนนี้มองต่างออกไปแล้ว",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "CF006",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "target_position": "left",
+      "card_type": "penalty",
+      "partner": "left"
+    },
+    {
+      "Category": "Confession",
+      "Content": "บอกคนในวงทุกคนทีละคนว่ามึงคิดว่าแต่ละคนกำลังเผชิญกับอะไรในชีวิตตอนนี้",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "CF007",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Confession",
+      "Content": "สารภาพกับวงว่ามึงกลัวอะไรในชีวิตที่ไม่เคยบอกใคร ถ้าไม่บอกรับโทษ{lv:3}",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "CF008",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Confession",
+      "Content": "เลือกคนในวงแล้วบอกเขาว่าความทรงจำที่มึงชอบที่สุดที่มีร่วมกับเขาคืออะไร",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "CF009",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Confession",
+      "Content": "สารภาพกับคนทางขวาว่าเคยเข้าใจเขาผิดในเรื่องอะไร และตอนนี้รู้สึกยังไง",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "CF010",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "target_position": "right",
+      "card_type": "penalty",
+      "partner": "right"
+    },
+    {
+      "Category": "Confession",
+      "Content": "บอกคนในวงที่มึงรู้สึกว่าตัวเองเคยทำให้เขาผิดหวัง พร้อมขอโทษต่อหน้าทุกคน",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "CF011",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Confession",
+      "Content": "สารภาพกับวงว่ามีช่วงเวลาไหนบ้างที่มึงรู้สึกว่าไม่ได้เป็นตัวเองต่อหน้าคนในวงนี้",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "CF012",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Confession",
+      "Content": "เลือกคนในวงแล้วบอกเขาว่าอยากให้เขารู้อะไรเกี่ยวกับมึง ที่มึงไม่เคยบอก",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "CF013",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Confession",
+      "Content": "สารภาพกับคนทางซ้ายว่าคิดว่าเขาเป็นคนแบบไหนก่อนที่จะรู้จักกัน เทียบกับตอนนี้",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "CF014",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "target_position": "left",
+      "card_type": "penalty",
+      "partner": "left"
+    },
+    {
+      "Category": "Confession",
+      "Content": "บอกทุกคนในวงว่าสิ่งที่มึงชอบในตัวเองมากที่สุด — พูดโดยไม่ถ่อมตัวและไม่เขินอาย",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "CF015",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Confession",
+      "Content": "สารภาพกับวงว่ามีอะไรในชีวิตที่มึงทำไปแล้วรู้สึกว่าไม่ใช่ตัวเองเลย",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "CF016",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Confession",
+      "Content": "เลือกคนในวงแล้วบอกเขาว่ามึงคิดว่าเขาควรได้รับอะไรในชีวิตมากกว่านี้",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "CF017",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Confession",
+      "Content": "สารภาพกับทุกคนในวงว่ามึงคิดว่าตัวเองเป็นเพื่อนที่ดีแค่ไหนให้คะแนน 1-10 พร้อมเหตุผล",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "CF018",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Confession",
+      "Content": "บอกคนทางขวาว่าถ้าวันหนึ่งมึงต้องการความช่วยเหลือจากเขา มึงจะขอในเรื่องอะไร",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "CF019",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "target_position": "right",
+      "card_type": "penalty",
+      "partner": "right"
+    },
+    {
+      "Category": "Confession",
+      "Content": "สารภาพกับวงว่ามีอะไรที่คนอื่นทำให้มึงแล้วมึงยังไม่ลืม ไม่ว่าจะดีหรือไม่ดี",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "CF020",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Confession",
+      "Content": "เลือกคนในวงแล้วบอกเขาตรงๆ ว่า 'ฉันอยากให้มึงรู้ว่า...' แล้วพูดสิ่งที่อยู่ในใจ",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "CF021",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Confession",
+      "Content": "สารภาพกับทุกคนว่ามึงรู้สึกยังไงกับคืนนี้จริงๆ ไม่ใช่คำตอบสวยงาม",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "CF022",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Confession",
+      "Content": "บอกคนในวงทุกคนทีละคนว่าอยากให้แต่ละคนมีความสุขในเรื่องอะไร",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "CF023",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Confession",
+      "Content": "สารภาพกับคนทางซ้ายว่ามึงอยากให้เขารู้ว่ามึงคิดว่าเขาเก่งในเรื่องอะไร",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "CF024",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "target_position": "left",
+      "card_type": "penalty",
+      "partner": "left"
+    },
+    {
+      "Category": "Confession",
+      "Content": "บอกวงว่าถ้าต้องเลือกคนหนึ่งในวงนี้ไปด้วยในการผจญภัยที่อันตราย มึงจะเลือกใครและทำไม",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "CF025",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    }
+  ]
+}

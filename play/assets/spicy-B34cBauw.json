@@ -1,0 +1,814 @@
+{
+  "mode_title": "Spicy",
+  "description": "เนื้อหาเผ็ดร้อน สำหรับคนกล้า",
+  "cards": [
+    {
+      "Category": "Spicy",
+      "Content": "เคย one night stand ไหม — ตอบจริงหรือรับโทษ{lv:4} ถ้าตอบว่าเคย บอกจำนวนด้วย",
+      "Target": "คนที่โสดอยู่",
+      "TargetType": "Condition",
+      "id": "SP2001",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 4
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 4"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "บอก body count ของมึง — ถ้าไม่บอกรับโทษ{lv:5} ถ้าบอกแล้ววงสงสัยว่าโกหก รับโทษเพิ่ม",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "SP2002",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 5
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 5"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "เคยส่งรูปหวานๆ ให้คนที่ไม่ใช่แฟนไหม — ถ้าเคยรับโทษ{lv:4}",
+      "Target": "คนที่แต่งงานแล้ว",
+      "TargetType": "Condition",
+      "id": "SP2003",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 4
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 4"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "เคย sext กับใครไหม — ถ้าเคยรับโทษ{lv:3} และบอกด้วยว่าเป็นยุคไหนของชีวิต",
+      "Target": "คนที่เพิ่งเลิกกัน",
+      "TargetType": "Condition",
+      "id": "SP2004",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "เคยชอบคนที่มีเจ้าของแล้วไหม — ถ้าเคยรับโทษ{lv:3} ถ้าทำอะไรกับความรู้สึกนั้นด้วย รับโทษเพิ่ม",
+      "Target": "คนที่เคยโดนเท",
+      "TargetType": "Condition",
+      "id": "SP2005",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "เคยทำอะไรบนรถไหม — ตอบจริงหรือรับโทษ{lv:4}",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "SP2006",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 4
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 4"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "เคยนอนกับคนแล้วเสียใจในภายหลังไหม — ถ้าเคยรับโทษ{lv:3} แล้วบอกว่าเสียใจเรื่องอะไร",
+      "Target": "คนที่เคยมีชู้",
+      "TargetType": "Condition",
+      "id": "SP2007",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "เคย FWB กับใครไหม — ถ้าเคยรับโทษ{lv:3} และบอกว่าจบยังไง",
+      "Target": "คนที่เคยตื่นมาไม่รู้ว่าอยู่ที่ไหน",
+      "TargetType": "Condition",
+      "id": "SP2008",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "เคยจูบกับคนเพศเดียวกันไหม — ตอบจริงหรือรับโทษ{lv:4}",
+      "Target": "คนที่เคยโกหกแฟน",
+      "TargetType": "Condition",
+      "id": "SP2009",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 4
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 4"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "เคยแกล้งทำเป็นหลับหรือปวดหัวเพื่อหลีกเลี่ยงเซ็กส์ไหม — ถ้าเคยรับโทษ{lv:3}",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "SP2010",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "เคยชอบเพื่อนของแฟนตัวเองไหม — ถ้าเคยรับโทษ{lv:4} ถ้าทำอะไรกับความรู้สึกนั้นรับโทษเพิ่ม",
+      "Target": "คนที่เคยร้องไห้เพราะแฟน",
+      "TargetType": "Condition",
+      "id": "SP2011",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 4
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 4"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "เคยมีความสัมพันธ์กับคนที่อายุต่างกันมากกว่า 10 ปีไหม — ถ้าเคยรับโทษ{lv:3}",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "SP2012",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "เคยทำอะไรในที่สาธารณะไหม — ตอบจริงหรือรับโทษ{lv:4}",
+      "Target": "คนที่เคยเที่ยวกลางคืนโดยไม่บอกใคร",
+      "TargetType": "Condition",
+      "id": "SP2013",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 4
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 4"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "เคยมีความสัมพันธ์กับมากกว่า 1 คนในเดือนเดียวกันไหม — ถ้าเคยรับโทษ{lv:4}",
+      "Target": "คนที่เช็คโทรศัพท์ใน 5 นาทีที่ผ่านมา",
+      "TargetType": "Condition",
+      "id": "SP2014",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 4
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 4"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "เคย ghosting หลังนอนด้วยกันไหม หรือโดน ghosting — ถ้าทำ รับโทษ{lv:4} ถ้าโดนทำ รับโทษ{lv:3}",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SP2015",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ถ้าเคยทำ",
+            "who": "target",
+            "level": 4
+          },
+          {
+            "when": "ถ้าโดนทำ",
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "ถ้าเคยทำ: รับโทษระดับ 4 / ถ้าโดนทำ: รับโทษระดับ 3"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "ทุกคนยกมือถ้าเคย one night stand — คนที่ยกมือรับโทษ คนที่ไม่ยกมือก็รับโทษเพราะโกหก",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "SP2016",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "เคยส่งข้อความผิดคน — ข้อความที่ไม่ควรส่งให้คนนั้น ถ้าเคยรับโทษ{lv:4} แล้วเล่าให้ฟัง",
+      "Target": "คนนั่งขวามือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SP2017",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 4
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 4"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "เคยมีความรู้สึกอยากนอนกับคนในวงนี้ไหม — ตอบจริงหรือรับโทษ{lv:5} ไม่ต้องบอกว่าใคร",
+      "Target": "คนนั่งตรงข้ามคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SP2018",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 5
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 5"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "เคยดูหนัง 18+ กับเพื่อนไหม (ไม่ใช่แฟน) — ถ้าเคยรับโทษ{lv:3}",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "SP2019",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "เคยโกหกเรื่อง body count ให้แฟนหรือคนที่ชอบฟังไหม — ถ้าเคยรับโทษ{lv:4}",
+      "Target": "คนใส่ต่างหู",
+      "TargetType": "Condition",
+      "id": "SP2020",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 4
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 4"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "เคยทำอะไรที่ถ้าแฟนรู้คงเลิกกันแน่ๆ ไหม — ตอบจริงหรือรับโทษ{lv:5} ไม่ต้องบอกรายละเอียด",
+      "Target": "คนที่พูดมากที่สุดในวงนี้",
+      "TargetType": "Condition",
+      "id": "SP2021",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 5
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 5"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "เคยมีคนแอบชอบมันแบบเห็นได้ชัดไหม — ถ้าเคยรับโทษ{lv:3} แล้วเล่าซะ",
+      "Target": "คนที่ดูจะมีเรื่องลับเยอะที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "SP2022",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "เคยนอนกับคนที่อายุน้อยกว่า/มากกว่า 5 ปีขึ้นไปไหม — ถ้าเคยรับโทษ{lv:3}",
+      "Target": "คนที่โสดอยู่",
+      "TargetType": "Condition",
+      "id": "SP2023",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "ทุกคนยกมือถ้าเคยแชทกับคนอื่นในขณะมีแฟนอยู่แบบที่แฟนรู้ไม่ได้ — คนที่ยกมือรับโทษ{lv:4}",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "SP2024",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 4
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 4"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "เคยใช้แอปหาคู่แบบลับๆ ไหม (จะตอนโสดหรือไม่ก็ตาม) ถ้าเคยรับโทษ{lv:5}",
+      "Target": "คนที่ดูจะมีโทรศัพท์ลับๆ มากที่สุด",
+      "TargetType": "Condition",
+      "id": "SP2025",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 5
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 5"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "ครั้งที่ประทับใจที่สุดในชีวิตเกิดขึ้นที่ไหน — ตอบจริงหรือรับโทษ{lv:4}",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "SP2026",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 4
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 4"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "เคยรู้สึก jealous เพราะเหตุผลแปลกๆ ที่วงน่าจะตลก — เล่าให้ฟัง ถ้าไม่เล่ารับโทษ",
+      "Target": "คนที่แต่งงานแล้ว",
+      "TargetType": "Condition",
+      "id": "SP2027",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "เคยมีความสัมพันธ์ที่ซับซ้อนกับคนมากกว่า 1 คนพร้อมกันไหม — ถ้าเคยรับโทษ{lv:4}",
+      "Target": "คนที่เพิ่งเลิกกัน",
+      "TargetType": "Condition",
+      "id": "SP2028",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 4
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 4"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "ทุกคนบอกว่าตอนนี้ชีวิตด้านนี้อยู่ในสถานะอะไร — single / complicated / taken / ไม่บอก (ไม่บอกรับโทษ{lv:4})",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "SP2029",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 4
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 4"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "เคยร้องไห้เพราะเรื่องเพศหรือความสัมพันธ์ไหม — ถ้าเคยรับโทษ{lv:3} ไม่ต้องเล่ารายละเอียด",
+      "Target": "คนที่เคยโดนเท",
+      "TargetType": "Condition",
+      "id": "SP2030",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "เคย sexting ค้างคาอยู่แล้วจู่ๆ หายเงียบไหม — ถ้าเคยทำรับโทษ{lv:4} ถ้าโดนทำรับโทษ{lv:3}",
+      "Target": "คนที่เคยมีชู้",
+      "TargetType": "Condition",
+      "id": "SP2031",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ถ้าเคยทำ",
+            "who": "target",
+            "level": 4
+          },
+          {
+            "when": "ถ้าโดนทำ",
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "ถ้าเคยทำ: รับโทษระดับ 4 / ถ้าโดนทำ: รับโทษระดับ 3"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "เคยนอนด้วยกันแล้วบอกว่ารักทั้งที่ไม่ได้รักไหม — ถ้าเคยรับโทษ{lv:5}",
+      "Target": "คนที่เคยตื่นมาไม่รู้ว่าอยู่ที่ไหน",
+      "TargetType": "Condition",
+      "id": "SP2032",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 5
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 5"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "เคย slide into DMs ใครโดยมีแผนชัดเจนไหม — ถ้าเคยรับโทษ{lv:3} แล้วบอกว่าสำเร็จไหม",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "SP2033",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "ทุกคนบอกว่ามีอดีตแฟนหรือคนที่คบกันกี่คน ใครมากสุดได้สิทธิ์สั่งคนอื่นรับโทษ 1 คน",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "SP2034",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Spicy",
+      "Content": "เคยเสียดายที่เลิกกับใคร — ถ้าเคยรับโทษ{lv:3} แล้วบอกว่าเสียดายเรื่องอะไร",
+      "Target": "คนที่เคยโกหกแฟน",
+      "TargetType": "Condition",
+      "id": "SP2035",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    }
+  ]
+}

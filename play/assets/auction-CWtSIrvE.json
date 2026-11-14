@@ -1,0 +1,556 @@
+{
+  "mode_title": "Auction",
+  "description": "ประมูลสิทธิ์ในวง ใครจ่ายได้มากกว่า",
+  "cards": [
+    {
+      "Category": "Auction",
+      "Content": "ประมูลสิทธิ์ข้ามการรับโทษการ์ดถัดไป — ทุกคนเสนอระดับโทษที่ยอมรับเพื่อซื้อสิทธิ์นี้ ใครเสนอสูงสุดได้สิทธิ์ ต้องรับโทษตามระดับที่เสนอทันที",
+      "Target": "คนจั่วได้",
+      "TargetType": "Select",
+      "id": "AC001",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "ผู้ชนะประมูล",
+            "specific": "รับโทษตามระดับที่ประมูลไว้",
+            "fixed": true
+          }
+        ]
+      },
+      "Penalty": "ผู้ชนะประมูล รับโทษตามระดับที่ประมูลไว้"
+    },
+    {
+      "Category": "Auction",
+      "Content": "ประมูลสิทธิ์สั่งคนในวง 1 คนให้ทำอะไรก็ได้ (ในขอบเขต) — ทุกคนเสนอระดับโทษที่ยอมรับ ใครเสนอสูงสุดได้สิทธิ์สั่ง",
+      "Target": "คนจั่วได้",
+      "TargetType": "Select",
+      "id": "AC002",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "ผู้ชนะประมูล",
+            "specific": "รับโทษตามระดับที่ประมูลไว้",
+            "fixed": true
+          }
+        ]
+      },
+      "Penalty": "ผู้ชนะประมูล รับโทษตามระดับที่ประมูลไว้"
+    },
+    {
+      "Category": "Auction",
+      "Content": "ประมูลสิทธิ์เลือกคนถัดไปที่ต้องจั่วการ์ด — ทุกคนเสนอระดับโทษที่ยอมรับ ใครเสนอสูงสุดได้เลือก",
+      "Target": "คนจั่วได้",
+      "TargetType": "Select",
+      "id": "AC003",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "ผู้ชนะประมูล",
+            "specific": "รับโทษตามระดับที่ประมูลไว้",
+            "fixed": true
+          }
+        ]
+      },
+      "Penalty": "ผู้ชนะประมูล รับโทษตามระดับที่ประมูลไว้"
+    },
+    {
+      "Category": "Auction",
+      "Content": "ประมูลสิทธิ์ยกเว้นกฎที่ถูกตั้งไว้ในเกมนี้ 1 ข้อ — ทุกคนเสนอระดับโทษที่ยอมรับ ใครเสนอสูงสุดได้ยกเว้น",
+      "Target": "คนจั่วได้",
+      "TargetType": "Select",
+      "id": "AC004",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "ผู้ชนะประมูล",
+            "specific": "รับโทษตามระดับที่ประมูลไว้",
+            "fixed": true
+          }
+        ]
+      },
+      "Penalty": "ผู้ชนะประมูล รับโทษตามระดับที่ประมูลไว้"
+    },
+    {
+      "Category": "Auction",
+      "Content": "ประมูลสิทธิ์ตั้งกฎใหม่ 1 ข้อในวง — ทุกคนเสนอระดับโทษที่ยอมรับ ใครเสนอสูงสุดได้ตั้งกฎ",
+      "Target": "คนจั่วได้",
+      "TargetType": "Select",
+      "id": "AC005",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "ผู้ชนะประมูล",
+            "specific": "รับโทษตามระดับที่ประมูลไว้",
+            "fixed": true
+          }
+        ]
+      },
+      "Penalty": "ผู้ชนะประมูล รับโทษตามระดับที่ประมูลไว้"
+    },
+    {
+      "Category": "Auction",
+      "Content": "ประมูลความลับ — คนจั่วประกาศว่ามีความลับจะขาย ทุกคนเสนอระดับโทษที่ยอมรับเพื่อได้ฟัง คนที่เสนอสูงสุดได้ฟังความลับนั้น",
+      "Target": "คนจั่วได้",
+      "TargetType": "Select",
+      "id": "AC006",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "ผู้ชนะประมูล",
+            "specific": "รับโทษตามระดับที่ประมูลไว้",
+            "fixed": true
+          }
+        ]
+      },
+      "Penalty": "ผู้ชนะประมูล รับโทษตามระดับที่ประมูลไว้"
+    },
+    {
+      "Category": "Auction",
+      "Content": "ประมูลสิทธิ์ให้คนอื่นรับโทษแทนมึงในรอบถัดไป — ทุกคนเสนอระดับโทษที่ยอมรับเพื่อขายสิทธิ์นี้ ใครเสนอสูงสุดได้สิทธิ์",
+      "Target": "คนจั่วได้",
+      "TargetType": "Select",
+      "id": "AC007",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "ผู้ชนะประมูล",
+            "specific": "รับโทษตามระดับที่ประมูลไว้",
+            "fixed": true
+          }
+        ]
+      },
+      "Penalty": "ผู้ชนะประมูล รับโทษตามระดับที่ประมูลไว้"
+    },
+    {
+      "Category": "Auction",
+      "Content": "ประมูลสิทธิ์เปลี่ยนที่นั่งในวง — ทุกคนเสนอระดับโทษที่ยอมรับ ใครเสนอสูงสุดได้สลับที่นั่งกับใครก็ได้",
+      "Target": "คนจั่วได้",
+      "TargetType": "Select",
+      "id": "AC008",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "ผู้ชนะประมูล",
+            "specific": "รับโทษตามระดับที่ประมูลไว้",
+            "fixed": true
+          }
+        ]
+      },
+      "Penalty": "ผู้ชนะประมูล รับโทษตามระดับที่ประมูลไว้"
+    },
+    {
+      "Category": "Auction",
+      "Content": "ประมูลสิทธิ์อ่านการ์ดถัดไปก่อนใครในวง — ทุกคนเสนอระดับโทษที่ยอมรับ ใครเสนอสูงสุดได้อ่านล่วงหน้า",
+      "Target": "คนจั่วได้",
+      "TargetType": "Select",
+      "id": "AC009",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "ผู้ชนะประมูล",
+            "specific": "รับโทษตามระดับที่ประมูลไว้",
+            "fixed": true
+          }
+        ]
+      },
+      "Penalty": "ผู้ชนะประมูล รับโทษตามระดับที่ประมูลไว้"
+    },
+    {
+      "Category": "Auction",
+      "Content": "ประมูลสิทธิ์ได้รับคำชม — คนจั่วชมคนที่เสนอราคาสูงสุด ทุกคนเสนอระดับโทษที่ยอมรับเพื่อซื้อคำชม",
+      "Target": "คนจั่วได้",
+      "TargetType": "Select",
+      "id": "AC010",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "ผู้ชนะประมูล",
+            "specific": "รับโทษตามระดับที่ประมูลไว้",
+            "fixed": true
+          }
+        ]
+      },
+      "Penalty": "ผู้ชนะประมูล รับโทษตามระดับที่ประมูลไว้"
+    },
+    {
+      "Category": "Auction",
+      "Content": "ประมูลตำแหน่ง 'ผู้พิพากษา' รอบนี้ — ผู้ชนะตัดสินว่าใครทำตามการ์ดได้ดีพอหรือต้องรับโทษเพิ่ม ทุกคนเสนอระดับโทษที่ยอมรับ",
+      "Target": "คนจั่วได้",
+      "TargetType": "Select",
+      "id": "AC011",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "ผู้ชนะประมูล",
+            "specific": "รับโทษตามระดับที่ประมูลไว้",
+            "fixed": true
+          }
+        ]
+      },
+      "Penalty": "ผู้ชนะประมูล รับโทษตามระดับที่ประมูลไว้"
+    },
+    {
+      "Category": "Auction",
+      "Content": "ประมูลสิทธิ์เลือกโทษให้คนอื่น — ใครเสนอระดับโทษที่ยอมรับสูงสุด ได้เลือกว่าคนถัดไปที่ผิดกติกาต้องรับโทษระดับไหน",
+      "Target": "คนจั่วได้",
+      "TargetType": "Select",
+      "id": "AC012",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "ผู้ชนะประมูล",
+            "specific": "รับโทษตามระดับที่ประมูลไว้",
+            "fixed": true
+          }
+        ]
+      },
+      "Penalty": "ผู้ชนะประมูล รับโทษตามระดับที่ประมูลไว้"
+    },
+    {
+      "Category": "Auction",
+      "Content": "ประมูลสิทธิ์ถามคำถามอะไรก็ได้กับคนไหนก็ได้ในวง — ทุกคนเสนอระดับโทษที่ยอมรับ ผู้ชนะถามและต้องได้คำตอบจริงๆ",
+      "Target": "คนจั่วได้",
+      "TargetType": "Select",
+      "id": "AC013",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "ผู้ชนะประมูล",
+            "specific": "รับโทษตามระดับที่ประมูลไว้",
+            "fixed": true
+          }
+        ]
+      },
+      "Penalty": "ผู้ชนะประมูล รับโทษตามระดับที่ประมูลไว้"
+    },
+    {
+      "Category": "Auction",
+      "Content": "ประมูลสิทธิ์ยกเลิกการ์ดที่เพิ่งถูกจั่ว — ทุกคนเสนอระดับโทษที่ยอมรับ ผู้ชนะยกเลิกการ์ดนั้น แต่ต้องรับโทษตามระดับที่เสนอ",
+      "Target": "คนจั่วได้",
+      "TargetType": "Select",
+      "id": "AC014",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "ผู้ชนะประมูล",
+            "specific": "รับโทษตามระดับที่ประมูลไว้",
+            "fixed": true
+          }
+        ]
+      },
+      "Penalty": "ผู้ชนะประมูล รับโทษตามระดับที่ประมูลไว้"
+    },
+    {
+      "Category": "Auction",
+      "Content": "ประมูลสิทธิ์ได้รับ 'การ์ดพิเศษ' ที่คนจั่วสร้างขึ้นเอง — คนจั่วประกาศเนื้อหาการ์ดก่อน แล้วทุกคนเสนอราคา",
+      "Target": "คนจั่วได้",
+      "TargetType": "Select",
+      "id": "AC015",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "ผู้ชนะประมูล",
+            "specific": "รับโทษตามระดับที่ประมูลไว้",
+            "fixed": true
+          }
+        ]
+      },
+      "Penalty": "ผู้ชนะประมูล รับโทษตามระดับที่ประมูลไว้"
+    },
+    {
+      "Category": "Auction",
+      "Content": "ประมูลสิทธิ์เลือกว่าใครจะเป็นคนจั่วการ์ดถัดไป — ทุกคนเสนอระดับโทษที่ยอมรับ ผู้ชนะเลือกได้",
+      "Target": "คนจั่วได้",
+      "TargetType": "Select",
+      "id": "AC016",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "ผู้ชนะประมูล",
+            "specific": "รับโทษตามระดับที่ประมูลไว้",
+            "fixed": true
+          }
+        ]
+      },
+      "Penalty": "ผู้ชนะประมูล รับโทษตามระดับที่ประมูลไว้"
+    },
+    {
+      "Category": "Auction",
+      "Content": "ประมูลสิทธิ์ 'immunity' — ได้รับการยกเว้นจาก penalty ของการ์ดถัดไป 1 ใบ ทุกคนเสนอระดับโทษที่ยอมรับ ผู้ชนะรับโทษตามระดับที่เสนอทันที",
+      "Target": "คนจั่วได้",
+      "TargetType": "Select",
+      "id": "AC017",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "ผู้ชนะประมูล",
+            "specific": "รับโทษตามระดับที่ประมูลไว้",
+            "fixed": true
+          }
+        ]
+      },
+      "Penalty": "ผู้ชนะประมูล รับโทษตามระดับที่ประมูลไว้"
+    },
+    {
+      "Category": "Auction",
+      "Content": "ประมูลสิทธิ์เปลี่ยน penalty ของการ์ดที่เพิ่งจั่ว — ผู้ชนะเปลี่ยน penalty ได้ตามใจ แต่ต้องรับโทษตามระดับที่เสนอก่อน",
+      "Target": "คนจั่วได้",
+      "TargetType": "Select",
+      "id": "AC018",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "ผู้ชนะประมูล",
+            "specific": "รับโทษตามระดับที่ประมูลไว้",
+            "fixed": true
+          }
+        ]
+      },
+      "Penalty": "ผู้ชนะประมูล รับโทษตามระดับที่ประมูลไว้"
+    },
+    {
+      "Category": "Auction",
+      "Content": "ประมูลสิทธิ์ได้รับ 'alibi' — ถ้าถูกถามคำถามอะไรก็ได้ในวงนี้ ผู้ชนะสามารถปฏิเสธตอบได้ 1 ครั้ง ทุกคนเสนอระดับโทษที่ยอมรับ",
+      "Target": "คนจั่วได้",
+      "TargetType": "Select",
+      "id": "AC019",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "ผู้ชนะประมูล",
+            "specific": "รับโทษตามระดับที่ประมูลไว้",
+            "fixed": true
+          }
+        ]
+      },
+      "Penalty": "ผู้ชนะประมูล รับโทษตามระดับที่ประมูลไว้"
+    },
+    {
+      "Category": "Auction",
+      "Content": "ประมูลสิทธิ์ 'double' — การ์ดถัดไปที่ถูกจั่วให้ผู้ชนะ penalty จะเพิ่มเป็น 2 เท่า แต่ถ้าผู้ชนะจั่วได้เองจะยกเว้น ทุกคนเสนอระดับโทษที่ยอมรับ",
+      "Target": "คนจั่วได้",
+      "TargetType": "Select",
+      "id": "AC020",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "ผู้ชนะประมูล",
+            "specific": "รับโทษตามระดับที่ประมูลไว้",
+            "fixed": true
+          }
+        ]
+      },
+      "Penalty": "ผู้ชนะประมูล รับโทษตามระดับที่ประมูลไว้"
+    },
+    {
+      "Category": "Auction",
+      "Content": "ประมูลสิทธิ์ตั้งชื่อเล่นให้คนในวง 1 คน ชื่อนั้นต้องถูกใช้ตลอดคืน — ทุกคนเสนอระดับโทษที่ยอมรับ",
+      "Target": "คนจั่วได้",
+      "TargetType": "Select",
+      "id": "AC021",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "ผู้ชนะประมูล",
+            "specific": "รับโทษตามระดับที่ประมูลไว้",
+            "fixed": true
+          }
+        ]
+      },
+      "Penalty": "ผู้ชนะประมูล รับโทษตามระดับที่ประมูลไว้"
+    },
+    {
+      "Category": "Auction",
+      "Content": "ประมูลสิทธิ์ 'swap penalty' — ผู้ชนะสามารถโอน penalty ของการ์ดใด 1 ใบในรอบนี้ให้คนอื่นแทนได้ ทุกคนเสนอระดับโทษที่ยอมรับ",
+      "Target": "คนจั่วได้",
+      "TargetType": "Select",
+      "id": "AC022",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "ผู้ชนะประมูล",
+            "specific": "รับโทษตามระดับที่ประมูลไว้",
+            "fixed": true
+          }
+        ]
+      },
+      "Penalty": "ผู้ชนะประมูล รับโทษตามระดับที่ประมูลไว้"
+    },
+    {
+      "Category": "Auction",
+      "Content": "ประมูลสิทธิ์ 'เจ้าของเกม' รอบนี้ — ผู้ชนะตัดสินใจทุกอย่างในรอบนี้ได้เลย ทุกคนเสนอระดับโทษที่ยอมรับ ผู้ชนะรับโทษตามระดับที่เสนอทันที",
+      "Target": "คนจั่วได้",
+      "TargetType": "Select",
+      "id": "AC023",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "ผู้ชนะประมูล",
+            "specific": "รับโทษตามระดับที่ประมูลไว้",
+            "fixed": true
+          }
+        ]
+      },
+      "Penalty": "ผู้ชนะประมูล รับโทษตามระดับที่ประมูลไว้"
+    },
+    {
+      "Category": "Auction",
+      "Content": "ประมูลสิทธิ์เลือก 'หัวข้อ' ให้การ์ดถัดไปในหมวด Question หรือ Deeptalk — ผู้ชนะบอกว่าอยากให้ถามเรื่องอะไร",
+      "Target": "คนจั่วได้",
+      "TargetType": "Select",
+      "id": "AC024",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "ผู้ชนะประมูล",
+            "specific": "รับโทษตามระดับที่ประมูลไว้",
+            "fixed": true
+          }
+        ]
+      },
+      "Penalty": "ผู้ชนะประมูล รับโทษตามระดับที่ประมูลไว้"
+    },
+    {
+      "Category": "Auction",
+      "Content": "ประมูลสิทธิ์ออกจากเกมชั่วคราว 3 รอบ — ผู้ชนะไม่ต้องทำตามการ์ด 3 ใบถัดไป แต่ต้องรับโทษตามระดับที่เสนอตอนนี้",
+      "Target": "คนจั่วได้",
+      "TargetType": "Select",
+      "id": "AC025",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "ผู้ชนะประมูล",
+            "specific": "รับโทษตามระดับที่ประมูลไว้",
+            "fixed": true
+          }
+        ]
+      },
+      "Penalty": "ผู้ชนะประมูล รับโทษตามระดับที่ประมูลไว้"
+    }
+  ]
+}

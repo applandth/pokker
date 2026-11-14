@@ -1,0 +1,1617 @@
+[
+  {
+    "Category": "Oops",
+    "Content": "💣 ตูม! เหยียบกับดักเต็มตีน รับโทษ{lv:1} ไปเลย — จักรวาลเลือกมึงแล้ว",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP001",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "กับดักทำงาน! รับโทษ{lv:1} ทันที ไม่มีข้อแม้ — ใครวางไว้ก็ไม่บอกหรอก",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP002",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "Oops! มือไวไปหน่อยนะ รับโทษ{lv:1} — จั่วเร็วก็ซวยเร็ว",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP003",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "เซอร์ไพรส์! การ์ดใบนี้ไม่มีคำถาม มีแต่โทษ รับโทษ{lv:2} — ยินดีด้วย",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP004",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 2
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 2",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "บึ้ม! มึงคือผู้โชคดีประจำรอบ รับโทษ{lv:2} — รางวัลที่ไม่มีใครอยากได้",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP005",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 2
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 2",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "ติดกับดักแล้วจ้า รับโทษ{lv:1} ห้ามต่อรอง — ศาลไม่รับอุทธรณ์",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP006",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "ใครสักคนในวงหวังดีกับมึงมาก รับโทษ{lv:2} — เดาเอาเองว่าใคร",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP007",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 2
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 2",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "ระเบิดลง! รับโทษ{lv:1} แล้วยิ้มให้กล้องด้วย — ภาพนี้จะอยู่ในความทรงจำ",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP008",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "โชคชะตาไม่เข้าข้าง รับโทษ{lv:2} — วันนี้ไม่ใช่วันของมึง",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP009",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 2
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 2",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "จั่วผิดจังหวะชีวิต รับโทษ{lv:2} — จังหวะนรกแท้ ๆ",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP010",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 2
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 2",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "กับดักลับทำงานสมบูรณ์แบบ รับโทษ{lv:2} — แผนนี้วางมาดีมาก",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP011",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 2
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 2",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "ตูม! รับโทษ{lv:1} ทันที ไม่ต้องอ่านอะไรต่อ — อ่านมาถึงตรงนี้ก็ช้าไปแล้ว",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP012",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "มึงเพิ่งเดินเข้าสนามทุ่นระเบิด รับโทษ{lv:2} — ดูทางหน่อยสิ",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP013",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 2
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 2",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "ไม่ต้องถาม ไม่ต้องตอบ รับโทษ{lv:2} — บางอย่างในชีวิตก็ไม่มีเหตุผล",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP014",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 2
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 2",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "Oops! ใครบางคนกดปุ่มแดงไว้รอมึง รับโทษ{lv:1} — คนในวงนี้ไว้ใจไม่ได้สักคน",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP015",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "ประกาศ! ผู้จั่วการ์ดใบนี้ รับโทษ{lv:1} — จบข่าว",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP016",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "ระเบิดเวลานับถอยหลังจบพอดีตอนมึงจั่ว รับโทษ{lv:2} — จังหวะเป๊ะเกิน",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP017",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 2
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 2",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "บัตรเชิญรับโทษส่งถึงมือแล้ว รับโทษ{lv:1} — ปฏิเสธไม่ได้นะ",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP018",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "กับดักไม่เลือกคน แต่คราวนี้มันเลือกมึง รับโทษ{lv:1} — ดวงล้วน ๆ",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP019",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "มึงถูกหวย... หวยโทษ รับโทษ{lv:1} — ไม่ต้องไปขึ้นเงิน",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP020",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "บูม! รับโทษ{lv:1} แล้วปรบมือให้คนวางกับดักด้วย — มารยาทผู้แพ้ที่ดี",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP021",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "การ์ดใบนี้มีหน้าที่เดียว คือให้มึงรับโทษ{lv:2} — มันทำหน้าที่ได้ดีมาก",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP022",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 2
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 2",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "Oops! โดนตั้งแต่ยังไม่ทันตั้งตัว รับโทษ{lv:1} — ครั้งหน้าตั้งสติก่อนจั่ว",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP023",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "ไม่มีทางหนี ไม่มีทางรอด รับโทษ{lv:1} — ยอมรับชะตากรรมซะ",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP024",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "มึงเปิดกล่องแพนโดร่า รับโทษ{lv:1} — อยากรู้อยากเห็นดีนัก",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP025",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "ยินดีต้อนรับสู่กับดัก! รับโทษ{lv:1} — ห้องนี้ไม่มีทางออก",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP026",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "จั่วมาก็โดนเลย รับโทษ{lv:1} — ระบบทำงานปกติ",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP027",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "ระเบิดลงกลางวง แต่โดนมึงคนเดียว รับโทษ{lv:2} — แม่นยำระดับมิสไซล์",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP028",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 2
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 2",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "ตูม! รับโทษ{lv:1} ตอนนี้เลย — วงช่วยกันนับให้หน่อย",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP029",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "คนวางกับดักกำลังแอบยิ้มอยู่ รับโทษ{lv:1} — หาตัวให้เจอแล้วจำไว้",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP030",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "โดนแกงซะแล้ว รับโทษ{lv:1} — แกงนี้รสจัดจ้าน",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP031",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "มึงไม่ได้ทำอะไรผิด แต่ก็ต้องรับโทษ{lv:1} — ชีวิตมันก็งี้แหละ",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP032",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "Oops! วันนี้ดวงตก รับโทษ{lv:1} — พรุ่งนี้ค่อยว่ากันใหม่",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP033",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "มือที่จั่วการ์ดใบนี้ต้องรับผิดชอบ รับโทษ{lv:1} — มือนี้ไม่ควรไว้ใจ",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP034",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "กับดักระดับพรีเมียม รับโทษ{lv:2} — บริการถึงที่",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP035",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 2
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 2",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "รับโทษ{lv:1} แบบไม่ต้องมีที่มาที่ไป — ปริศนาที่ไม่มีวันไขได้",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP036",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "ระเบิดมีชื่อมึงสลักอยู่ รับโทษ{lv:1} — มันตามหามึงมานานแล้ว",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP037",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "ไม่มีคำถามข้อไหนช่วยมึงได้ รับโทษ{lv:1} — ตำราก็ช่วยไม่ได้",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP038",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "Oops! กดดังเปรี้ยงมาที่มึง รับโทษ{lv:1} — ฟ้าผ่ากลางวง",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP039",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "จั่วแล้วติดกับ รับโทษ{lv:1} — เหยื่อรายล่าสุดของคืนนี้",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP040",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "ทั้งวงขอแสดงความเสียใจ รับโทษ{lv:1} — แต่ไม่มีใครเสียใจจริงหรอก",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP041",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "นี่ไม่ใช่การทดสอบ ซ้ำ นี่ไม่ใช่การทดสอบ รับโทษ{lv:1} — ของจริงล้วน ๆ",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP042",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "ตูม! โทษมาเสิร์ฟถึงที่ รับโทษ{lv:2} — ไม่ต้องให้ทิป",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP043",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 2
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 2",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "กับดักเงียบ ๆ แต่เจ็บ รับโทษ{lv:1} — เพื่อนรักทั้งนั้น",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP044",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "Oops! มึงถูกเลือกโดยไม่สมัครใจ รับโทษ{lv:1} — ประชาธิปไตยแบบกับดัก",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP045",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "รับโทษ{lv:2} ก่อนจะมีใครทันพูดอะไร — เร็ว ๆ เลย",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP046",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 2
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 2",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "ใบนี้ไม่มีคำสั่งอื่นนอกจาก รับโทษ{lv:1} — เรียบง่ายแต่ได้ผล",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP047",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "มึงจั่วได้การ์ดที่ไม่มีใครอยากจั่ว รับโทษ{lv:1} — แจ็กพอตแตก",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP048",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "ระเบิดหย่อนลงจากฟ้า รับโทษ{lv:1} — หลบไม่ทันแล้ว",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP049",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "Oops! กับดักตั้งไว้ให้คนถัดไป และคนถัดไปคือมึง รับโทษ{lv:1} — เสียใจด้วยนะ",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP050",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "ไม่ต้องมองหน้าใคร รับโทษ{lv:1} ไปเลย — มองไปก็ไม่มีใครรับแทน",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP051",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "บึ้ม! เสียงนี้คือเสียงโทษของมึง รับโทษ{lv:1} — ไพเราะดีไหม",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP052",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "จังหวะนี้มีคนวางยาไว้ รับโทษ{lv:2} — ยาขมแต่ต้องกิน",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP053",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 2
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 2",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "มึงเดินชนกับดักแบบจัง ๆ รับโทษ{lv:1} — เจ็บแต่จบ",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP054",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "กับดักไม่ปรานีใคร รับโทษ{lv:1} — แม้แต่คนหน้าตาดีอย่างมึง",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP055",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "Oops! โทษด่วนพิเศษ รับโทษ{lv:1} — ส่งตรงไม่ผ่านคนกลาง",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP056",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "เกมนี้ไม่มีความยุติธรรม รับโทษ{lv:1} — ยินดีต้อนรับสู่ชีวิตจริง",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP057",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "ตูม! รับโทษ{lv:1} แล้วพูดว่า 'ขอบคุณที่วางกับดัก' — ขอบคุณจากใจ",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP058",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "คนวางกับดักฝากความคิดถึงมา รับโทษ{lv:1} — ความคิดถึงแบบแสบ ๆ",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP059",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "ระเบิดลง! ไม่มีใครรับแทนได้ รับโทษ{lv:2} — โอนสิทธิ์ไม่ได้",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP060",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 2
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 2",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "จั่วแล้วโดนทันที รับโทษ{lv:1} — บริการด่วนทันใจ",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP061",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "Oops! การ์ดนี้ไม่อ่านเงื่อนไข ไม่มีข้อยกเว้น รับโทษ{lv:1} — กฎเหล็กของกับดัก",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP062",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "มึงคือเป้าหมายเดียวของการ์ดนี้ รับโทษ{lv:1} — แม่นเหมือนจับวาง",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP063",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "กับดักทำงานตรงเวลา รับโทษ{lv:1} — ตรงกว่ารถไฟฟ้าอีก",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP064",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "บึ้ม! ขอแสดงความยินดีกับผู้โชคร้าย รับโทษ{lv:1} — ถ้วยรางวัลอยู่ในใจ",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP065",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "ไม่ต้องหาเหตุผล รับโทษ{lv:1} — เหตุผลเดียวคือมึงจั่ว",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP066",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "Oops! มีคนเห็นหน้ามึงแล้วกดปุ่มทันที รับโทษ{lv:1} — หน้ามึงมันเชิญชวน",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP067",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "ตูม! จบเกมรอบนี้ของมึงด้วยการ รับโทษ{lv:1} — จบแบบไม่สวย",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP068",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "การ์ดซวยมาหาคนที่ใช่ รับโทษ{lv:1} — เนื้อคู่ของความซวย",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP069",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "รับโทษ{lv:2} แล้วห้ามบ่น — บ่นแล้วโดนนินทาเพิ่มในใจ",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP070",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 2
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 2",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "Oops! ใครวางก็ช่าง คนรับคือมึง รับโทษ{lv:1} — แบ่งหน้าที่กันชัดเจน",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP071",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "กับดักนี้สร้างมาเพื่อมึงโดยเฉพาะ รับโทษ{lv:1} — งานคราฟต์ทำมือ",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP072",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "ระเบิดไม่มีตา แต่มีเรดาร์ รับโทษ{lv:1} — มันจับสัญญาณมึงได้",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP073",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "จั่วปุ๊บโดนปั๊บ รับโทษ{lv:1} — เร็วกว่าเน็ตบ้านอีก",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP074",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "บึ้ม! รับโทษ{lv:1} ทันที — ถือว่าทำบุญให้วงหัวเราะ",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP075",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "Oops! มึงคือเหยื่อแห่งปี รับโทษ{lv:1} — ประกาศเกียรติคุณย้อนหลัง",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP076",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "ไม่มีภารกิจ ไม่มีคำถาม มีแต่ รับโทษ{lv:1} — ง่ายที่สุดในเกมแล้ว",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP077",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "กับดักรอมึงมาทั้งคืน รับโทษ{lv:1} — ความอดทนของมันได้ผลแล้ว",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP078",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "ตูม! รับโทษ{lv:2} แล้วจั่วต่อด้วยใจที่เข้มแข็ง — สู้ ๆ นะ",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP079",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 2
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 2",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "Oops! เสียใจด้วย การ์ดนี้ไม่มีปุ่มยกเลิก รับโทษ{lv:1} — ไม่มีปุ่มย้อนกลับด้วย",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP080",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "ใครจั่วใบนี้ รับโทษ{lv:1} และคนนั้นคือมึง — ตรรกะไร้ที่ติ",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP081",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "บึ้ม! กับดักใบสุดท้ายของกอง... หรือเปล่า รับโทษ{lv:1} — อาจมีอีกก็ได้",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP082",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "Oops! ปุ่มแดงเมื่อกี้ไม่ได้กดเล่น ๆ รับโทษ{lv:1} — มีคนตั้งใจมาก",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP083",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "ระเบิดลงตรงกลางใจ รับโทษ{lv:1} — ใจเจ็บแต่ต้องทำ",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP084",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  },
+  {
+    "Category": "Oops",
+    "Content": "ตูม! เกมนี้ไม่มีเซฟพอยต์ รับโทษ{lv:1} — เริ่มใหม่ไม่ได้ด้วย",
+    "Target": "คนจั่ว",
+    "TargetType": "Mechanic",
+    "id": "OP085",
+    "penalty": {
+      "outcomes": [
+        {
+          "who": "target",
+          "level": 1
+        }
+      ]
+    },
+    "Penalty": "รับโทษระดับ 1",
+    "target_role": "drawer",
+    "target_lock": true,
+    "actor_role": "drawer"
+  }
+]

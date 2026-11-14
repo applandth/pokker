@@ -1,0 +1,656 @@
+{
+  "mode_title": "Man Code",
+  "description": "กฎผู้ชาย ทดสอบความเป็นบราเดอร์",
+  "cards": [
+    {
+      "Category": "Mancode",
+      "Content": "เคยไปร้านนวดที่มีบริการพิเศษไหม — ตอบจริงหรือรับโทษ{lv:3} ไม่ต้องบอกรายละเอียด",
+      "Target": "คนที่โสดอยู่",
+      "TargetType": "Condition",
+      "id": "MC001",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Mancode",
+      "Content": "เคยไป VIP entertainment ที่มีพนักงานพิเศษมาเสิร์ฟหรือนั่งด้วยไหม — ถ้าเคยรับโทษ{lv:2}",
+      "Target": "คนที่มีแฟนอยู่",
+      "TargetType": "Condition",
+      "id": "MC002",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mancode",
+      "Content": "เคยจ่ายเงินเพื่อ 'ความบันเทิง' แบบนั้นไหม — ตอบจริงหรือรับโทษ{lv:4}",
+      "Target": "คนที่แต่งงานแล้ว",
+      "TargetType": "Condition",
+      "id": "MC003",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 4
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 4"
+    },
+    {
+      "Category": "Mancode",
+      "Content": "เคยซ่อนประวัติโทรศัพท์หรือลบแชทเพราะกลัวใครเห็นไหม — ถ้าเคยรับโทษ{lv:3}",
+      "Target": "คนที่เคยโดนเท",
+      "TargetType": "Condition",
+      "id": "MC004",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Mancode",
+      "Content": "เคยโกหกเรื่องไปไหนมาไหนกับคนที่บ้านหรือแฟนไหม — ถ้าเคยรับโทษ{lv:2} แล้วบอกว่าโกหกเรื่องอะไร",
+      "Target": "คนที่เคยมีชู้",
+      "TargetType": "Condition",
+      "id": "MC005",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mancode",
+      "Content": "ในมือถือมีเบอร์หรือแชทที่คนใกล้ชิดห้ามเห็นไหมตอนนี้ — ถ้ามีรับโทษ{lv:3}",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "MC006",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Mancode",
+      "Content": "เคยไปสถานที่ที่เล่าให้ใครฟังไม่ได้ไหม — ตอบจริงหรือรับโทษ{lv:3} ไม่ต้องบอกว่าที่ไหน",
+      "Target": "คนที่เคยตื่นมาไม่รู้ว่าอยู่ที่ไหน",
+      "TargetType": "Condition",
+      "id": "MC007",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Mancode",
+      "Content": "เคยใช้เงินเพื่อซื้อเวลาหรือความสนใจจากคนที่มึงชอบไหม — ถ้าเคยรับโทษ{lv:2}",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "MC008",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mancode",
+      "Content": "เคยแกล้งทำเป็นง่วงหรือป่วยเพื่อเลี่ยงสถานการณ์ที่บ้านไหม — ถ้าเคย รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "MC009",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mancode",
+      "Content": "เคยนัดพบใครแบบที่คนใกล้ชิดไม่รู้ไหม — ถ้าเคยรับโทษ{lv:3}",
+      "Target": "คนที่เคยร้องไห้เพราะแฟน",
+      "TargetType": "Condition",
+      "id": "MC010",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Mancode",
+      "Content": "ทุกคนยกมือถ้าเคยไปสถานบันเทิงแบบที่ไม่บอกใครในบ้าน — คนยกมือรับโทษ คนไม่ยกมือก็รับโทษเพราะโกหก",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "MC011",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mancode",
+      "Content": "เคยโดนขอเงินจากคนที่มึงใกล้ชิดทางนั้นไหม — ถ้าเคยรับโทษ{lv:2}",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "MC012",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mancode",
+      "Content": "เคยใช้ Line หรือ IG account สำรองที่คนรู้จักไม่รู้ไหม — ถ้าเคยรับโทษ{lv:4}",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "MC013",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 4
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 4"
+    },
+    {
+      "Category": "Mancode",
+      "Content": "เคยบอกเพื่อนว่าติดธุระแต่จริงๆ ไปทำอย่างอื่นไหม — ถ้าเคยรับโทษ{lv:2}",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "MC014",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mancode",
+      "Content": "เคยส่งของขวัญหรือโอนเงินให้คนที่ไม่ใช่แฟนแบบที่แฟนไม่รู้ไหม — ถ้าเคยรับโทษ{lv:3}",
+      "Target": "คนนั่งขวามือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "MC015",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Mancode",
+      "Content": "ทุกคนบอกตรงๆ ว่าเคยอยู่ใน 'สีเทา' ของความสัมพันธ์ไหม — ตอบจริงทุกคน ใครไม่ตอบรับโทษ{lv:3}",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "MC016",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Mancode",
+      "Content": "เคยมีแผนสำรองถ้าความสัมพันธ์หลักมีปัญหาไหม — ถ้าเคยรับโทษ{lv:3}",
+      "Target": "คนนั่งตรงข้ามคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "MC017",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Mancode",
+      "Content": "เคยไป 'trip' กับใครบางคนโดยที่คนที่บ้านคิดว่าไปกับเพื่อนไหม — ถ้าเคยรับโทษ{lv:4}",
+      "Target": "คนมีรอยสัก",
+      "TargetType": "Condition",
+      "id": "MC018",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 4
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 4"
+    },
+    {
+      "Category": "Mancode",
+      "Content": "เคยโดนจับได้ หรือเกือบโดนจับได้ในเรื่องที่ไม่ควรทำไหม — ถ้าเคยรับโทษ{lv:3} แล้วเล่าแบบไม่ระบุชื่อ",
+      "Target": "คนที่เงียบที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "MC019",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Mancode",
+      "Content": "ถ้าวงรู้ทุกอย่างที่มึงทำในช่วง 1 ปีที่ผ่านมา มึงจะอายไหม — ถ้าอายรับโทษ{lv:3}",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "MC020",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Mancode",
+      "Content": "เคยพูดว่า 'รัก' เพื่อให้ได้อะไรบางอย่างไหม — ถ้าเคยรับโทษ{lv:3}",
+      "Target": "คนที่เพิ่งเลิกกัน",
+      "TargetType": "Condition",
+      "id": "MC021",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Mancode",
+      "Content": "ทุกคนประเมินตัวเองว่า faithful แค่ไหนในความสัมพันธ์ที่ผ่านมา — ให้คะแนน 1-10 ตอบพร้อมกัน",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "MC022",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Mancode",
+      "Content": "เคยได้รับผลประโยชน์จากการเป็น 'คนพิเศษ' ของใครที่มีเงินกว่าไหม — ถ้าเคยรับโทษ{lv:2}",
+      "Target": "คนที่เคยส่งข้อความหาคนผิดคน",
+      "TargetType": "Condition",
+      "id": "MC023",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mancode",
+      "Content": "มีเรื่องที่ถ้าเล่าให้วงฟังคืนนี้จะทำให้ทุกคนมองมึงต่างไปเลยไหม — ถ้ามีรับโทษ{lv:3} ไม่ต้องเล่า",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "MC024",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Mancode",
+      "Content": "เคยจ่ายเงินค่าเดทให้คนที่ไม่ใช่แฟนโดยหวังอะไรบางอย่างไหม — ถ้าเคยรับโทษ{lv:2}",
+      "Target": "คนที่มีแฟนอยู่",
+      "TargetType": "Condition",
+      "id": "MC025",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mancode",
+      "Content": "คืนที่มึงทำอะไรที่บ้าที่สุดในชีวิตคืนนั้นเกิดขึ้นที่ไหน — บอกแค่สถานที่ ไม่ต้องบอกรายละเอียด ถ้าไม่บอกรับโทษ",
+      "Target": "คนที่แต่งงานแล้ว",
+      "TargetType": "Condition",
+      "id": "MC026",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mancode",
+      "Content": "ทุกคนบอกว่าตัวเองเป็นประเภท 'ไม่เคยทำ' หรือ 'เคยแต่ไม่บอก' หรือ 'ไม่แคร์บอกได้เลย' — ตอบพร้อมกัน",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "MC027",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Mancode",
+      "Content": "ถ้ามึงต้องโชว์ไลน์หรือ DM ที่ไม่ได้ลบให้วงดูตอนนี้ มึงกังวลไหม — ถ้ากังวลรับโทษ{lv:4}",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "MC028",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 4
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 4"
+    },
+    {
+      "Category": "Mancode",
+      "Content": "เคยเปิดแอป dating ขณะอยู่กับแฟนโดยที่แฟนไม่รู้ไหม — ถ้าเคยรับโทษ{lv:4}",
+      "Target": "คนที่เคยโดนเท",
+      "TargetType": "Condition",
+      "id": "MC029",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 4
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 4"
+    },
+    {
+      "Category": "Mancode",
+      "Content": "ถ้าวันนี้คนที่มึงเคยทำไม่ดีด้วยมายืนตรงหน้ามึง มึงจะรู้สึกยังไง — ตอบจริงหรือรับโทษ{lv:3}",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "MC030",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    }
+  ]
+}

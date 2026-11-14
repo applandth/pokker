@@ -1,0 +1,365 @@
+{
+  "mode_title": "Rant",
+  "description": "ระบาย พูดออกมาเลยไม่ต้องกลั้น",
+  "cards": [
+    {
+      "Category": "Rant",
+      "Content": "ระบาย 60 วินาทีเรื่องสิ่งที่หงุดหงิดมากที่สุดในชีวิตตอนนี้ — ทุกคนห้ามพูดแทรก ใครแทรกรับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "RT001",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Rant",
+      "Content": "ระบาย 60 วินาทีเรื่องพฤติกรรมคนในสังคมที่ทนไม่ได้ที่สุด — ทุกคนฟังเงียบๆ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "RT002",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Rant",
+      "Content": "ระบาย 60 วินาทีเรื่องงานหรือการเรียนที่สะสมความเครียดมาทั้งสัปดาห์ — ห้ามแทรก",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "RT003",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Rant",
+      "Content": "ระบาย 60 วินาทีถึงคนที่มึงโกรธอยู่ตอนนี้ ไม่ต้องบอกชื่อ — ทุกคนฟัง ห้ามถาม",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "RT004",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Rant",
+      "Content": "ระบาย 60 วินาทีเรื่องสิ่งที่คนอื่นทำแล้วทำให้มึงรู้สึกว่าตัวเองถูกมองข้าม — ห้ามแทรก",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "RT005",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Rant",
+      "Content": "ระบาย 60 วินาทีเรื่อง pet peeve ที่ไม่มีใครเข้าใจว่าทำไมมันรบกวนมึง — วงแค่ฟัง",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "RT006",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Rant",
+      "Content": "ระบาย 60 วินาทีเรื่องสิ่งที่มึงทำซ้ำๆ ในชีวิตแล้วรู้สึกว่าไร้ความหมาย — ทุกคนห้ามปลอบ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "RT007",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Rant",
+      "Content": "ระบาย 60 วินาทีเรื่องความคาดหวังที่คนอื่นมีต่อมึงแล้วรู้สึกกดดัน — ห้ามแทรก",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "RT008",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Rant",
+      "Content": "ระบาย 60 วินาทีเรื่องสิ่งที่มึงอยากพูดกับใครบางคนในชีวิตแต่ยังไม่กล้า — วงแค่ฟัง",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "RT009",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Rant",
+      "Content": "ระบาย 60 วินาทีเรื่องโซเชียลมีเดียและสิ่งที่มันทำกับชีวิตคนในยุคนี้ — ห้ามแทรก",
+      "Target": "คนใส่เสื้อมีลาย",
+      "TargetType": "Condition",
+      "id": "RT010",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Rant",
+      "Content": "ระบาย 60 วินาทีเรื่องสิ่งที่มึงทำแล้วไม่มีใครให้เครดิตเลย — วงฟังเงียบๆ",
+      "Target": "คนตัวสูงที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "RT011",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Rant",
+      "Content": "ระบาย 60 วินาทีเรื่องคนประเภทที่มึงทนไม่ได้ที่สุดในชีวิต — ห้ามถามว่าใคร",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "RT012",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Rant",
+      "Content": "ระบาย 60 วินาทีเรื่องความสัมพันธ์ที่ทำให้มึงเหนื่อยมาโดยตลอด — วงแค่รับฟัง",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "RT013",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Rant",
+      "Content": "ระบาย 60 วินาทีเรื่องข้อผิดพลาดของตัวเองที่มึงยังโกรธตัวเองอยู่ — ห้ามปลอบ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "RT014",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Rant",
+      "Content": "ระบาย 60 วินาทีเรื่องกฎหรือระเบียบในสังคมที่มึงคิดว่าไร้ประโยชน์ที่สุด",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "RT015",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Rant",
+      "Content": "ระบาย 60 วินาทีเรื่องสิ่งที่มึงซื้อแล้วเสียใจที่สุดในชีวิต — วงฟังห้ามหัวเราะ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "RT016",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Rant",
+      "Content": "ระบาย 60 วินาทีเรื่องความฝันที่ถูกทำลายหรือถูกบอกว่าทำไม่ได้ — ทุกคนห้ามแทรก",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "RT017",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Rant",
+      "Content": "ระบาย 60 วินาทีเรื่องนิสัยของคนรอบข้างที่มึงอยากให้เปลี่ยนมากที่สุด",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "RT018",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Rant",
+      "Content": "ระบาย 60 วินาทีเรื่องสิ่งที่มึงอยากทำในชีวิตแต่ถูกบอกว่า 'ไม่ใช่เวลา' เสมอ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "RT019",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Rant",
+      "Content": "ระบาย 60 วินาทีเรื่องสถานการณ์ที่มึงรู้สึกว่าตัวเองถูกทำให้เล็กลง — วงแค่ฟัง",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "RT020",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Rant",
+      "Content": "ระบาย 60 วินาทีเรื่องสิ่งที่มึงเบื่อมากที่สุดในชีวิตตอนนี้ — ห้ามให้คำแนะนำ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "RT021",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Rant",
+      "Content": "ระบาย 60 วินาทีเรื่องการจราจร ระบบขนส่ง หรือสิ่งที่ทำให้ชีวิตประจำวันยาก",
+      "Target": "คนอายุน้อยที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "RT022",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Rant",
+      "Content": "ระบาย 60 วินาทีเรื่องประสบการณ์แย่ที่สุดที่เคยเกิดขึ้นกับมึงในที่ทำงานหรือโรงเรียน",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "RT023",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Rant",
+      "Content": "ระบาย 60 วินาทีเรื่องสิ่งที่มึงอยากเปลี่ยนในสังคมไทยมากที่สุด",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "RT024",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Rant",
+      "Content": "ระบาย 60 วินาทีเรื่องคนที่มึงคิดว่าได้รับโอกาสมากกว่าที่ควรได้ — ห้ามบอกชื่อจริง",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "RT025",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Rant",
+      "Content": "ระบาย 60 วินาทีเรื่องสิ่งที่มึงรู้สึกว่าตัวเองไม่ได้รับการยอมรับจากคนรอบข้าง",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "RT026",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Rant",
+      "Content": "ระบาย 60 วินาทีเรื่องสิ่งที่มึงทนได้มาตลอดแต่จริงๆ แล้วหนักมาก — วงฟังเงียบๆ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "RT027",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Rant",
+      "Content": "ระบาย 60 วินาทีเรื่อง trend หรือกระแสอะไรก็ได้ที่มึงคิดว่าโง่ที่สุดในยุคนี้",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "RT028",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Rant",
+      "Content": "ระบาย 60 วินาทีเรื่องสิ่งที่มึงไม่เข้าใจว่าทำไมคนอื่นถึงทำแล้วมึงทำไม่ได้ยังไง",
+      "Target": "คนนั่งตรงข้ามคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "RT029",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Rant",
+      "Content": "ระบาย 60 วินาทีเรื่องอะไรก็ได้ที่มึงอยากพูดมานานแล้วแต่ไม่มีใครถาม — ห้ามแทรก หลังจบวงปรบมือ",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "RT030",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    }
+  ]
+}

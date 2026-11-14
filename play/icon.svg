@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 120 120" role="img" aria-label="Pokker">
+  <defs>
+    <linearGradient id="pk-g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF3D81"/><stop offset="1" stop-color="#FFC43D"/></linearGradient>
+    <linearGradient id="pk-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2A1250"/><stop offset="1" stop-color="#0E0A1F"/></linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="26" fill="url(#pk-bg)"/>
+  <g transform="rotate(-14 60 64)"><rect x="24" y="22" width="52" height="72" rx="10" fill="#36E2D0" opacity=".9"/></g>
+  <g transform="rotate(9 60 60)">
+    <rect x="40" y="20" width="56" height="78" rx="11" fill="url(#pk-g)"/>
+    <rect x="40" y="20" width="56" height="78" rx="11" fill="none" stroke="#0E0A1F" stroke-opacity=".25" stroke-width="2"/>
+    <text x="68" y="74" text-anchor="middle" font-family="CkSalmon, sans-serif" font-weight="700" font-size="44" fill="#0E0A1F">P</text>
+  </g>
+  <path d="M27 21l2.6 7.4L37 31l-7.4 2.6L27 41l-2.6-7.4L17 31l7.4-2.6z" fill="#FFC43D"/>
+  <circle cx="99" cy="98" r="4" fill="#FF3D81"/>
+</svg>

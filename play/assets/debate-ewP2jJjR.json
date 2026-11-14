@@ -1,0 +1,635 @@
+{
+  "mode_title": "Debate",
+  "description": "ถกเถียง ใครพูดได้น่าเชื่อกว่ากัน",
+  "cards": [
+    {
+      "Category": "Debate",
+      "Content": "ดีเบต: 'แมวดีกว่าหมา' — มึงโต้ฝั่งที่วงกำหนด หาคู่ดีเบตจากวง ดีเบต 1 นาที วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DB001",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2"
+    },
+    {
+      "Category": "Debate",
+      "Content": "ดีเบต: 'การอยู่คนเดียวดีกว่ามีแฟน' — มึงโต้ฝั่งที่วงกำหนด คู่ดีเบตโต้ตรงข้าม วงโหวต คนแพ้รับโทษ",
+      "Target": "คนนั่งขวามือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DB002",
+      "actor_role": "drawer",
+      "target_role": "positional",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2"
+    },
+    {
+      "Category": "Debate",
+      "Content": "ดีเบต: 'เงินซื้อความสุขได้' — วงกำหนดฝ่ายให้มึง ดีเบตกับคนทางซ้าย 1 นาที วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DB003",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2",
+      "partner": "left"
+    },
+    {
+      "Category": "Debate",
+      "Content": "ดีเบต: 'โซเชียลมีเดียทำให้ชีวิตดีขึ้น' — มึงโต้ฝั่งที่วงเลือก คู่ดีเบตจากวง วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "DB004",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2"
+    },
+    {
+      "Category": "Debate",
+      "Content": "ดีเบต: 'การทำงาน remote ดีกว่าเข้าออฟฟิศ' — วงกำหนดฝ่าย ดีเบตกับคนทางขวา วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DB005",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2",
+      "partner": "right"
+    },
+    {
+      "Category": "Debate",
+      "Content": "ดีเบต: 'คนเราเปลี่ยนไม่ได้จริงๆ' — มึงโต้ฝั่งที่วงเลือก หาคู่ดีเบต วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "DB006",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2"
+    },
+    {
+      "Category": "Debate",
+      "Content": "ดีเบต: 'กรุงเทพฯ น่าอยู่กว่าต่างจังหวัด' — วงกำหนดฝ่ายให้มึง ดีเบตกับคนทางซ้าย วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DB007",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2",
+      "partner": "left"
+    },
+    {
+      "Category": "Debate",
+      "Content": "ดีเบต: 'ความฝันสำคัญกว่าความมั่นคง' — มึงโต้ฝั่งที่วงเลือก คู่ดีเบตจากวง วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "DB008",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2"
+    },
+    {
+      "Category": "Debate",
+      "Content": "ดีเบต: 'เพื่อนสำคัญกว่าแฟน' — วงกำหนดฝ่าย ดีเบตกับคนทางขวา 1 นาที วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DB009",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2",
+      "partner": "right"
+    },
+    {
+      "Category": "Debate",
+      "Content": "ดีเบต: 'การไม่แต่งงานเป็นทางเลือกที่ฉลาด' — มึงโต้ฝั่งที่วงเลือก คู่ดีเบตจากวง วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "DB010",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2"
+    },
+    {
+      "Category": "Debate",
+      "Content": "ดีเบต: 'คนรุ่นใหม่ขยันกว่าคนรุ่นก่อน' — วงกำหนดฝ่ายให้มึง ดีเบตกับคนทางซ้าย วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DB011",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2",
+      "partner": "left"
+    },
+    {
+      "Category": "Debate",
+      "Content": "ดีเบต: 'ความซื่อสัตย์ 100% ทำลายความสัมพันธ์' — มึงโต้ฝั่งที่วงเลือก คู่ดีเบตจากวง วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "DB012",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2"
+    },
+    {
+      "Category": "Debate",
+      "Content": "ดีเบต: 'AI จะแย่งงานมนุษย์ทั้งหมดในอีก 20 ปี' — วงกำหนดฝ่าย ดีเบตกับคนทางขวา วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DB013",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2",
+      "partner": "right"
+    },
+    {
+      "Category": "Debate",
+      "Content": "ดีเบต: 'ชีวิตในเมืองดีกว่าในชนบท' — มึงโต้ฝั่งที่วงเลือก คู่ดีเบตจากวง วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "DB014",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2"
+    },
+    {
+      "Category": "Debate",
+      "Content": "ดีเบต: 'คุยกันตอนดึกทำให้คนเปิดใจมากกว่าตอนกลางวัน' — วงกำหนดฝ่ายให้มึง ดีเบตกับคนทางซ้าย วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DB015",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2",
+      "partner": "left"
+    },
+    {
+      "Category": "Debate",
+      "Content": "ดีเบต: 'ผู้ชายยากกว่าผู้หญิงในสังคมปัจจุบัน' — มึงโต้ฝั่งที่วงเลือก คู่ดีเบตจากวง วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "DB016",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2"
+    },
+    {
+      "Category": "Debate",
+      "Content": "ดีเบต: 'ความรักแรกพบมีอยู่จริง' — วงกำหนดฝ่าย ดีเบตกับคนทางขวา 1 นาที วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DB017",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2",
+      "partner": "right"
+    },
+    {
+      "Category": "Debate",
+      "Content": "ดีเบต: 'การให้อภัยคือความอ่อนแอ' — มึงโต้ฝั่งที่วงเลือก คู่ดีเบตจากวง วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "DB018",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2"
+    },
+    {
+      "Category": "Debate",
+      "Content": "ดีเบต: 'โทษประหารชีวิตควรมีอยู่' — วงกำหนดฝ่ายให้มึง ดีเบตกับคนทางซ้าย วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DB019",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2",
+      "partner": "left"
+    },
+    {
+      "Category": "Debate",
+      "Content": "ดีเบต: 'เด็กสมัยนี้โชคดีกว่าเด็กสมัยก่อน' — มึงโต้ฝั่งที่วงเลือก คู่ดีเบตจากวง วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "DB020",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2"
+    },
+    {
+      "Category": "Debate",
+      "Content": "ดีเบต: 'ศิลปะมีคุณค่ามากกว่าวิทยาศาสตร์' — วงกำหนดฝ่าย ดีเบตกับคนทางขวา วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DB021",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2",
+      "partner": "right"
+    },
+    {
+      "Category": "Debate",
+      "Content": "ดีเบต: 'ความสำเร็จขึ้นอยู่กับโชคมากกว่าความพยายาม' — มึงโต้ฝั่งที่วงเลือก คู่ดีเบตจากวง วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "DB022",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2"
+    },
+    {
+      "Category": "Debate",
+      "Content": "ดีเบต: 'การเป็น introvert ดีกว่า extrovert' — วงกำหนดฝ่ายให้มึง ดีเบตกับคนทางซ้าย วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DB023",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2",
+      "partner": "left"
+    },
+    {
+      "Category": "Debate",
+      "Content": "ดีเบต: 'โลกสวยงามขึ้นหรือแย่ลงในรุ่นเรา' — มึงโต้ฝั่งที่วงเลือก คู่ดีเบตจากวง วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "DB024",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2"
+    },
+    {
+      "Category": "Debate",
+      "Content": "ดีเบต: 'การบ้านทำให้เด็กฉลาดขึ้นจริงๆ' — วงกำหนดฝ่าย ดีเบตกับคนทางขวา วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DB025",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2",
+      "partner": "right"
+    },
+    {
+      "Category": "Debate",
+      "Content": "ดีเบต: 'ผู้นำที่ดีเกิดมา ไม่ใช่ฝึกได้' — มึงโต้ฝั่งที่วงเลือก คู่ดีเบตจากวง วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DB026",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2"
+    },
+    {
+      "Category": "Debate",
+      "Content": "ดีเบต: 'ความลับในความสัมพันธ์เป็นเรื่องปกติ' — วงกำหนดฝ่ายให้มึง ดีเบตกับคนทางซ้าย วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DB027",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2",
+      "partner": "left"
+    },
+    {
+      "Category": "Debate",
+      "Content": "ดีเบต: 'สัตว์เลี้ยงช่วยให้ชีวิตดีขึ้น' — มึงโต้ฝั่งที่วงเลือก คู่ดีเบตจากวง วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "DB028",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2"
+    },
+    {
+      "Category": "Debate",
+      "Content": "ดีเบต: 'คนที่ออกไปปาร์ตี้บ่อยๆ ประสบความสำเร็จมากกว่า' — วงกำหนดฝ่าย ดีเบตกับคนทางขวา วงโหวต คนแพ้รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DB029",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2",
+      "partner": "right"
+    },
+    {
+      "Category": "Debate",
+      "Content": "ดีเบต: 'ชีวิตช่วง 20 ต้นๆ สำคัญกว่าช่วงอื่น' — มึงโต้ฝั่งที่วงเลือก คู่ดีเบตจากวง วงโหวต คนแพ้รับโทษ{lv:3}",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "DB030",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 3"
+    }
+  ]
+}

@@ -1,0 +1,471 @@
+{
+  "mode_title": "Preference",
+  "description": "ชอบหรือไม่ชอบ ไม่มีคำตอบที่ถูก",
+  "cards": [
+    {
+      "Category": "Preference",
+      "Content": "มึงชอบ tall dark and handsome หรือ cute และ soft — ตอบพร้อมบอกตัวอย่างดาราหรือคนที่เข้าข่าย",
+      "Target": "คนที่โสดอยู่",
+      "TargetType": "Condition",
+      "id": "PF001",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Preference",
+      "Content": "ถ้าต้องเลือกระหว่าง หน้าตาดีมากแต่จืดชืด กับ หน้าปานกลางแต่ทำให้ตื่นเต้นทุกครั้ง — มึงเลือกอะไร",
+      "Target": "คนที่มีแฟนอยู่",
+      "TargetType": "Condition",
+      "id": "PF002",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Preference",
+      "Content": "มึงชอบเป็นฝ่ายรุก หรือฝ่ายรับ — ตอบจริงหรือรับโทษ{lv:2}",
+      "Target": "คนที่แต่งงานแล้ว",
+      "TargetType": "Condition",
+      "id": "PF003",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Preference",
+      "Content": "ถ้าต้องเลือกระหว่าง ฉลาดมากแต่ไม่หล่อ/สวย กับ หล่อ/สวยมากแต่ปัญญาอ่อนนิดหน่อย — มึงเลือกอะไร",
+      "Target": "คนที่เพิ่งเลิกกัน",
+      "TargetType": "Condition",
+      "id": "PF004",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Preference",
+      "Content": "มึงชอบคนที่โรแมนติกมากเกินไปหรือคนที่แสดงออกน้อยแต่รู้สึกลึก — บอกพร้อมเหตุผล",
+      "Target": "คนที่เคยโดนเท",
+      "TargetType": "Condition",
+      "id": "PF005",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Preference",
+      "Content": "ถ้าต้องเลือก เพศตรงข้าม เพศเดียวกัน หรือ nonbinary — มึงเปิดรับแค่ไหน ตอบตรงๆ",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "PF006",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Preference",
+      "Content": "มึงชอบคนที่ take charge หรือคนที่ตามใจมึงทุกอย่าง — ตอบพร้อมบอกว่าทำไม",
+      "Target": "คนที่เคยมีชู้",
+      "TargetType": "Condition",
+      "id": "PF007",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Preference",
+      "Content": "ถ้าต้องเลือกระหว่าง passionate แต่ chaos กับ สงบแต่น่าเบื่อ — มึงจะคบคนแบบไหน",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "PF008",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Preference",
+      "Content": "มึงชอบคนที่ older / younger / same age — บอกพร้อมบอกว่าต่างกันได้มากสุดแค่ไหน",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "PF009",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Preference",
+      "Content": "ถ้าต้องเลือก ความสัมพันธ์แบบ vanilla ธรรมดาสุขใจ กับ ความสัมพันธ์แบบ spicy แต่ซับซ้อน — มึงเลือกอะไร",
+      "Target": "คนนั่งขวามือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "PF010",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Preference",
+      "Content": "สิ่งที่ turn on มึงมากที่สุดโดยไม่เกี่ยวกับรูปลักษณ์คืออะไร — ตอบจริงหรือรับโทษ{lv:2}",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "PF011",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Preference",
+      "Content": "สิ่งที่ turn off มึงทันทีคืออะไร — บอก 2 อย่าง ถ้าบอกได้น้อยกว่า 2 รับโทษ",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "PF012",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Preference",
+      "Content": "มึงชอบคนที่ text back เร็ว หรือคนที่เล่นแง่นิดหน่อย — ตอบพร้อมเหตุผล",
+      "Target": "คนที่เงียบที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "PF013",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Preference",
+      "Content": "ถ้าต้องเลือกระหว่าง รักร้อนแรงแต่สั้น กับ รักเรียบๆ แต่ยาวนาน — มึงเลือกอะไร",
+      "Target": "คนที่พูดมากที่สุดในวงนี้",
+      "TargetType": "Condition",
+      "id": "PF014",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Preference",
+      "Content": "มึงชอบคนที่ independent มากหรือคนที่ clingy นิดหน่อย — บอกพร้อมบอก limit ของมึง",
+      "Target": "คนที่เคยแอบชอบคนในวงนี้",
+      "TargetType": "Condition",
+      "id": "PF015",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Preference",
+      "Content": "อะไรคือ green flag อันดับ 1 ที่มึงมองหาในคน — ตอบจริงหรือรับโทษ{lv:1}",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "PF016",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Preference",
+      "Content": "อะไรคือ red flag ที่มึงมักเพิกเฉยทั้งที่รู้ว่าไม่ควร — ตอบตรงๆ หรือรับโทษ{lv:2}",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "PF017",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Preference",
+      "Content": "มึงชอบ morning person หรือ night owl — และมึงเองเป็นแบบไหน",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "PF018",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Preference",
+      "Content": "ถ้าต้องเลือกระหว่าง คนรักที่ฉลาดกว่ามึงมาก กับ คนรักที่ฉลาดน้อยกว่ามึง — มึงเลือกอะไร",
+      "Target": "คนที่เช็คโทรศัพท์ใน 5 นาทีที่ผ่านมา",
+      "TargetType": "Condition",
+      "id": "PF019",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Preference",
+      "Content": "มึงชอบคนที่ match energy มึงทุกอย่าง หรือคนที่ตรงข้ามมึงเลย — เหตุผลคืออะไร",
+      "Target": "คนที่โสดอยู่",
+      "TargetType": "Condition",
+      "id": "PF020",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Preference",
+      "Content": "ทุกคนบอก type ของตัวเองใน 3 คำ — แล้ววงโหวตว่าเชื่อไหมว่าเขาชอบคนแบบนั้นจริงๆ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "PF021",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Preference",
+      "Content": "ถ้าต้องเลือกระหว่าง sex ดีมากแต่ไม่มี emotional connection กับ emotional connection ลึกมากแต่ sex น่าเบื่อ — มึงเลือกอะไร",
+      "Target": "คนที่มีแฟนอยู่",
+      "TargetType": "Condition",
+      "id": "PF022",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Preference",
+      "Content": "มึงชอบ first date แบบไหนมากกว่า — ดินเนอร์เงียบๆ หรือ กิจกรรม adventurous — บอกพร้อมเหตุผล",
+      "Target": "คนที่แต่งงานแล้ว",
+      "TargetType": "Condition",
+      "id": "PF023",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Preference",
+      "Content": "มีอะไรที่มึงเคย judge คนอื่นก่อนที่จะรู้ว่าตัวเองก็ชอบแบบนั้นด้วย — เล่าให้ฟัง",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "PF024",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Preference",
+      "Content": "ถ้าต้องเลือก คนรักที่เป็นเพื่อนที่ดีที่สุดด้วย กับ คนรักที่ passionate มากแต่เป็นเพื่อนไม่ได้ — มึงเลือกอะไร",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "PF025",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Preference",
+      "Content": "ทุกคนบอกว่า ideal relationship ของตัวเองคือแบบไหน ใน 1 ประโยค — แล้วโหวตว่าของใครน่าอิจฉาที่สุด",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "PF026",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Preference",
+      "Content": "มึงเคย lower standards ตัวเองเพราะ external pressure ไหม — ถ้าเคยรับโทษ{lv:1}",
+      "Target": "คนที่เคยโดนเท",
+      "TargetType": "Condition",
+      "id": "PF027",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Preference",
+      "Content": "ถ้าต้องเลือกระหว่าง คนที่ทำให้มึงหัวเราะทุกวัน กับ คนที่ทำให้มึงรู้สึก safe ทุกคืน — มึงเลือกอะไร",
+      "Target": "คนที่เคยมีชู้",
+      "TargetType": "Condition",
+      "id": "PF028",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Preference",
+      "Content": "อะไรคือสิ่งเดียวที่ถ้าคนรักทำแล้วมึงจะเลิกทันที ไม่มีข้อยกเว้น — ตอบจริงหรือรับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "PF029",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Preference",
+      "Content": "มึงชอบ partner ที่ ambitious มากหรือคนที่ work-life balance ดี — บอกพร้อมเหตุผลจากประสบการณ์จริง",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "PF030",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    }
+  ]
+}

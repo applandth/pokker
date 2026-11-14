@@ -1,0 +1,350 @@
+{
+  "mode_title": "Fortune",
+  "description": "ดึงดวง เจอดีหรือร้ายก็ต้องรับ",
+  "cards": [
+    {
+      "Category": "Fortune",
+      "Content": "ทำนายอนาคตของคนทางซ้ายในอีก 1 ปี — ทำได้สมจริงหรือตลกก็ได้ วงโหวตว่าน่าเชื่อแค่ไหน",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "FT001",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "partner": "left"
+    },
+    {
+      "Category": "Fortune",
+      "Content": "อ่านลายมือคนทางขวา บอกชะตาชีวิตในด้านความรัก การงาน และเงิน วงโหวตว่าเชื่อถือได้ไหม",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "FT002",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "partner": "right"
+    },
+    {
+      "Category": "Fortune",
+      "Content": "ทำนายว่าใครในวงนี้จะเจอเรื่องดีที่สุดในอีก 6 เดือน พร้อมบอกว่าจะเป็นเรื่องอะไร",
+      "Target": "คนนั่งตรงข้ามคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "FT003",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Fortune",
+      "Content": "วิเคราะห์ดวงของคนทางซ้ายจากวันเกิดและชื่อ ทำนายปีนี้จะเป็นยังไง ฟังดูจริงจัง",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "FT004",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "partner": "left"
+    },
+    {
+      "Category": "Fortune",
+      "Content": "ทำนาย 'ดวงความรัก' ของทุกคนในวงทีละคน ใครดวงดีสุดรับโทษเป็นรางวัล ใครดวงแย่สุดรับโทษ{lv:2}",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "FT005",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Fortune",
+      "Content": "ทำนายว่าคู่ไหนในวงนี้จะมีโอกาสออกเดทกัน พร้อมบอกสาเหตุและวันที่สมมติ",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "FT006",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Fortune",
+      "Content": "อ่าน 'ไพ่ดวง' สมมติให้คนทางขวา 3 ใบ บอกว่าแต่ละใบหมายความว่าอะไรสำหรับมัน",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "FT007",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "partner": "right"
+    },
+    {
+      "Category": "Fortune",
+      "Content": "ทำนายว่าคืนนี้จะจบลงอย่างไรสำหรับทุกคนในวง ทีละคน พร้อมรายละเอียด",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "FT008",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Fortune",
+      "Content": "วิเคราะห์บุคลิกจาก 'สีที่มึงชอบ' ของทุกคนในวง บอกชะตาชีวิตของแต่ละคน",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "FT009",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Fortune",
+      "Content": "ทำนาย 'ชะตากรรม' ของคนทางซ้ายถ้ามันตัดสินใจในทางที่มึงเลือกให้ — ดีหรือร้าย",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "FT010",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "partner": "left"
+    },
+    {
+      "Category": "Fortune",
+      "Content": "ทำนายว่าอีก 10 ปี คนในวงนี้จะมาเจอกันอีกในสถานการณ์ไหน บรรยายฉากนั้น",
+      "Target": "คนใส่นาฬิกา",
+      "TargetType": "Condition",
+      "id": "FT011",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Fortune",
+      "Content": "อ่าน 'ดวงวันนี้' ให้ทุกคนในวงโดยใช้ทิศที่แต่ละคนหันหน้าไป — ทำนายให้ฟังดูน่าเชื่อ",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "FT012",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Fortune",
+      "Content": "ทำนายว่าคนทางขวาจะ 'ตกหลุมรักใคร' ในวงนี้คืนนี้ บอกเหตุผลด้วย วงโหวตว่าน่าเชื่อไหม",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "FT013",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "partner": "right"
+    },
+    {
+      "Category": "Fortune",
+      "Content": "วิเคราะห์ดวงจากลายมือของทุกคนในวง บอกว่าเส้นไหนบอกอะไรเกี่ยวกับชะตาชีวิต — มั่วให้เนียนที่สุด",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "FT014",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Fortune",
+      "Content": "ทำนาย 'ชีวิตในชาติหน้า' ของคนทางซ้าย — จะเกิดเป็นอะไร ในยุคไหน และทำไม",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "FT015",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "partner": "left"
+    },
+    {
+      "Category": "Fortune",
+      "Content": "อ่าน 'สัญญาณจักรวาล' ที่เกิดขึ้นในคืนนี้ให้วงฟัง บอกว่าหมายความว่าอะไรสำหรับแต่ละคน",
+      "Target": "คนอายุน้อยที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "FT016",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Fortune",
+      "Content": "ทำนาย 'คำพยากรณ์ประจำปี' ของทุกคนในวง ทีละคน — บอกว่าปีนี้ควรระวังอะไรและควรทำอะไร",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "FT017",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Fortune",
+      "Content": "วิเคราะห์บุคลิกของคนทางขวาจากท่านั่ง การแต่งตัว และสิ่งของในมือ ทำนายอนาคต 3 ด้าน",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "FT018",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "partner": "right"
+    },
+    {
+      "Category": "Fortune",
+      "Content": "ทำนายว่าคนในวงนี้คนไหนจะ 'เปลี่ยนแปลงตัวเองมากที่สุด' ในอีก 3 ปี พร้อมเหตุผล",
+      "Target": "คนใส่สีสันสดใสที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "FT019",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Fortune",
+      "Content": "อ่าน 'ดวงชะตา' ของคนทางซ้ายจากเส้นในฝ่ามือ ทำนายด้านสุขภาพ ความรัก และการเงิน",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "FT020",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "partner": "left"
+    },
+    {
+      "Category": "Fortune",
+      "Content": "ทำนายว่าคืนนี้ใครจะ 'ทำสิ่งที่น่าจดจำที่สุด' — บอกว่าคือใคร จะทำอะไร และเพราะอะไร",
+      "Target": "คนใส่กางเกงยีนส์",
+      "TargetType": "Condition",
+      "id": "FT021",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Fortune",
+      "Content": "วิเคราะห์ 'กรรมเก่า' ของทุกคนในวงจากนิสัยที่เห็น บอกว่าแต่ละคนน่าจะทำอะไรมาในชาติก่อน",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "FT022",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Fortune",
+      "Content": "ทำนายว่า 5 ปีข้างหน้า ความสัมพันธ์ในวงนี้จะเป็นยังไง ใครจะยังคุยกันอยู่ ใครอาจห่างออกไป",
+      "Target": "คนใส่เสื้อมีปก",
+      "TargetType": "Condition",
+      "id": "FT023",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Fortune",
+      "Content": "อ่าน 'ดวงความสัมพันธ์' ระหว่างตัวมึงกับทุกคนในวง ทีละคน — ดวงเข้ากันไหม มีอุปสรรคไหม",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "FT024",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Fortune",
+      "Content": "ทำนาย 'ดวงความซวย' ของทุกคนคืนนี้ — ใครดวงดีรอด ใครดวงแย่สุดตามที่วงเห็นด้วย รับโทษไปก่อนเลย",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "FT025",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    }
+  ]
+}

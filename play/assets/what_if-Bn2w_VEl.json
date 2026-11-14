@@ -1,0 +1,696 @@
+{
+  "mode_title": "What If",
+  "description": "สมมติว่า... คำถามสุดฉงน",
+  "cards": [
+    {
+      "id": "WI001",
+      "Category": "Whatif",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "ถ้าวงนี้ต้องอยู่บนเกาะร้างด้วยกัน 1 เดือน — บอกว่าตัวเองจะรับหน้าที่อะไรในวง และใครที่คิดว่าจะตายก่อน",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "id": "WI002",
+      "Category": "Whatif",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "ถ้าพรุ่งนี้ไฟฟ้าและอินเทอร์เน็ตดับทั่วโลก — บอกว่าจะทำอะไรในวันนั้น",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "id": "WI003",
+      "Category": "Whatif",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "ถ้าต้องเปลี่ยนอาชีพพรุ่งนี้ — บอกว่าจะไปทำอะไรและทำไมถึงเลือกอาชีพนั้น",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "id": "WI004",
+      "Category": "Whatif",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "ถ้าวงนี้ต้องตั้งบริษัทด้วยกัน — บอกว่าตัวเองจะรับตำแหน่งอะไร และบริษัทจะขายอะไร",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "id": "WI005",
+      "Category": "Whatif",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "ถ้ามึงมีเงิน 10 ล้านบาทพรุ่งนี้แต่ต้องใช้ให้หมดใน 24 ชั่วโมง — มึงจะทำอะไร",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "id": "WI006",
+      "Category": "Whatif",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "ถ้าวงนี้ต้องย้ายไปอยู่อพาร์ตเมนต์เดียวกัน — ใครในวงที่คิดว่าจะเป็นปัญหามากที่สุด และทำไม",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "id": "WI007",
+      "Category": "Whatif",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "ถ้ามึงตื่นขึ้นมาพรุ่งนี้แล้วทุกคนในโลกจำมึงไม่ได้ — มึงจะทำอะไรก่อน",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "id": "WI008",
+      "Category": "Whatif",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "ถ้าวงนี้ต้องทำ Reality Show ด้วยกัน — บอกว่าจะให้รายการแนวไหน และตัวเองจะรับบทอะไร",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "id": "WI009",
+      "Category": "Whatif",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "ถ้ามึงสามารถอ่านใจคนได้ 1 วัน — มึงจะใช้ความสามารถนั้นทำอะไร",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "id": "WI010",
+      "Category": "Whatif",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "ถ้าวงนี้ต้องอยู่ในเกมเอาตัวรอด — บอกว่าใครจะรอดได้นานที่สุดและใครจะตายก่อน",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "id": "WI011",
+      "Category": "Whatif",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "ถ้ามึงสามารถย้อนเวลาไปเปลี่ยนการตัดสินใจ 1 ครั้งในชีวิต — มึงจะเปลี่ยนอะไรและคิดว่าชีวิตจะต่างออกไปแค่ไหน",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "id": "WI012",
+      "Category": "Whatif",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "ถ้าโลกประกาศว่าจะสิ้นสุดในอีก 24 ชั่วโมง — บอกว่าจะทำอะไรในช่วงเวลานั้น",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "id": "WI013",
+      "Category": "Whatif",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "ถ้ามึงต้องอธิบายคืนนี้ให้คนที่ไม่รู้จักใครในวงฟัง — มึงจะบอกว่าแต่ละคนเป็นใคร",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "id": "WI014",
+      "Category": "Whatif",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "ถ้าวงนี้ต้องออกเดินทางด้วยกันพรุ่งนี้โดยไม่มีแผน — บอกว่าจะพาทุกคนไปที่ไหนและทำอะไร",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "id": "WI015",
+      "Category": "Whatif",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "ถ้ามึงมีพลังพิเศษ 1 อย่างได้ตลอดชีวิต — มึงจะเลือกอะไรและจะใช้มันทำอะไร",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "id": "WI016",
+      "Category": "Whatif",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "ถ้าต้องหนีออกจากประเทศพรุ่งนี้ — บอกว่าจะเตรียมอะไร และจะหนีไปที่ไหน",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "id": "WI017",
+      "Category": "Whatif",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "ถ้ามึงกลายเป็นคนดังระดับโลกพรุ่งนี้ — มึงจะดังในด้านอะไรและชีวิตจะเปลี่ยนยังไง",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "id": "WI018",
+      "Category": "Whatif",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "ถ้าวงนี้ต้องแข่ง Amazing Race ด้วยกัน — บอกว่าจะเลือกใครเป็นคู่ของตัวเอง และใครในวงที่คิดว่าจะเป็นปัญหา",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "id": "WI019",
+      "Category": "Whatif",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "ถ้ามึงต้องเลือกใช้ชีวิตอีก 10 ปีโดยไม่มีมือถือ แลกกับเงิน 50 ล้านบาท — มึงจะเลือกไหม",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "id": "WI020",
+      "Category": "Whatif",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "ถ้าวงนี้ต้องเล่นเกมที่ผู้แพ้ต้องออกจากวง — บอกว่าจะเล่นเกมอะไร และใครในวงที่คิดว่าจะแพ้ก่อน",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "id": "WI021",
+      "Category": "Whatif",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "ถ้ามึงรู้ว่าจะมีคนแอบชอบมึงอยู่ในวงนี้ — มึงจะทำตัวยังไงคืนนี้",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "id": "WI022",
+      "Category": "Whatif",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "ถ้าต้องเลือกตาย 1 ใน 3 แบบ — ตายเร็ว ตายช้า หรือตายโดยไม่รู้ตัว — บอกว่าจะเลือกอะไรและทำไม",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "id": "WI023",
+      "Category": "Whatif",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "ถ้ามึงสามารถรู้คำตอบของคำถามใดก็ได้ 1 ข้อ — มึงจะถามว่าอะไร",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "id": "WI024",
+      "Category": "Whatif",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "ถ้าวงนี้ต้องสร้างศาสนาใหม่ด้วยกัน — บอกว่าจะให้ใครเป็นผู้นำ และกฎข้อแรกของศาสนาคืออะไร",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "id": "WI025",
+      "Category": "Whatif",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "ถ้ามึงต้องเลือกระหว่างจำทุกอย่างในชีวิตได้แม่นยำ 100% กับลืมทุกอย่างทุก 10 ปี — มึงจะเลือกอะไร",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "id": "WI026",
+      "Category": "Whatif",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "ถ้าวงนี้ถูกส่งไปยังยุคสมัยหนึ่งในอดีต — บอกว่าจะเลือกยุคไหน และตัวเองจะทำอะไรเพื่อเอาตัวรอด",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "id": "WI027",
+      "Category": "Whatif",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "ถ้ามึงสามารถเขียนกฎ 3 ข้อให้ทุกคนในโลกต้องทำตาม — มึงจะเขียนว่าอะไร",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "id": "WI028",
+      "Category": "Whatif",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "ถ้าต้องเลือก 1 คนในวงนี้เป็นประธานาธิบดีของโลก — บอกว่าจะเลือกใครและทำไม",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "id": "WI029",
+      "Category": "Whatif",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "ถ้ามึงต้องอธิบายให้คนในอีก 100 ปีข้างหน้าเข้าใจว่าคืนนี้คืออะไร — มึงจะอธิบายว่าอะไร",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "id": "WI030",
+      "Category": "Whatif",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "ถ้าได้ออกแบบเมืองในฝันสักเมือง — บอกว่าจะเพิ่มอะไร และห้ามอะไรในเมืองนั้น",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    }
+  ]
+}

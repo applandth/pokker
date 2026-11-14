@@ -1,0 +1,661 @@
+{
+  "mode_title": "Truth or False",
+  "description": "จริงหรือมั่ว? คุณรู้แค่ไหน",
+  "cards": [
+    {
+      "Category": "Truth or False",
+      "Content": "[จริงหรือเท็จ] ตอบ: 'ฉันไม่เคยดูหนัง 18+ ในช่วง 30 วันที่ผ่านมา' — วงโหวตว่าเชื่อไหม ถ้าไม่เชื่อรับโทษ",
+      "Target": "คนที่โสดอยู่",
+      "TargetType": "Condition",
+      "id": "TF001",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Truth or False",
+      "Content": "[จริงหรือเท็จ] ตอบ: 'ฉันไม่มีแอป dating ในมือถือตอนนี้' — วงโหวตว่าเชื่อไหม ถ้าไม่เชื่อรับโทษ",
+      "Target": "คนที่มีแฟนอยู่",
+      "TargetType": "Condition",
+      "id": "TF002",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Truth or False",
+      "Content": "[จริงหรือเท็จ] ตอบ: 'ฉันไม่เคย stalk อดีตแฟนใน 24 ชั่วโมงที่ผ่านมา' — วงโหวต ไม่เชื่อรับโทษ",
+      "Target": "คนที่แต่งงานแล้ว",
+      "TargetType": "Condition",
+      "id": "TF003",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Truth or False",
+      "Content": "[จริงหรือเท็จ] ตอบ: 'ฉันยังจำชื่อคนที่จูบครั้งแรกได้' — วงโหวตว่าเชื่อไหม",
+      "Target": "คนที่เพิ่งเลิกกัน",
+      "TargetType": "Condition",
+      "id": "TF004",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Truth or False",
+      "Content": "[จริงหรือเท็จ] ตอบ: 'ฉันไม่ได้คิดถึงอดีตแฟนเลยในสัปดาห์นี้' — วงโหวต ไม่เชื่อรับโทษ",
+      "Target": "คนที่เคยโดนเท",
+      "TargetType": "Condition",
+      "id": "TF005",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Truth or False",
+      "Content": "[จริงหรือเท็จ] ตอบ: 'ฉันไม่เคยแชทกับคนอื่นแบบที่แฟนรู้ไม่ได้' — วงโหวต ไม่เชื่อรับโทษ{lv:2}",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "TF006",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Truth or False",
+      "Content": "[จริงหรือเท็จ] ตอบ: 'ฉันรู้สึกว่าตัวเองโสดเพราะเลือกเอง ไม่ใช่เพราะไม่มีคนชอบ' — วงโหวต",
+      "Target": "คนที่เคยมีชู้",
+      "TargetType": "Condition",
+      "id": "TF007",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Truth or False",
+      "Content": "[จริงหรือเท็จ] ตอบ: 'ฉันไม่เคยโกหกเรื่อง body count' — วงโหวต ไม่เชื่อรับโทษ{lv:2}",
+      "Target": "คนที่เคยตื่นมาไม่รู้ว่าอยู่ที่ไหน",
+      "TargetType": "Condition",
+      "id": "TF008",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Truth or False",
+      "Content": "[จริงหรือเท็จ] ตอบ: 'ฉันไม่มีความรู้สึกพิเศษกับใครในวงนี้เลย' — วงโหวต ไม่เชื่อรับโทษ",
+      "Target": "คนที่เช็คโทรศัพท์ใน 5 นาทีที่ผ่านมา",
+      "TargetType": "Condition",
+      "id": "TF009",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Truth or False",
+      "Content": "[จริงหรือเท็จ] ตอบ: 'ฉันไม่เคยแกล้งทำเป็นว่าไม่รู้สึกอะไรกับคนที่ชอบ' — วงโหวต",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "TF010",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Truth or False",
+      "Content": "[จริงหรือเท็จ] ตอบ: 'ฉันไม่เคยอยากจูบใครในวงนี้เลย' — วงโหวต ไม่เชื่อรับโทษ{lv:2}",
+      "Target": "คนนั่งขวามือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "TF011",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Truth or False",
+      "Content": "[จริงหรือเท็จ] ตอบ: 'ฉันไม่เคยพูดว่า รัก ทั้งที่ยังไม่แน่ใจ' — วงโหวต ไม่เชื่อรับโทษ",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "TF012",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Truth or False",
+      "Content": "[จริงหรือเท็จ] ตอบ: 'ฉันไม่เคย screenshot แชทของคนอื่นแล้วส่งต่อ' — วงโหวต ไม่เชื่อรับโทษ",
+      "Target": "คนนั่งตรงข้ามคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "TF013",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Truth or False",
+      "Content": "[จริงหรือเท็จ] ตอบ: 'ฉันไม่เคยแอบดูมือถือแฟน' — วงโหวต ไม่เชื่อรับโทษ{lv:2}",
+      "Target": "คนที่หัวเราะล่าสุด",
+      "TargetType": "Condition",
+      "id": "TF014",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Truth or False",
+      "Content": "[จริงหรือเท็จ] ตอบ: 'ฉันยังรู้สึกอะไรบางอย่างกับ ex อยู่บ้าง' — วงโหวต",
+      "Target": "คนที่เงียบที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "TF015",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Truth or False",
+      "Content": "[จริงหรือเท็จ] ตอบ: 'ฉันไม่เคยซ่อนหรือลบแชทในมือถือ' — วงโหวต ไม่เชื่อรับโทษ{lv:3}",
+      "Target": "คนที่เคยโกหกแฟน",
+      "TargetType": "Condition",
+      "id": "TF016",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Truth or False",
+      "Content": "[จริงหรือเท็จ] ตอบ: 'ฉันไม่เคยรู้สึกว่าตัวเองดูดีกว่าแฟนที่เคยคบ' — วงโหวต",
+      "Target": "คนที่เคยแอบชอบคนในวงนี้",
+      "TargetType": "Condition",
+      "id": "TF017",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Truth or False",
+      "Content": "[จริงหรือเท็จ] ตอบ: 'ฉันเคยมีความสุขที่ได้เห็นอดีตแฟนใช้ชีวิตแย่ลง' — วงโหวต",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "TF018",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Truth or False",
+      "Content": "[จริงหรือเท็จ] ตอบ: 'ฉันคิดว่าตัวเองเป็นคนน่าเบื่อในความสัมพันธ์บางครั้ง' — วงโหวต",
+      "Target": "คนที่ยังไม่เคยมีแฟนเลย",
+      "TargetType": "Condition",
+      "id": "TF019",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Truth or False",
+      "Content": "[จริงหรือเท็จ] ตอบ: 'ฉันไม่เคยส่งรูปที่ไม่ควรส่งให้ใคร' — วงโหวต ไม่เชื่อรับโทษ{lv:2}",
+      "Target": "คนที่เคยร้องไห้เพราะแฟน",
+      "TargetType": "Condition",
+      "id": "TF020",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Truth or False",
+      "Content": "[จริงหรือเท็จ] ตอบ: 'ฉันไม่เคยโดนเทหรือ ghosting มาก่อน' — วงโหวต",
+      "Target": "คนที่โสดอยู่",
+      "TargetType": "Condition",
+      "id": "TF021",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Truth or False",
+      "Content": "[จริงหรือเท็จ] ตอบ: 'ฉันไม่เคยอยากได้คืนกับ ex คนไหนในชีวิต' — วงโหวต ไม่เชื่อรับโทษ",
+      "Target": "คนที่มีแฟนอยู่",
+      "TargetType": "Condition",
+      "id": "TF022",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Truth or False",
+      "Content": "[จริงหรือเท็จ] ตอบ: 'ฉันรู้สึกว่าตัวเองเป็นฝ่ายรักมากกว่าในทุกความสัมพันธ์ที่ผ่านมา' — วงโหวต",
+      "Target": "คนที่แต่งงานแล้ว",
+      "TargetType": "Condition",
+      "id": "TF023",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Truth or False",
+      "Content": "[จริงหรือเท็จ] ตอบ: 'ฉันไม่เคยทำ walk of shame หลังคืนที่ไม่ได้วางแผน' — วงโหวต ไม่เชื่อรับโทษ",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "TF024",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Truth or False",
+      "Content": "[จริงหรือเท็จ] ตอบ: 'ฉันไม่เคยบอกว่า หนูไม่ได้คิดอะไรเลย ทั้งที่จริงๆ คิดมาก' — วงโหวต",
+      "Target": "คนที่เพิ่งเลิกกัน",
+      "TargetType": "Condition",
+      "id": "TF025",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Truth or False",
+      "Content": "[จริงหรือเท็จ] ตอบ: 'ฉันไม่เคยแอบ check ว่าแฟนเก่าแต่งงานหรือยัง' — วงโหวต ไม่เชื่อรับโทษ",
+      "Target": "คนที่เคยโดนเท",
+      "TargetType": "Condition",
+      "id": "TF026",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Truth or False",
+      "Content": "[จริงหรือเท็จ] ตอบ: 'ฉันไม่เคยเจ็บปวดเพราะความรักจนร้องไห้คนเดียว' — วงโหวต",
+      "Target": "คนที่เคยมีชู้",
+      "TargetType": "Condition",
+      "id": "TF027",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Truth or False",
+      "Content": "[จริงหรือเท็จ] ตอบ: 'ฉันไม่เคยพูดว่าตัวเองโอเคทั้งที่จริงๆ ไม่โอเคเลยในความสัมพันธ์' — วงโหวต",
+      "Target": "คนที่เคยตื่นมาไม่รู้ว่าอยู่ที่ไหน",
+      "TargetType": "Condition",
+      "id": "TF028",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Truth or False",
+      "Content": "[จริงหรือเท็จ] ตอบ: 'ฉันไม่เคยเลือก Netflix ดูคนเดียวแทนที่จะออกไปหาคน' — วงโหวต ไม่เชื่อรับโทษ",
+      "Target": "คนที่เช็คโทรศัพท์ใน 5 นาทีที่ผ่านมา",
+      "TargetType": "Condition",
+      "id": "TF029",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Truth or False",
+      "Content": "[จริงหรือเท็จ] ตอบ: 'ฉันไม่เคยต้องการ validation จากคนที่ไม่ดีกับฉัน' — วงโหวต",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "TF030",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0E0A1F" />
+  <title>วิธีติดตั้ง Pokker บน Android</title>
+  <link rel="icon" href="../icon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="../tokens.css" />
+  <link rel="stylesheet" href="../site.css" />
+</head>
+<body>
+  <div class="wrap">
+    <nav class="top"><a href="../">← Pokker</a><a class="btn primary" id="apk" href="../download/pokker.apk">⬇ ดาวน์โหลด APK</a></nav>
+    <h1>วิธีติดตั้ง Pokker บน Android</h1>
+    <p>Pokker ยังไม่อยู่บน Play Store จึงติดตั้งจากไฟล์ APK บนเว็บนี้ — ทำครั้งเดียว ใช้เวลาประมาณ 1 นาที</p>
+    <section class="block">
+      <h2>ขั้นตอนหลัก (ทุกยี่ห้อ)</h2>
+      <ol>
+        <li>กด <b>ดาวน์โหลด APK</b> ด้านบนด้วย Chrome บนมือถือ</li>
+        <li>ถ้ามีคำเตือน "ไฟล์นี้อาจเป็นอันตราย" ให้กด <b>ดาวน์โหลดต่อ</b> (ไฟล์มาจากเว็บนี้โดยตรง)</li>
+        <li>แตะไฟล์ <code>pokker.apk</code> ในแถบแจ้งเตือนหรือแอป "ไฟล์" → <b>ติดตั้ง</b></li>
+        <li>ถ้าระบบถามเรื่อง "ติดตั้งแอปที่ไม่รู้จัก" ให้อนุญาตสำหรับ Chrome (หรือแอปไฟล์) ตามยี่ห้อด้านล่าง แล้วกลับมากดติดตั้งอีกครั้ง</li>
+        <li>ถ้า Google Play Protect ถามให้สแกน กด <b>ติดตั้งต่อไป</b> / <b>ติดตั้งเลย</b></li>
+      </ol>
+      <p class="note">อัปเดตเวอร์ชันใหม่: ดาวน์โหลด APK ล่าสุดแล้วติดตั้งทับได้เลย การ์ดของฉันและการตั้งค่ายังอยู่ (แอปจะแจ้งเองเมื่อมีเวอร์ชันใหม่)</p>
+    </section>
+    <div class="brand-tabs">
+      <a href="#samsung">Samsung</a><a href="#xiaomi">Xiaomi / Redmi / POCO</a><a href="#oppo">OPPO / realme / OnePlus</a><a href="#vivo">vivo</a><a href="#huawei">Huawei / HONOR</a><a href="#pixel">Pixel และอื่น ๆ</a>
+    </div>
+    <details id="samsung" open><summary>Samsung (One UI)</summary><ol>
+      <li>ตั้งค่า → ความปลอดภัยและความเป็นส่วนตัว → (ความปลอดภัยเพิ่มเติม) → <b>ติดตั้งแอปที่ไม่รู้จัก</b></li>
+      <li>เลือก <b>Chrome</b> หรือ <b>ไฟล์ของฉัน</b> → เปิด <b>อนุญาตจากแหล่งที่มานี้</b></li>
+      <li>ถ้าเปิด "Auto Blocker" ไว้ ให้ปิดชั่วคราวในหน้าเดียวกัน ติดตั้งเสร็จแล้วเปิดกลับได้</li>
+    </ol></details>
+    <details id="xiaomi"><summary>Xiaomi / Redmi / POCO (HyperOS / MIUI)</summary><ol>
+      <li>ตั้งค่า → แอป → การอนุญาต (สิทธิ์) → <b>ติดตั้งแอปที่ไม่รู้จัก</b> → Chrome → อนุญาต</li>
+      <li>ถ้ามีหน้าจอ "การตรวจสอบความปลอดภัย" ให้รอนับถอยหลังแล้วกด <b>ติดตั้งต่อ</b></li>
+      <li>บางรุ่นต้องปิด "โหมดปลอดภัย (Security mode)" ในแอปจัดการไฟล์ก่อน</li>
+    </ol></details>
+    <details id="oppo"><summary>OPPO / realme / OnePlus (ColorOS / realme UI / OxygenOS)</summary><ol>
+      <li>ตั้งค่า → ความปลอดภัยและความเป็นส่วนตัว (หรือ "การอนุญาตแอปพิเศษ") → <b>ติดตั้งแอปที่ไม่รู้จัก</b></li>
+      <li>เลือก Chrome หรือ "ตัวจัดการไฟล์" → อนุญาต</li>
+      <li>ถ้าระบบขอรหัสผ่านบัญชี/ล็อกหน้าจอเพื่อยืนยัน ให้ใส่ตามที่ขอ</li>
+    </ol></details>
+    <details id="vivo"><summary>vivo (Funtouch / OriginOS)</summary><ol>
+      <li>ตั้งค่า → ความปลอดภัย (หรือ "แอปและการอนุญาต") → <b>ติดตั้งแอปที่ไม่รู้จัก</b> → Chrome → อนุญาต</li>
+      <li>ถ้ามีหน้าจอ "ตรวจพบความเสี่ยง" ให้กด <b>ติดตั้งต่อไป</b></li>
+    </ol></details>
+    <details id="huawei"><summary>Huawei / HONOR (EMUI / MagicOS)</summary><ol>
+      <li>ตั้งค่า → ความปลอดภัย → <b>ติดตั้งแอปจากแหล่งภายนอก</b> → เลือกเบราว์เซอร์ที่ใช้ดาวน์โหลด → อนุญาต</li>
+      <li>รุ่นที่ไม่มี Chrome ใช้ "เบราว์เซอร์" ของเครื่องดาวน์โหลดได้เหมือนกัน</li>
+    </ol></details>
+    <details id="pixel"><summary>Google Pixel / Motorola / Nokia / Sony / อื่น ๆ</summary><ol>
+      <li>ตั้งค่า → แอป → การเข้าถึงพิเศษของแอป → <b>ติดตั้งแอปที่ไม่รู้จัก</b> → Chrome → อนุญาต</li>
+      <li>หรือแตะไฟล์ APK แล้วกด "การตั้งค่า" จากหน้าต่างที่เด้งขึ้นมา ระบบจะพาไปหน้าเปิดสิทธิ์ให้เอง</li>
+    </ol></details>
+    <section class="block">
+      <h2>ตรวจว่าไฟล์ไม่ถูกแก้ไข (ไม่บังคับ)</h2>
+      <p>ไฟล์ <code id="apk-name">pokker.apk</code> · SHA-256: <code id="apk-sha">-</code></p>
+      <p>ใบรับรองผู้พัฒนา (SHA-256): <code id="cert">-</code></p>
+    </section>
+    <footer><a href="../">กลับหน้าแรก</a> · <a href="../play/">เล่นบนเว็บแทน</a></footer>
+  </div>
+  <script>
+    fetch('../version.json').then(function (r) { return r.json(); }).then(function (v) {
+      if (v.apk) document.getElementById('apk').href = '../' + v.apk.replace(/^\//, '');
+      if (v.apk) document.getElementById('apk-name').textContent = v.apk.split('/').pop();
+      if (v.apkSha256) document.getElementById('apk-sha').textContent = v.apkSha256;
+      if (v.certSha256) document.getElementById('cert').textContent = v.certSha256;
+    }).catch(function () {});
+  </script>
+</body>
+</html>

@@ -1,0 +1,1142 @@
+{
+  "mode_title": "Deeptalk",
+  "description": "พูดคุยลึกซึ้ง เปิดใจสักนิด",
+  "cards": [
+    {
+      "Category": "Deeptalk",
+      "Content": "ทุกคนบอกสิ่งที่ยังอยากทำให้ได้ก่อนอายุครบ 40 ใครบอกว่าไม่มี รับโทษ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "DT001",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ถ้าชีวิตนี้เป็นเกม มึงอยู่ chapter ไหน และ boss ที่กำลังสู้อยู่คืออะไร",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "DT002",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ถ้าตอบว่าไม่รู้"
+          }
+        ]
+      },
+      "Penalty": "ถ้าตอบว่าไม่รู้: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ทุกคนบอกว่า 'บ้าน' สำหรับมึงคือสถานที่หรือคน ใครตอบว่า 'ไม่รู้' รับโทษ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "DT003",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "มึงคิดว่าตัวเองเป็นคนกล้าหาญไหม ในแง่ที่สำคัญจริงๆ ตอบตรงๆ",
+      "Target": "คนที่มีแฟนอยู่",
+      "TargetType": "Condition",
+      "id": "DT004",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ทุกคนบอกว่าความสัมพันธ์ไหนในชีวิตที่ดีที่สุด ไม่จำเป็นต้องเป็นแฟน",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "DT005",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ถ้าไม่บอก"
+          }
+        ]
+      },
+      "Penalty": "ถ้าไม่บอก: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "มีช่วงไหนในชีวิตที่มึงรู้สึกว่าตัวเองหลงทาง บอกว่าตอนนั้นเรื่องอะไรและออกมาได้ยังไง",
+      "Target": "คนที่แต่งงานแล้ว",
+      "TargetType": "Condition",
+      "id": "DT006",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ทุกคนบอกว่าถ้ามีเงิน 1 ล้านพรุ่งนี้จะทำอะไรก่อน ใครบอกว่า 'เก็บ' รับโทษ เพราะไม่สนุก",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "DT007",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "สิ่งที่คนอื่นมักเข้าใจมึงผิดที่สุดคืออะไร และมึงอยากให้รู้อะไรแทน",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "DT008",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ถ้าได้อ่านจดหมายจากตัวเองใน 10 ปีข้างหน้า คิดว่าจดหมายจะพูดถึงอะไร",
+      "Target": "คนที่เคยโดนเท",
+      "TargetType": "Condition",
+      "id": "DT009",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ถ้าตอบว่าไม่รู้"
+          }
+        ]
+      },
+      "Penalty": "ถ้าตอบว่าไม่รู้: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ทุกคนบอกว่าตัวเองเปลี่ยนไปอย่างไรในช่วง 2 ปีที่ผ่านมา ใครบอกว่าไม่เปลี่ยนเลย รับโทษ{lv:3}",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "DT010",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "มึงรู้สึกว่าตัวเองกำลังดำเนินชีวิตตามที่ตัวเองอยากหรือตามที่คนอื่นคาดหวัง ตอบตรงๆ",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "DT011",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ถ้าต้องสอนบทเรียนในชีวิต 1 บทให้คนรุ่นหลัง มึงจะสอนอะไร",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "DT012",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ถ้าตอบว่าไม่รู้"
+          }
+        ]
+      },
+      "Penalty": "ถ้าตอบว่าไม่รู้: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ทุกคนบอกว่าความกลัวที่ใหญ่ที่สุดในชีวิตคืออะไร ไม่ใช่แค่กลัวผีหรือแมลง",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "DT013",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ถ้าไม่บอก"
+          }
+        ]
+      },
+      "Penalty": "ถ้าไม่บอก: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "มึงนิยาม 'ความสำเร็จ' ว่าคืออะไร แบบที่เป็นของมึงเอง ไม่ใช่ของสังคม",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DT014",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "มีช่วงไหนที่รู้สึกว่าตัวเองแข็งแกร่งที่สุด บอกว่าตอนนั้นเรื่องอะไร",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DT015",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ทุกคนบอกว่าอยากให้คนจำตัวเองว่าเป็นอะไรหลังจากตายไป ใครไม่บอก รับโทษ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "DT016",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "มึงคิดว่า 'รัก' กับ 'เคยชิน' ต่างกันยังไง และตอนนี้มึงอยู่ในความสัมพันธ์แบบไหน",
+      "Target": "คนนั่งตรงข้ามคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DT017",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ถ้าสามารถลบความทรงจำ 1 ชิ้นออกจากหัวได้ มึงจะลบอะไร",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "DT018",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ถ้าตอบว่าไม่มี"
+          }
+        ]
+      },
+      "Penalty": "ถ้าตอบว่าไม่มี: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ทุกคนบอกว่าตอนนี้กำลัง struggle กับอะไรอยู่ แต่ยังไม่แน่ใจว่าจะแก้ยังไง",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "DT019",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ถ้าไม่บอก"
+          }
+        ]
+      },
+      "Penalty": "ถ้าไม่บอก: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "สิ่งที่มึงยังให้อภัยตัวเองไม่ได้คืออะไร และมึงคิดว่าวันนั้นจะมาถึงไหม",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "DT020",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ถ้าต้องเลือกระหว่าง 'ทำสิ่งที่รัก' กับ 'มีความมั่นคง' มึงเลือกอะไร และชีวิตตอนนี้อยู่ฝั่งไหน",
+      "Target": "คนที่พูดมากที่สุดในวงนี้",
+      "TargetType": "Condition",
+      "id": "DT021",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ทุกคนบอกว่าช่วงเวลาไหนในชีวิตที่อยากกลับไปอยู่อีกครั้ง ใครบอกว่าไม่มี รับโทษ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "DT022",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "มึงรู้สึกว่าตัวเองน่ารักพอสำหรับความรักที่อยากได้ไหม ตอบตรงๆ โดยไม่ตอบว่า 'ไม่รู้'",
+      "Target": "คนที่เช็คโทรศัพท์ใน 5 นาทีที่ผ่านมา",
+      "TargetType": "Condition",
+      "id": "DT023",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ถ้าต้องบอกอะไรกับตัวเองตอนอายุ 15 มึงจะบอกว่าอะไร",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "DT024",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ทุกคนบอกสิ่งที่รู้สึกขอบคุณมากที่สุดในชีวิตช่วงนี้ ใครไม่บอก รับโทษ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "DT025",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "มึงรู้สึกว่าตัวเองเป็น 'ตัวเอง' ได้มากที่สุดเมื่ออยู่กับใคร หรือที่ไหน",
+      "Target": "คนที่ยังไม่โดนโทษรอบนี้",
+      "TargetType": "Condition",
+      "id": "DT026",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "เคยรู้สึกโดดเดี่ยวในฝูงชนไหม ครั้งล่าสุดคือเมื่อไหร่",
+      "Target": "คนที่ยังไม่เคยมีแฟนเลย",
+      "TargetType": "Condition",
+      "id": "DT027",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ทุกคนบอกว่าถ้าโลกรู้ความคิดของเรา อะไรที่น่าอายที่สุด ใครไม่บอก รับโทษ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "DT028",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "มึงคิดว่าตัวเองใช้ศักยภาพที่มีอยู่ได้แค่กี่เปอร์เซ็นต์ และทำไมไม่มากกว่านี้",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "DT029",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "สิ่งที่มึงอยากทำมากที่สุด แต่กลัวจนยังไม่ได้ทำคืออะไร",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "DT030",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ถ้าตอบว่าไม่มี"
+          }
+        ]
+      },
+      "Penalty": "ถ้าตอบว่าไม่มี: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ช่วงชีวิตไหนที่มึงรู้สึกว่าตัวเองหลงทางมากที่สุด และมึงออกมาได้อย่างไร",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "DT031",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ทุกคนบอกว่าสิ่งที่ทำให้ยังสู้ต่อในวันที่รู้สึกอยากเลิกทุกอย่างคืออะไร",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "DT032",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "มึงเคยรู้สึกว่าความรักทำให้มึงเป็นคนที่แย่ลงไหม — ถ้าใช่เล่าให้ฟัง",
+      "Target": "คนอายุมากที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "DT033",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ถ้ามึงสามารถให้อภัยตัวเองในเรื่องหนึ่งได้ตอนนี้ มึงจะเลือกเรื่องอะไร",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "DT034",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "มีคนไหนในชีวิตที่มึงยังให้อภัยไม่ได้ แม้จะพยายามแล้ว",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DT035",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "มึงคิดว่ามึงมีคุณค่าพอสำหรับคนที่มึงรักไหม — พูดจริงๆ",
+      "Target": "คนที่มีแฟนอยู่",
+      "TargetType": "Condition",
+      "id": "DT036",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ทุกคนบอกว่าความสัมพันธ์ที่ยากที่สุดในชีวิตคือกับใคร และทำไม",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "DT037",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "มีความฝันที่มึงเลิกฝันไปแล้ว เพราะรู้สึกว่าตัวเองไม่คู่ควร",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "DT038",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "สิ่งที่มึงกลัวที่สุดในการมีความสัมพันธ์กับคนอื่นคืออะไร",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "DT039",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ถ้ามึงต้องเขียนจดหมายถึงตัวเองในอีก 10 ปี มึงจะเขียนว่าอะไร",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DT040",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "มึงเคยรู้สึกว่าตัวเองโดดเดี่ยวในฝูงชนไหม — เล่าให้ฟัง",
+      "Target": "คนที่เพิ่งเลิกกัน",
+      "TargetType": "Condition",
+      "id": "DT041",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "อะไรที่ทำให้มึงรู้สึกว่าตัวเองยังมีความหมาย ในวันที่ทุกอย่างดูไม่มีความหมาย",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "DT042",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ทุกคนบอกว่าถ้าได้พูดกับตัวเองตอน 10 ขวบ จะบอกอะไร",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "DT043",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "มึงคิดว่าตัวเองรักตัวเองจริงๆ ไหม หรือแค่แสร้งทำเป็น",
+      "Target": "คนที่เคยร้องไห้เพราะแฟน",
+      "TargetType": "Condition",
+      "id": "DT044",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "มีใครในชีวิตที่มึงอยากกลับไปขอโทษ แต่ไม่มีโอกาสแล้ว",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DT045",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ความสัมพันธ์แบบไหนที่มึงยังไม่เคยได้รับในชีวิต แต่อยากได้",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DT046",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "มึงรู้สึกว่าตัวเองเติบโตขึ้นในช่วง 1 ปีที่ผ่านมาไหม ในแง่ไหน",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "DT047",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ทุกคนบอกว่าถ้าชีวิตนี้เป็นหนัง ตอนนี้อยู่ในฉากไหน",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "DT048",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "อะไรคือสิ่งที่มึงไม่กล้ายอมรับกับตัวเองมานานที่สุด",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DT049",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ถ้าวันนี้เป็นวันสุดท้ายของชีวิต มึงจะรู้สึกว่าใช้ชีวิตคุ้มแล้วไหม",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DT050",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "มึงเคยรู้สึกว่าตัวเองไม่เป็นส่วนหนึ่งของกลุ่มไหนเลยในชีวิตไหม",
+      "Target": "คนนั่งตรงข้ามคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DT051",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "สิ่งที่มึงอยากได้รับจากคนรอบข้างมากที่สุดแต่ไม่กล้าขอคืออะไร",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "DT052",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ถ้าต้องอธิบายความรู้สึกข้างในใจตอนนี้ด้วยสภาพอากาศ มันจะเป็นแบบไหน",
+      "Target": "คนที่พูดมากที่สุดในวงนี้",
+      "TargetType": "Condition",
+      "id": "DT053",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ทุกคนบอกว่าสิ่งที่กำลังรักษาบาดแผลในใจตอนนี้คืออะไร",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "DT054",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "มึงคิดว่าตัวเองเข้าใจคนอื่นได้ดีพอแล้วไหม หรือยังต้องเรียนรู้",
+      "Target": "คนที่เช็คโทรศัพท์ใน 5 นาทีที่ผ่านมา",
+      "TargetType": "Condition",
+      "id": "DT055",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ถ้ามึงเลือกได้ มึงอยากให้คนจดจำมึงว่าเป็นคนแบบไหนหลังจากมึงไม่อยู่แล้ว",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "DT056",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "มีสิ่งที่มึงรักในตัวเองบ้างไหม บอกมาสัก 3 อย่าง",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DT057",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ช่วงไหนในชีวิตที่มึงรู้สึกว่าตัวเองกล้าที่สุด",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "DT058",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "อะไรที่มึงอยากบอกตัวเองทุกเช้าแต่มักลืม",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "DT059",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ทุกคนบอกว่าถ้าความรู้สึกตอนนี้เป็นสี จะเป็นสีอะไร และทำไม",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "DT060",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "มึงคิดว่าตัวเองกลัวความผิดหวังมากกว่ากลัวความเจ็บปวดจริงๆ ไหม",
+      "Target": "คนที่ยังไม่เคยมีแฟนเลย",
+      "TargetType": "Condition",
+      "id": "DT061",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ทุกคนบอกว่าอะไรในชีวิตที่ยังตามหาอยู่แต่ยังหาไม่เจอ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "DT062",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ถ้ามึงต้องเลือกระหว่างได้รับความรักโดยไม่ต้องรักตอบ กับรักคนอื่นโดยไม่ได้รับ มึงจะเลือกอะไร",
+      "Target": "คนที่เคยแอบชอบคนในวงนี้",
+      "TargetType": "Condition",
+      "id": "DT063",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "อะไรทำให้มึงรู้สึกว่าชีวิตยังมีความหมายในวันที่ทุกอย่างดูไร้จุดหมาย",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DT064",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "มึงเคยตั้งใจทำอะไรดีๆ แต่ผลลัพธ์กลับทำให้คนอื่นเจ็บปวดไหม — เล่าให้ฟัง",
+      "Target": "คนอายุน้อยที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "DT065",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "สิ่งที่มึงภูมิใจน้อยที่สุดในตัวเองแต่ยังยอมรับว่ามันเป็นส่วนหนึ่งของมึงคืออะไร",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "DT066",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ทุกคนบอกว่าคำพูดหรือเหตุการณ์ไหนที่ยังกังวาน อยู่ในหัวไม่หายไปสักที",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "DT067",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ถ้าความเศร้าของมึงเป็นเพลง มันจะเป็นแนวเพลงอะไรและชื่อว่าอะไร",
+      "Target": "คนอายุมากที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "DT068",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "มึงคิดว่าการ 'เข้มแข็ง' กับการ 'แข็งทื่อ' ต่างกันอย่างไร และมึงเป็นแบบไหน",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "DT069",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Deeptalk",
+      "Content": "ถ้าวันนี้เป็นวันสุดท้ายที่มึงจะได้เห็นทุกคนในวงนี้ มึงจะพูดอะไร",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "DT070",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    }
+  ]
+}

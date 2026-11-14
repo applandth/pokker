@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0E0A1F" />
+  <title>Pokker — เกมการ์ดปาร์ตี้สำหรับเพื่อน</title>
+  <meta name="description" content="Pokker เกมการ์ดปาร์ตี้สำหรับเพื่อน 1,600+ การ์ด 32 หมวด โทษ 5 ระดับที่ตั้งเองได้ เล่นบนเว็บหรือโหลดแอป Android ฟรี" />
+  <meta property="og:title" content="Pokker — เกมการ์ดปาร์ตี้สำหรับเพื่อน" />
+  <meta property="og:description" content="จั่วการ์ด ลุ้นเป้าหมาย รับโทษ 5 ระดับที่วงตั้งเอง — เล่นบนเว็บหรือ Android" />
+  <meta property="og:image" content="https://applandth.github.io/pokker/icon-512.png" />
+  <link rel="icon" href="icon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="tokens.css" />
+  <link rel="stylesheet" href="site.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <img src="icon.svg" alt="โลโก้ Pokker" width="140" height="140" />
+      <h1>Pokker</h1>
+      <p class="lead">เกมการ์ดปาร์ตี้สำหรับเพื่อน — จั่วการ์ด ลุ้นว่าใครโดน แล้วรับโทษตามระดับที่วงตั้งกันเอง</p>
+      <div class="cta">
+        <a class="btn primary" href="play/">▶ เล่นบนเว็บเลย<small>ไม่ต้องติดตั้ง · เล่นออฟไลน์ได้</small></a>
+        <a class="btn" id="apk" href="download/pokker.apk">⬇ ดาวน์โหลด Android<small id="apk-meta">ไฟล์ APK</small></a>
+      </div>
+      <p><a href="install/">วิธีติดตั้ง APK (แยกตามยี่ห้อมือถือ) →</a></p>
+    </header>
+
+    <div class="grid">
+      <div class="feat"><div class="em">🃏</div><h3>1,600+ การ์ด 32 หมวด</h3><p>Hot Seat, Truth or False, Deeptalk, Minigame, Vote, Penalty Party, Special และอีกเพียบ — เลือกเล่นทุกหมวดหรือเฉพาะที่ชอบ</p></div>
+      <div class="feat"><div class="em">🔥</div><h3>โทษ 5 ระดับ ตั้งเองได้</h3><p>การ์ดบอกแค่ "ระดับ" — วงเลือกเองว่าแต่ละระดับคืออะไร มีชุดสำเร็จรูป ปาร์ตี้ · สายฮา · สายจริงใจ · ออกกำลังกาย · ครอบครัว</p></div>
+      <div class="feat"><div class="em">👥</div><h3>ใส่ชื่อเพื่อน</h3><p>เกมบอกว่าตาใคร แปลง "คนนั่งซ้ายมือ" เป็นชื่อจริง สุ่มชื่อแบบลุ้น ๆ และเพิ่ม/ลบคนได้ระหว่างเล่น</p></div>
+      <div class="feat"><div class="em">💣</div><h3>OOPS! กับดัก</h3><p>ปุ่มแดงโผล่แป๊บเดียว กดทันเท่ากับวางกับดักให้คนจั่วถัดไป</p></div>
+      <div class="feat"><div class="em">✏️</div><h3>การ์ดของฉัน</h3><p>เขียนการ์ดเอง ตั้งชุดโทษเอง แล้วส่งให้เพื่อนเป็นภาพ PNG — เพื่อนนำเข้าได้ทันที</p></div>
+      <div class="feat"><div class="em">📶</div><h3>เล่นออฟไลน์</h3><p>เปิดครั้งแรกแล้วเล่นต่อได้แม้ไม่มีเน็ต ขนาดเล็ก โหลดไว</p></div>
+    </div>
+
+    <section class="block">
+      <h2>ระบบโทษที่ตั้งเองได้</h2>
+      <p>ทุกการ์ดที่มีโทษจะบอกระดับ 1–5 แล้วเกมสุ่มโทษจาก "ชุดโทษ" ที่วงเลือก ไม่ซ้ำข้อเดิมติดกัน</p>
+      <div class="levels"><span class="lv lv1">Lv.1 เบา</span><span class="lv lv2">Lv.2 กลาง</span><span class="lv lv3">Lv.3 หนัก</span><span class="lv lv4">Lv.4 โหด</span><span class="lv lv5">Lv.5 สุดโหด</span></div>
+      <ul>
+        <li><b>ระดับอย่างเดียว</b> — โทษจากชุดที่วงตั้ง (แก้ เพิ่ม ลบ ลากเรียงได้ทุกข้อ)</li>
+        <li><b>เฉพาะเจาะจง</b> — โทษเฉพาะของการ์ดใบนั้น หรือสุ่มจากคลังโทษ 200 ข้อ</li>
+        <li><b>ผสม</b> — ผสมทั้งสองแบบตามสัดส่วนที่ตั้ง · ปรับ "ความโหดรวม" −1/+1 ได้ทั้งเกม</li>
+      </ul>
+    </section>
+
+    <section class="block">
+      <h2>เล่นอย่างปลอดภัย</h2>
+      <p class="note">สำหรับผู้มีอายุ 18 ปีขึ้นไป · ทุกโทษปฏิเสธได้เสมอ · เคารพการปฏิเสธของเพื่อน · ไม่ทำสิ่งที่อันตรายหรือทำลายของ · ซ่อนหมวด 18+ ได้ในตั้งค่าเมื่อเล่นกับคนทั่วไป</p>
+    </section>
+
+    <section class="block">
+      <h2>สำหรับคนชอบสร้างการ์ด</h2>
+      <p>ใช้ <a href="play/encoder.html">เครื่องมือสร้างการ์ด (Encoder)</a> แปลงไฟล์ Excel หรือ JSON เป็นภาพสำหรับนำเข้าในแอป — ใช้กับไฟล์ Excel แบบเดิมและภาพจาก Encoder เวอร์ชันก่อนได้</p>
+    </section>
+
+    <footer>Pokker <span id="ver"></span> · ทำด้วยความสนุก · ไม่มีโฆษณา ไม่เก็บข้อมูลส่วนตัว</footer>
+  </div>
+  <script>
+    fetch('version.json').then(function (r) { return r.json(); }).then(function (v) {
+      document.getElementById('ver').textContent = 'v' + v.version;
+      if (v.apk) document.getElementById('apk').href = v.apk;
+      if (v.apkSizeMB) document.getElementById('apk-meta').textContent = ' ' + v.apkSizeMB + ' MB · Android 6 ขึ้นไป';
+    }).catch(function () {});
+  </script>
+</body>
+</html>

@@ -1,0 +1,3581 @@
+{
+  "mode_title": "Trivia",
+  "description": "ทดสอบความรู้ 125 ข้อ ตอบถูกฉลอง",
+  "cards": [
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: ธาตุใดที่พบมากที่สุดในจักรวาล?",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "TR001",
+      "Answer": "ไฮโดรเจน",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: แสงอาทิตย์ใช้เวลาเดินทางมาถึงโลกนานเท่าไหร่?",
+      "Target": "คนนั่งขวามือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "TR002",
+      "Answer": "ประมาณ 8 นาที",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: ดาวเคราะห์ใดใหญ่ที่สุดในระบบสุริยะ?",
+      "Target": "คนนั่งตรงข้ามคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "TR003",
+      "Answer": "ดาวพฤหัสบดี",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: น้ำเดือดที่อุณหภูมิกี่องศาเซลเซียสที่ระดับน้ำทะเล?",
+      "Target": "คนนั่งถัดไปทวนเข็มนาฬิกา",
+      "TargetType": "Mechanic",
+      "id": "TR004",
+      "Answer": "100 องศา",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: DNA ย่อมาจากอะไร?",
+      "Target": "คนใส่เสื้อสีขาว",
+      "TargetType": "Condition",
+      "id": "TR005",
+      "Answer": "Deoxyribonucleic acid",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: กระดูกที่เล็กที่สุดในร่างกายมนุษย์อยู่ที่ไหน?",
+      "Target": "คนใส่ต่างหู",
+      "TargetType": "Condition",
+      "id": "TR006",
+      "Answer": "ในหู (กระดูก stapes)",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: แสงวิ่งด้วยความเร็วเท่าไหร่?",
+      "Target": "คนใส่เสื้อสีดำ",
+      "TargetType": "Condition",
+      "id": "TR007",
+      "Answer": "ประมาณ 300,000 กม./วินาที",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: ทำไมท้องฟ้าถึงเป็นสีฟ้า?",
+      "Target": "คนใส่เสื้อมีลาย",
+      "TargetType": "Condition",
+      "id": "TR008",
+      "Answer": "การกระเจิงของแสงสีฟ้า (Rayleigh scattering)",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: ร่างกายมนุษย์มีกระดูกทั้งหมดกี่ชิ้น?",
+      "Target": "คนใส่เสื้อมีปก",
+      "TargetType": "Condition",
+      "id": "TR009",
+      "Answer": "206 ชิ้น",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: ออกซิเจนมีสัญลักษณ์ทางเคมีว่าอะไร?",
+      "Target": "คนใส่แว่น",
+      "TargetType": "Condition",
+      "id": "TR010",
+      "Answer": "O",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: เซลล์ใดในร่างกายที่ไม่มีนิวเคลียส?",
+      "Target": "คนใส่ต่างหู",
+      "TargetType": "Condition",
+      "id": "TR011",
+      "Answer": "เม็ดเลือดแดง (RBC)",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: โลกมีอายุประมาณกี่พันล้านปี?",
+      "Target": "คนตัวเตี้ยที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "TR012",
+      "Answer": "ประมาณ 4.5 พันล้านปี",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: ฮอร์โมนอะไรที่เรียกว่า 'ฮอร์โมนแห่งความสุข'?",
+      "Target": "คนใส่นาฬิกา",
+      "TargetType": "Condition",
+      "id": "TR013",
+      "Answer": "โดปามีน / เซโรโทนิน",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: แรงโน้มถ่วงของโลกมีค่าประมาณเท่าไหร่?",
+      "Target": "คนไม่มีเครื่องประดับใดๆ",
+      "TargetType": "Condition",
+      "id": "TR014",
+      "Answer": "9.8 m/s²",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: คาร์บอนไดออกไซด์มีสูตรเคมีว่าอะไร?",
+      "Target": "คนผมยาวที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "TR015",
+      "Answer": "CO₂",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: ดาวที่อยู่ใกล้โลกที่สุด (ไม่นับดวงอาทิตย์) ชื่ออะไร?",
+      "Target": "คนผมสั้นที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "TR016",
+      "Answer": "Proxima Centauri",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: สัตว์ใดที่มีอายุยืนที่สุดในโลก?",
+      "Target": "คนตัวสูงที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "TR017",
+      "Answer": "ฉลาม Greenland (อายุ 400+ ปี)",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: เซลล์สืบพันธุ์เพศผู้ของมนุษย์เรียกว่าอะไร?",
+      "Target": "คนผมสั้นที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "TR018",
+      "Answer": "อสุจิ (Sperm)",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: น้ำประกอบด้วยธาตุอะไรบ้าง?",
+      "Target": "คนตัวเตี้ยที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "TR019",
+      "Answer": "ไฮโดรเจน 2 อะตอม + ออกซิเจน 1 อะตอม (H₂O)",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: ทฤษฎีวิวัฒนาการเสนอโดยใคร?",
+      "Target": "คนอายุน้อยที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "TR020",
+      "Answer": "Charles Darwin",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: อวัยวะใดในร่างกายมนุษย์ที่ใหญ่ที่สุด?",
+      "Target": "คนอายุมากที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "TR021",
+      "Answer": "ผิวหนัง",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: โอโซนช่วยปกป้องโลกจากอะไร?",
+      "Target": "คนใส่รองเท้าแตะ",
+      "TargetType": "Condition",
+      "id": "TR022",
+      "Answer": "รังสี UV (อัลตราไวโอเลต)",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: มนุษย์ใช้สมองกี่เปอร์เซ็นต์?",
+      "Target": "คนที่ยังไม่โดนโทษรอบนี้",
+      "TargetType": "Condition",
+      "id": "TR023",
+      "Answer": "เกือบ 100% (ข้อมูล 10% เป็น myth)",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: หัวใจมนุษย์เต้นเฉลี่ยกี่ครั้งต่อนาที?",
+      "Target": "คนที่ยังไม่โดนโทษรอบนี้",
+      "TargetType": "Condition",
+      "id": "TR024",
+      "Answer": "60-100 ครั้ง",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: สีของท้องฟ้าบนดาวอังคารเป็นอย่างไร?",
+      "Target": "คนที่เงียบที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "TR025",
+      "Answer": "สีส้มหรือสีชมพู (เพราะฝุ่นเหล็ก)",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: WWW ย่อมาจากอะไร?",
+      "Target": "คนใส่กางเกงยีนส์",
+      "TargetType": "Condition",
+      "id": "TR026",
+      "Answer": "World Wide Web",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: CPU ย่อมาจากอะไร?",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "TR027",
+      "Answer": "Central Processing Unit",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: ใครเป็นผู้ก่อตั้ง Apple?",
+      "Target": "คนนั่งขวามือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "TR028",
+      "Answer": "Steve Jobs, Steve Wozniak, Ronald Wayne",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: HTML ย่อมาจากอะไร?",
+      "Target": "คนนั่งตรงข้ามคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "TR029",
+      "Answer": "HyperText Markup Language",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: RAM ย่อมาจากอะไร?",
+      "Target": "คนนั่งถัดไปตามเข็มนาฬิกา",
+      "TargetType": "Mechanic",
+      "id": "TR030",
+      "Answer": "Random Access Memory",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: ใครเป็นผู้ก่อตั้ง Microsoft?",
+      "Target": "คนนั่งถัดไปทวนเข็มนาฬิกา",
+      "TargetType": "Mechanic",
+      "id": "TR031",
+      "Answer": "Bill Gates และ Paul Allen",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: USB ย่อมาจากอะไร?",
+      "Target": "คนใส่เสื้อสีขาว",
+      "TargetType": "Condition",
+      "id": "TR032",
+      "Answer": "Universal Serial Bus",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: ใครคิดค้นโทรศัพท์?",
+      "Target": "คนใส่เสื้อสีดำ",
+      "TargetType": "Condition",
+      "id": "TR033",
+      "Answer": "Alexander Graham Bell",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: AI ย่อมาจากอะไร?",
+      "Target": "คนใส่เสื้อมีลาย",
+      "TargetType": "Condition",
+      "id": "TR034",
+      "Answer": "Artificial Intelligence",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: GPS ย่อมาจากอะไร?",
+      "Target": "คนใส่เสื้อมีปก",
+      "TargetType": "Condition",
+      "id": "TR035",
+      "Answer": "Global Positioning System",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: ใครเป็นผู้สร้าง Linux?",
+      "Target": "คนที่เงียบที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "TR036",
+      "Answer": "Linus Torvalds",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: Python คืออะไร?",
+      "Target": "คนใส่แว่น",
+      "TargetType": "Condition",
+      "id": "TR037",
+      "Answer": "ภาษาโปรแกรมมิ่ง",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: อินเทอร์เน็ตเริ่มต้นจากโครงการอะไร?",
+      "Target": "คนใส่ต่างหู",
+      "TargetType": "Condition",
+      "id": "TR038",
+      "Answer": "ARPANET (ปี 1969)",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: เลข Binary ของเลข 8 คืออะไร?",
+      "Target": "คนใส่นาฬิกา",
+      "TargetType": "Condition",
+      "id": "TR039",
+      "Answer": "1000",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: ใครเป็นผู้ก่อตั้ง Tesla?",
+      "Target": "คนไม่มีเครื่องประดับใดๆ",
+      "TargetType": "Condition",
+      "id": "TR040",
+      "Answer": "Elon Musk (ร่วมก่อตั้ง), Martin Eberhard",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: WiFi ย่อมาจากอะไร?",
+      "Target": "คนผมยาวที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "TR041",
+      "Answer": "Wireless Fidelity",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: ใครก่อตั้ง Facebook?",
+      "Target": "คนใส่เสื้อสีขาว",
+      "TargetType": "Condition",
+      "id": "TR042",
+      "Answer": "Mark Zuckerberg",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: App Store ของ Apple เปิดตัวปีค.ศ. เท่าไหร่?",
+      "Target": "คนผมสั้นที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "TR043",
+      "Answer": "2008",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: Bluetooth ตั้งชื่อตามใคร?",
+      "Target": "คนตัวสูงที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "TR044",
+      "Answer": "กษัตริย์ Harald Bluetooth แห่งเดนมาร์ก",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: Bitcoin ถูกสร้างโดยใคร?",
+      "Target": "คนตัวเตี้ยที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "TR045",
+      "Answer": "Satoshi Nakamoto (นามแฝง)",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: กรุงเทพฯ ก่อตั้งในปีพ.ศ. เท่าไหร่?",
+      "Target": "คนอายุน้อยที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "TR046",
+      "Answer": "พ.ศ. 2325",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: สงครามโลกครั้งที่ 2 สิ้นสุดปีค.ศ. เท่าไหร่?",
+      "Target": "คนอายุมากที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "TR047",
+      "Answer": "ค.ศ. 1945",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: ใครเป็นกษัตริย์ไทยที่ครองราชย์นานที่สุด?",
+      "Target": "คนอายุมากที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "TR048",
+      "Answer": "รัชกาลที่ 9 (70 ปี)",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: การปฏิวัติฝรั่งเศสเกิดขึ้นปีค.ศ. เท่าไหร่?",
+      "Target": "คนใส่รองเท้าแตะ",
+      "TargetType": "Condition",
+      "id": "TR049",
+      "Answer": "ค.ศ. 1789",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: ใครประดิษฐ์หลอดไฟ?",
+      "Target": "คนที่ยังไม่โดนโทษรอบนี้",
+      "TargetType": "Condition",
+      "id": "TR050",
+      "Answer": "Thomas Edison",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: หอไอเฟลสร้างเสร็จปีค.ศ. เท่าไหร่?",
+      "Target": "คนที่เงียบที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "TR051",
+      "Answer": "ค.ศ. 1889",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: ใครเป็นนายกรัฐมนตรีอังกฤษในช่วงสงครามโลกครั้งที่ 2?",
+      "Target": "คนใส่กางเกงยีนส์",
+      "TargetType": "Condition",
+      "id": "TR052",
+      "Answer": "Winston Churchill",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: โอลิมปิกสมัยใหม่ครั้งแรกจัดที่ไหนปีไหน?",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "TR053",
+      "Answer": "กรีซ เอเธนส์ ค.ศ. 1896",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: อาณาจักรโรมันตะวันตกล่มสลายปีค.ศ. เท่าไหร่?",
+      "Target": "คนตัวสูงที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "TR054",
+      "Answer": "ค.ศ. 476",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: มหาวิทยาลัยที่เก่าแก่ที่สุดในโลกคือที่ไหน?",
+      "Target": "คนนั่งขวามือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "TR055",
+      "Answer": "University of Bologna อิตาลี (ค.ศ. 1088)",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: กำแพงเมืองจีนส่วนใหญ่สร้างในราชวงศ์อะไร?",
+      "Target": "คนนั่งตรงข้ามคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "TR056",
+      "Answer": "ราชวงศ์หมิง",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: ใครเขียน Declaration of Independence ของสหรัฐอเมริกา?",
+      "Target": "คนนั่งถัดไปทวนเข็มนาฬิกา",
+      "TargetType": "Mechanic",
+      "id": "TR057",
+      "Answer": "Thomas Jefferson",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: สงครามเวียดนามสิ้นสุดปีค.ศ. เท่าไหร่?",
+      "Target": "คนใส่เสื้อสีขาว",
+      "TargetType": "Condition",
+      "id": "TR058",
+      "Answer": "ค.ศ. 1975",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: ใครเป็นผู้นำการสำรวจโลกรอบแรก?",
+      "Target": "คนใส่เสื้อสีดำ",
+      "TargetType": "Condition",
+      "id": "TR059",
+      "Answer": "Ferdinand Magellan (แต่เสียชีวิตระหว่างการเดินทาง)",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: มนุษย์ลงดวงจันทร์ครั้งแรกปีค.ศ. เท่าไหร่?",
+      "Target": "คนอายุน้อยที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "TR060",
+      "Answer": "ค.ศ. 1969 (Apollo 11)",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: กรุงโรมก่อตั้งเมื่อประมาณกี่ปีก่อนคริสต์กาล?",
+      "Target": "คนใส่เสื้อมีลาย",
+      "TargetType": "Condition",
+      "id": "TR061",
+      "Answer": "ประมาณ 753 ปีก่อน ค.ศ.",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: ใครเป็นประธานาธิบดีสหรัฐคนแรก?",
+      "Target": "คนใส่เสื้อมีปก",
+      "TargetType": "Condition",
+      "id": "TR062",
+      "Answer": "George Washington",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: กรุงศรีอยุธยาเป็นราชธานีของไทยนานเท่าไหร่?",
+      "Target": "คนใส่แว่น",
+      "TargetType": "Condition",
+      "id": "TR063",
+      "Answer": "417 ปี (พ.ศ. 1893-2310)",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: ใครเป็นนักวิทยาศาสตร์ที่ค้นพบทฤษฎีแรงโน้มถ่วง?",
+      "Target": "คนใส่ต่างหู",
+      "TargetType": "Condition",
+      "id": "TR064",
+      "Answer": "Isaac Newton",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: กำแพงเบอร์ลินพังลงปีค.ศ. เท่าไหร่?",
+      "Target": "คนใส่นาฬิกา",
+      "TargetType": "Condition",
+      "id": "TR065",
+      "Answer": "ค.ศ. 1989",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: 'Bonjour' แปลว่าอะไรในภาษาฝรั่งเศส?",
+      "Target": "คนใส่รองเท้าแตะ",
+      "TargetType": "Condition",
+      "id": "TR066",
+      "Answer": "สวัสดี / Good day",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: 'Gracias' ในภาษาสเปนแปลว่าอะไร?",
+      "Target": "คนไม่มีเครื่องประดับใดๆ",
+      "TargetType": "Condition",
+      "id": "TR067",
+      "Answer": "ขอบคุณ",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: 'Arigatou' ในภาษาญี่ปุ่นแปลว่าอะไร?",
+      "Target": "คนผมยาวที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "TR068",
+      "Answer": "ขอบคุณ",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: 'Ciao' ในภาษาอิตาเลียนแปลว่าอะไรได้บ้าง?",
+      "Target": "คนผมสั้นที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "TR069",
+      "Answer": "สวัสดี / ลาก่อน (ใช้ได้ทั้งคู่)",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: 'Merci' ในภาษาฝรั่งเศสแปลว่าอะไร?",
+      "Target": "คนตัวสูงที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "TR070",
+      "Answer": "ขอบคุณ",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: 'Serendipity' แปลว่าอะไร?",
+      "Target": "คนตัวเตี้ยที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "TR071",
+      "Answer": "การพบสิ่งดีโดยบังเอิญโดยไม่ได้ตั้งใจ",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: 'Wanderlust' มาจากภาษาอะไร และแปลว่าอะไร?",
+      "Target": "คนผมยาวที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "TR072",
+      "Answer": "เยอรมัน แปลว่าความปรารถนาที่จะเดินทาง",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: 'Schadenfreude' แปลว่าอะไร?",
+      "Target": "คนอายุน้อยที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "TR073",
+      "Answer": "ความสุขที่ได้จากความทุกข์ของผู้อื่น (เยอรมัน)",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: ตัวอักษรกรีกตัวแรกและตัวสุดท้ายคืออะไร?",
+      "Target": "คนอายุมากที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "TR074",
+      "Answer": "Alpha (α) และ Omega (ω)",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: 'Hygge' เป็นคำในภาษาอะไรและหมายความว่าอะไร?",
+      "Target": "คนใส่รองเท้าแตะ",
+      "TargetType": "Condition",
+      "id": "TR075",
+      "Answer": "เดนมาร์ก หมายถึงความอบอุ่นสบายใจ",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: 'Namaste' ในภาษาฮินดีใช้ในโอกาสอะไร?",
+      "Target": "คนที่ยังไม่โดนโทษรอบนี้",
+      "TargetType": "Condition",
+      "id": "TR076",
+      "Answer": "ทักทายด้วยความเคารพ",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: ภาษาใดมีตัวอักษรมากที่สุดในโลก?",
+      "Target": "คนที่เงียบที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "TR077",
+      "Answer": "ภาษาเขมร (ประมาณ 74 ตัวอักษร)",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: 'Emoji' มาจากภาษาอะไร?",
+      "Target": "คนนั่งถัดไปตามเข็มนาฬิกา",
+      "TargetType": "Mechanic",
+      "id": "TR078",
+      "Answer": "ญี่ปุ่น (絵文字 = รูปภาพ+ตัวอักษร)",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: คำว่า 'Algorithm' ตั้งชื่อตามใคร?",
+      "Target": "คนใส่กางเกงยีนส์",
+      "TargetType": "Condition",
+      "id": "TR079",
+      "Answer": "Al-Khwarizmi นักคณิตศาสตร์ชาวเปอร์เซีย",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: 'Saudade' ในภาษาโปรตุเกสหมายความว่าอะไร?",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "TR080",
+      "Answer": "ความคิดถึงอย่างเจ็บปวดต่อบางสิ่งที่หายไป",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: ภาษาที่มีคนพูดมากที่สุดในโลกคือภาษาอะไร?",
+      "Target": "คนนั่งขวามือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "TR081",
+      "Answer": "ภาษาอังกฤษ (รวมผู้พูดเป็นภาษาที่สอง)",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: 'Ikigai' ในภาษาญี่ปุ่นหมายความว่าอะไร?",
+      "Target": "คนนั่งตรงข้ามคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "TR082",
+      "Answer": "เหตุผลของการมีชีวิตอยู่ สิ่งที่ทำให้รู้สึกว่าชีวิตมีคุณค่า",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: 'Buen provecho' ในภาษาสเปนใช้เมื่อไหร่?",
+      "Target": "คนนั่งถัดไปทวนเข็มนาฬิกา",
+      "TargetType": "Mechanic",
+      "id": "TR083",
+      "Answer": "ก่อนกินอาหาร เทียบเท่า 'ทานให้อร่อย'",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: 'Tsundoku' ในภาษาญี่ปุ่นหมายความว่าอะไร?",
+      "Target": "คนใส่นาฬิกา",
+      "TargetType": "Condition",
+      "id": "TR084",
+      "Answer": "การซื้อหนังสือแต่ไม่อ่าน สะสมไว้เฉยๆ",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Trivia",
+      "Content": "คำถาม: 'Carpe Diem' เป็นภาษาอะไรและแปลว่าอะไร?",
+      "Target": "คนใส่เสื้อสีขาว",
+      "TargetType": "Condition",
+      "id": "TR085",
+      "Answer": "ละติน แปลว่า 'จงฉวยโอกาสในวันนี้'",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR086",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: หลักความไม่แน่นอนของไฮเซนเบิร์กกล่าวว่าอะไร?",
+      "Answer": "ไม่สามารถวัดตำแหน่งและโมเมนตัมของอนุภาคได้แม่นยำพร้อมกัน ยิ่งรู้ตำแหน่งชัดยิ่งไม่รู้โมเมนตัม",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR087",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: เอนโทรปี (Entropy) ในวิชาอุณหพลศาสตร์คืออะไร และกฎข้อที่ 2 กล่าวว่าอะไร?",
+      "Answer": "เอนโทรปีคือการวัดความไม่เป็นระเบียบของระบบ กฎข้อ 2 บอกว่าเอนโทรปีของระบบปิดจะเพิ่มขึ้นเสมอ",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR088",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: จุดลาเกรนจ์ L2 ใช้ประโยชน์อะไรในดาราศาสตร์?",
+      "Answer": "เป็นจุดที่กล้องโทรทรรศน์ James Webb โคจร เพราะแรงโน้มถ่วงดวงอาทิตย์กับโลกสมดุลกัน",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR089",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: อินทิกรัลของ f(x) = eˣ คืออะไร และทำไมฟังก์ชันนี้ถึงพิเศษ?",
+      "Answer": "eˣ + C เพราะ eˣ เป็นฟังก์ชันเดียวที่หาอนุพันธ์หรืออินทิกรัลแล้วได้ตัวเองเสมอ",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR090",
+      "Category": "Trivia",
+      "Target": "คนที่ฉลาดน้อยที่สุดในวง",
+      "TargetType": "Condition",
+      "Content": "คำถาม: แมวของชเรอดิงเงอร์ (Schrödinger's Cat) อธิบายปรากฏการณ์อะไรในฟิสิกส์ควอนตัม?",
+      "Answer": "การซ้อนทับของสถานะควอนตัม (Quantum superposition) — ของที่ยังไม่ถูกสังเกตอยู่ในหลายสถานะพร้อมกัน จนกว่าจะถูกวัด",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR091",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: วัฏจักรเครบส์ (Krebs Cycle) เกิดขึ้นที่ส่วนใดของเซลล์ และให้ผลลัพธ์หลักอะไร?",
+      "Answer": "เมทริกซ์ของไมโทคอนเดรีย ให้สาร NADH, FADH₂ และ CO₂ เพื่อนำไปผลิต ATP ต่อในห่วงโซ่การถ่ายทอดอิเล็กตรอน",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR092",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: เบนซีน (C₆H₆) มีโครงสร้างแบบใด และทำไมถึงเสถียรกว่าที่คาด?",
+      "Answer": "วงแหวน 6 เหลี่ยมที่มีการกระจายตัวของอิเล็กตรอนรอบวง (electron delocalization) ทำให้พลังงานต่ำกว่าปกติ 36 kcal/mol",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR093",
+      "Category": "Trivia",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "Content": "คำถาม: การตายของเซลล์แบบมีโปรแกรม (Apoptosis) ต่างจากการตายแบบบาดเจ็บ (Necrosis) อย่างไร?",
+      "Answer": "Apoptosis เป็นการตายแบบสะอาด ไม่อักเสบ ร่างกายควบคุมเอง ส่วน Necrosis คือตายแบบฉุกเฉิน ทำให้เนื้อเยื่อรอบข้างอักเสบ",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR094",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: กระบวนการไกลโคไลซิส (Glycolysis) แปลงกลูโคส 1 โมเลกุลให้ได้ ATP กี่โมเลกุล?",
+      "Answer": "2 ATP (กำไรสุทธิ) พร้อมกับได้ไพรูเวต (Pyruvate) 2 โมเลกุล และ NADH 2 โมเลกุล",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR095",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: สารชอบน้ำ (Hydrophilic) กับสารไม่ชอบน้ำ (Hydrophobic) ต่างกันอย่างไร และเกี่ยวข้องกับเยื่อหุ้มเซลล์สองชั้น (Phospholipid Bilayer) อย่างไร?",
+      "Answer": "ชอบน้ำ vs ไม่ชอบน้ำ — เยื่อหุ้มเซลล์มีหัวชอบน้ำหันออกนอก หางไม่ชอบน้ำหันเข้าใน",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR096",
+      "Category": "Trivia",
+      "Target": "คนที่ไม่ชอบคณิตศาสตร์",
+      "TargetType": "Condition",
+      "Content": "คำถาม: เอกลักษณ์ของออยเลอร์ (Euler's Identity) คือสมการอะไร และทำไมนักคณิตศาสตร์ถือว่าสวยที่สุด?",
+      "Answer": "eⁱᵖ + 1 = 0 รวมค่าคณิตศาสตร์พื้นฐาน 5 อย่าง (e, i, π, 1, 0) ไว้ในสมการเดียว",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR097",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: ความผิดพลาดประเภท 1 (Type I Error) กับประเภท 2 (Type II Error) ในสถิติต่างกันอย่างไร?",
+      "Answer": "ประเภท 1 คือปฏิเสธสมมติฐานหลักที่จริง (False Positive) / ประเภท 2 คือไม่ปฏิเสธสมมติฐานหลักที่เท็จ (False Negative)",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR098",
+      "Category": "Trivia",
+      "Target": "คนที่เรียนสายศิลป์",
+      "TargetType": "Condition",
+      "Content": "คำถาม: ทฤษฎีบทความไม่สมบูรณ์ของเกอเดล (Gödel's Incompleteness Theorem) กล่าวว่าอะไร?",
+      "Answer": "ในระบบคณิตศาสตร์ใดๆ ที่สอดคล้องและซับซ้อนพอ จะมีคำกล่าวที่พิสูจน์ไม่ได้และหักล้างไม่ได้ภายในระบบนั้น",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR099",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: จุดสมดุลแนช (Nash Equilibrium) ในทฤษฎีเกมคืออะไร?",
+      "Answer": "สถานการณ์ที่ผู้เล่นแต่ละคนเลือกกลยุทธ์ที่ดีที่สุดของตัวเอง โดยสมมติว่าคนอื่นไม่เปลี่ยนกลยุทธ์ของเขา",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR100",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: สัญลักษณ์บิ๊กโอ O(log n) หมายความว่าอย่างไร และอัลกอริทึมไหนมีความซับซ้อนแบบนี้?",
+      "Answer": "เวลาประมวลผลเพิ่มขึ้นแบบลอการิทึมเมื่อข้อมูลมากขึ้น เช่น การค้นหาแบบทวิภาค (Binary Search) ที่แบ่งครึ่งข้อมูลทุกรอบ",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR101",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: โปรโตคอล TCP ต่างจาก UDP อย่างไร และแต่ละแบบเหมาะกับงานอะไร?",
+      "Answer": "TCP มีการยืนยันรับส่งข้อมูล (เชื่อถือได้) ช้ากว่า เหมาะกับเว็บ/อีเมล / UDP ส่งเร็วไม่ยืนยัน เหมาะกับสตรีมมิ่ง/เกมออนไลน์",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR102",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: IPv6 แตกต่างจาก IPv4 อย่างไร และทำไมต้องเปลี่ยน?",
+      "Answer": "IPv4 มีหมายเลข 32 บิต (~4.3 พันล้านที่อยู่) ซึ่งหมดแล้ว IPv6 มี 128 บิต รองรับได้แทบไม่จำกัด",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR103",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: ดีเอ็นเอโพลิเมอเรส (DNA Polymerase) กับอาร์เอ็นเอโพลิเมอเรส (RNA Polymerase) ทำหน้าที่ต่างกันอย่างไร?",
+      "Answer": "DNA Polymerase สร้าง DNA ใหม่ในการจำลองสาย (replication) / RNA Polymerase สร้าง mRNA จากแม่แบบ DNA (transcription)",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR104",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: EBITDA ย่อมาจากอะไร และใช้วัดอะไรในทางธุรกิจ?",
+      "Answer": "Earnings Before Interest, Taxes, Depreciation and Amortization — วัดประสิทธิภาพการดำเนินงานของบริษัทก่อนหักดอกเบี้ย ภาษี และค่าเสื่อมราคา",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR105",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: การผ่อนคลายเชิงปริมาณ (Quantitative Easing / QE) คืออะไร และธนาคารกลางใช้เพื่ออะไร?",
+      "Answer": "ธนาคารกลางซื้อพันธบัตรรัฐบาลเพื่อเพิ่มปริมาณเงินในระบบ กระตุ้นเศรษฐกิจในภาวะดอกเบี้ยใกล้ศูนย์",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR106",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: ตัวปรับลดผลิตภัณฑ์มวลรวม (GDP Deflator) ต่างจากดัชนีราคาผู้บริโภค (CPI) อย่างไร?",
+      "Answer": "GDP Deflator ครอบคลุมสินค้าทุกอย่างในประเทศ (เปลี่ยนตามการผลิต) / CPI วัดเฉพาะตะกร้าสินค้าผู้บริโภคที่ตายตัว",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR107",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: ระบบเบรตตัน วูดส์ (Bretton Woods System) ที่สร้างขึ้นปี 1944 คืออะไร และสิ้นสุดอย่างไร?",
+      "Answer": "ระบบผูกค่าเงินโลกกับดอลลาร์ และดอลลาร์ผูกกับทองคำ สิ้นสุดปี 1971 เมื่อนิกสันยกเลิกมาตรฐานทองคำ",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR108",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: คะแนน APGAR ในทารกแรกเกิดวัดอะไรบ้าง?",
+      "Answer": "A-สีผิว (Appearance), P-ชีพจร (Pulse), G-ปฏิกิริยาสะท้อน (Grimace), A-การเคลื่อนไหว (Activity), R-การหายใจ (Respiration) รวมคะแนน 0-10",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR109",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: ยากลุ่มบีตา-บล็อกเกอร์ (Beta-blocker) ทำงานอย่างไรในร่างกาย และใช้รักษาโรคอะไร?",
+      "Answer": "บล็อกตัวรับบีตาในหัวใจ ลดอัตราการเต้นและความดันเลือด ใช้รักษาความดันสูง หัวใจเต้นผิดจังหวะ และเจ็บหน้าอก",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR110",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: เครื่อง MRI ทำงานอย่างไร และต่างจากเครื่อง X-ray อย่างไร?",
+      "Answer": "MRI ใช้สนามแม่เหล็กและคลื่นวิทยุทำให้โปรตอนในร่างกายสั่นพ้อง ไม่มีรังสีอันตราย ต่างจาก X-ray ที่ใช้รังสีแม่เหล็กไฟฟ้าผ่านร่างกาย",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR111",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: ฮิปโปแคมปัส (Hippocampus) มีหน้าที่อะไรในสมอง และอยู่ในระบบใด?",
+      "Answer": "สร้างและจัดเก็บความจำระยะยาว อยู่ในระบบลิมบิก (Limbic system) — หากเสียหายจะจำเหตุการณ์ใหม่ไม่ได้",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR112",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: ความขัดแย้งทางความคิด (Cognitive Dissonance) ของลีออน เฟสทิงเงอร์ คืออะไร?",
+      "Answer": "ความรู้สึกไม่สบายใจที่เกิดขึ้นเมื่อมีความเชื่อหรือพฤติกรรมขัดแย้งกัน ทำให้คนพยายามหาเหตุผลเพื่อลดความขัดแย้งนั้น",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR113",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: ปัญหารถราง (Trolley Problem) ของฟิลิปปา ฟุต ใช้ทดสอบอะไรในปรัชญาจริยธรรม?",
+      "Answer": "ทดสอบความขัดแย้งระหว่างจริยธรรมแบบประโยชน์นิยม (เสียสละ 1 เพื่อ 5) กับจริยธรรมแบบหน้าที่นิยม (ไม่มีสิทธิ์ตัดสินชีวิตใคร)",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR114",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: ปรัชญาประสบการณ์นิยม (Empiricism) กับปรัชญาเหตุผลนิยม (Rationalism) ต่างกันอย่างไร?",
+      "Answer": "ประสบการณ์นิยมเชื่อว่าความรู้มาจากประสบการณ์/ประสาทสัมผัส (ล็อก, ฮูม) / เหตุผลนิยมเชื่อว่าความรู้มาจากเหตุผลและสมอง (เดการ์ต, คานต์)",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR115",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: สมมติฐานซาเพียร์-วอร์ฟ (Sapir-Whorf Hypothesis) ในภาษาศาสตร์กล่าวถึงอะไร?",
+      "Answer": "ภาษาที่เราพูดมีอิทธิพลต่อวิธีคิดและการมองโลก เช่น ภาษาที่ไม่มีคำว่า 'อนาคต' อาจทำให้ผู้พูดมองเวลาแตกต่างกัน",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR116",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: หน่วยเสียง (Phoneme) กับหน่วยความหมาย (Morpheme) ต่างกันอย่างไรในภาษาศาสตร์?",
+      "Answer": "Phoneme คือหน่วยเสียงเล็กสุดที่เปลี่ยนความหมาย / Morpheme คือหน่วยความหมายเล็กสุด เช่น 'cats' มี 2 morpheme (cat + s)",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR117",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: 'Pleonasm' ในวาทศิลป์หมายถึงอะไร ยกตัวอย่างในชีวิตประจำวัน?",
+      "Answer": "การใช้คำซ้ำซากเกินจำเป็น เช่น 'ATM machine', 'PIN number', 'free gift', 'ผลลัพธ์ที่ได้ออกมา'",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR118",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: ขอบฟ้าเหตุการณ์ (Event Horizon) ของหลุมดำคืออะไร และรังสีฮอว์กิง (Hawking Radiation) คืออะไร?",
+      "Answer": "ขอบฟ้าเหตุการณ์คือขอบที่แม้แต่แสงก็หลุดออกไม่ได้ / รังสีฮอว์กิงคือรังสีที่สตีเฟน ฮอว์กิงทำนายว่าหลุมดำปล่อยออกมาจากผลทางควอนตัม",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR119",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: อนุภาคฮิกส์โบซอน (Higgs Boson) ค้นพบที่ไหน และทำไมถูกเรียกว่า 'อนุภาคของพระเจ้า'?",
+      "Answer": "ค้นพบที่เซิร์น (CERN) ปี 2012 เรียกอนุภาคของพระเจ้าเพราะเป็นอนุภาคที่ให้มวลแก่อนุภาคอื่นๆ ผ่านสนามฮิกส์",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR120",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: ความเค้นจุดคราก (Yield Strength) ในวัสดุศาสตร์หมายความว่าอะไร?",
+      "Answer": "ความเค้นสูงสุดที่วัสดุรับได้โดยยังกลับสู่รูปทรงเดิมได้ ถ้าเกินค่านี้จะเกิดการเสียรูปถาวร",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR121",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: กระบวนการแยกสลายด้วยไฟฟ้า (Electrolysis) ของน้ำ (H₂O) ให้ก๊าซอะไรที่ขั้วบวกและขั้วลบ?",
+      "Answer": "ขั้วบวก (Anode): ออกซิเจน O₂ / ขั้วลบ (Cathode): ไฮโดรเจน H₂ ในอัตราส่วน O:H = 1:2",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR122",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: ค่าสะท้อนแสง (Albedo Effect) คืออะไร และมีผลต่อการเปลี่ยนแปลงสภาพภูมิอากาศอย่างไร?",
+      "Answer": "ค่าการสะท้อนแสงของพื้นผิว — เมื่อน้ำแข็งละลาย ค่าสะท้อนลดลง ดูดซับความร้อนมากขึ้น เร่งให้โลกร้อนเป็นวงจร",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR123",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: จำนวนเฉพาะแมร์แซน (Mersenne Prime) คืออะไร และตัวที่เล็กที่สุด 3 ตัวคืออะไร?",
+      "Answer": "จำนวนเฉพาะรูปแบบ 2ᵖ − 1 ตัวอย่าง: 3 (2²−1), 7 (2³−1), 31 (2⁵−1)",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR124",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: ประมวลกฎหมายแพ่งและพาณิชย์ไทย มาตรา 193/30 กำหนดอายุความทั่วไปไว้กี่ปี?",
+      "Answer": "10 ปี นับแต่วันที่สิทธิเรียกร้องอาจบังคับได้",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    },
+    {
+      "id": "TR125",
+      "Category": "Trivia",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "Content": "คำถาม: หลักการ Nemo dat quod non habet ในกฎหมายทรัพย์สินหมายความว่าอะไร?",
+      "Answer": "'ไม่มีใครให้สิ่งที่ตัวเองไม่มีได้' — ผู้ขายส่งผ่านกรรมสิทธิ์ได้เฉพาะสิ่งที่ตัวเองมีกรรมสิทธิ์เท่านั้น",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "answerer_count": 1,
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ตอบถูก",
+            "who": "others",
+            "level": 2
+          },
+          {
+            "when": "ตอบผิด",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ตอบถูก: คนอื่นทั้งวง รับโทษระดับ 2 / ตอบผิด: รับโทษระดับ 2"
+    }
+  ]
+}

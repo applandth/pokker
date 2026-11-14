@@ -1,0 +1,622 @@
+{
+  "mode_title": "Social",
+  "description": "ทดสอบความรู้สังคมรอบตัว",
+  "cards": [
+    {
+      "Category": "Social",
+      "Content": "โพสต์รูปปัจจุบันลง story โดยไม่มี filter และไม่มี caption ใดๆ ห้ามลบใน 15 นาที ถ้าไม่ทำรับโทษ{lv:3}",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SC001",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 3"
+    },
+    {
+      "Category": "Social",
+      "Content": "เปลี่ยน bio ใน IG หรือ Facebook เป็นประโยคที่วงตั้งให้ ต้องทิ้งไว้อย่างน้อย 10 นาที ถ้าไม่ทำรับโทษ{lv:2}",
+      "Target": "คนนั่งขวามือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SC002",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Social",
+      "Content": "ส่ง sticker ที่แปลกที่สุดในไลน์ให้คนแรกในรายการแชทโดยไม่อธิบาย แล้วแคปหน้าจอโชว์วง",
+      "Target": "คนนั่งตรงข้ามคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SC003",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Social",
+      "Content": "โทรหาคนล่าสุดในรายการโทรออก แล้วบอกว่า 'โทรมาเพื่อบอกว่าคิดถึง' วงฟังอยู่ด้วย ถ้าไม่โทรรับโทษ{lv:2}",
+      "Target": "คนใส่รองเท้าแตะ",
+      "TargetType": "Condition",
+      "id": "SC004",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Social",
+      "Content": "โพสต์ status ข้อความที่วงตั้งให้ใน Facebook หรือ IG ทิ้งไว้ 10 นาที ถ้าไม่โพสต์รับโทษ{lv:2}",
+      "Target": "คนใส่แว่น",
+      "TargetType": "Condition",
+      "id": "SC005",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Social",
+      "Content": "ส่งอีโมจิสุ่ม 5 ตัวให้คนในกลุ่มไลน์ที่วงเลือก แล้วรอดูว่าใครตอบอะไร แคปโชว์วง",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "SC006",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Social",
+      "Content": "เปิดกล้องถ่ายรูปทุกคนในวงในท่าที่วงเลือก แล้วโพสต์ขึ้น story ทันที ถ้าไม่โพสต์รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "SC007",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Social",
+      "Content": "ส่งข้อความไปหาคนที่ไม่ได้คุยนานที่สุดในรายการแชทว่า 'เป็นยังไงบ้าง' แล้วรอดูว่าเขาตอบอะไร",
+      "Target": "คนใส่นาฬิกา",
+      "TargetType": "Condition",
+      "id": "SC008",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Social",
+      "Content": "เปลี่ยนชื่อในไลน์กลุ่มใดก็ได้เป็นชื่อที่วงตั้งให้ ทิ้งไว้จนจบเกม ถ้าไม่ทำรับโทษ{lv:2}",
+      "Target": "คนที่โสดอยู่",
+      "TargetType": "Condition",
+      "id": "SC009",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Social",
+      "Content": "โพสต์รูปที่อัปโหลดล่าสุดในกล้องมือถือลง story โดยไม่เลือก ถ้าไม่โพสต์รับโทษ{lv:2}",
+      "Target": "คนที่มีแฟนอยู่",
+      "TargetType": "Condition",
+      "id": "SC010",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Social",
+      "Content": "ส่งข้อความขอโทษไปหาคนที่วงเลือกจากรายชื่อผู้ติดต่อ โดยไม่ต้องอธิบายว่าขอโทษเรื่องอะไร",
+      "Target": "คนที่แต่งงานแล้ว",
+      "TargetType": "Condition",
+      "id": "SC011",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Social",
+      "Content": "ถ่ายวิดีโอตัวเองพูดว่า 'คืนนี้ฉันมาเล่นเกมกับเพื่อน และฉันมีความสุขมาก' แล้วส่งให้คนในครอบครัว 1 คน",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "SC012",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Social",
+      "Content": "เพิ่มคนในวงคนหนึ่งเป็นเพื่อนใน Facebook หรือ follow ใน IG ถ้ายังไม่ได้ follow ถ้า follow แล้ว like รูปล่าสุด 3 รูป",
+      "Target": "คนที่เช็คโทรศัพท์ใน 5 นาทีที่ผ่านมา",
+      "TargetType": "Condition",
+      "id": "SC013",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Social",
+      "Content": "เขียน review ของสถานที่ที่นั่งอยู่ตอนนี้ใน Google Maps หรือ Facebook อย่างน้อย 2 ประโยค โชว์วง",
+      "Target": "คนที่พูดมากที่สุดในวงนี้",
+      "TargetType": "Condition",
+      "id": "SC014",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Social",
+      "Content": "ส่ง GIF ที่วงเลือกให้ไปในกลุ่มแชทที่ active ที่สุดในมือถือ โดยไม่อธิบาย แล้วแคปผลลัพธ์โชว์วง",
+      "Target": "คนที่หัวเราะล่าสุด",
+      "TargetType": "Condition",
+      "id": "SC015",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Social",
+      "Content": "โพสต์ถามคำถามใน story เช่น 'Q&A เปิดรับคำถาม' แล้วตอบคำถามแรกที่ได้รับต่อหน้าวง",
+      "Target": "คนที่เงียบที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "SC016",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Social",
+      "Content": "เปิด Spotify หรือแอปเพลงแล้วแชร์เพลงที่ฟังล่าสุดให้คนในวงดู พร้อมอธิบายว่าทำไมถึงฟังเพลงนี้",
+      "Target": "คนที่เคยแอบชอบคนในวงนี้",
+      "TargetType": "Condition",
+      "id": "SC017",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Social",
+      "Content": "ส่งข้อความ 'ว่าง เจอกันได้เลย' ไปหาคนที่วงสุ่มจากรายชื่อผู้ติดต่อ รอดูว่าตอบอะไร",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "SC018",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Social",
+      "Content": "แคปหน้าจอมือถือตอนนี้แล้วส่งให้คนในวงทุกคน ไม่ว่าจะมีอะไรอยู่ในหน้าจอ ถ้าปฏิเสธรับโทษ{lv:2}",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "SC019",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Social",
+      "Content": "โพสต์รูปเซลฟี่กับทุกคนในวงลง story พร้อม tag ทุกคน ถ้าไม่โพสต์รับโทษ{lv:1}",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "SC020",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Social",
+      "Content": "เปิดอีเมลแล้วอ่านหัวเรื่องของอีเมลที่ยังไม่ได้อ่านล่าสุด 3 อันให้วงฟัง",
+      "Target": "คนอายุน้อยที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "SC021",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Social",
+      "Content": "ส่ง voice message ยาว 10 วินาทีพูดว่าอะไรก็ได้ไปหาคนที่วงเลือกจากผู้ติดต่อ",
+      "Target": "คนที่เพิ่งเลิกกัน",
+      "TargetType": "Condition",
+      "id": "SC022",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Social",
+      "Content": "โพสต์ poll ใน IG story ถามคำถามที่วงตั้งให้ รอดูผลแล้วโชว์วงหลังจาก 5 นาที",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SC023",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Social",
+      "Content": "เปิด TikTok หรือ Reels แล้วดูวิดีโอแรกที่ขึ้นมาพร้อมกันทั้งวง ต้องแสดงความคิดเห็น",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "SC024",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Social",
+      "Content": "ส่งข้อความ 'อยากกินอะไรอยู่เลย' ไปหาคนในครอบครัว แล้วรอดูว่าตอบอะไร โชว์วง",
+      "Target": "คนนั่งขวามือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SC025",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Social",
+      "Content": "เปลี่ยน ringtone มือถือเป็นเพลงที่วงเลือกตลอดคืนนี้ ถ้าไม่ทำรับโทษ{lv:1}",
+      "Target": "คนนั่งตรงข้ามคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "SC026",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Social",
+      "Content": "โพสต์คำถาม 'ใครอยากมาเที่ยวด้วยกัน?' ใน story แล้วดูว่ามีใครตอบภายใน 5 นาที",
+      "Target": "คนใส่รองเท้าแตะ",
+      "TargetType": "Condition",
+      "id": "SC027",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Social",
+      "Content": "ส่งข้อความ 'ขอบคุณที่มีอยู่ในชีวิตฉัน' ไปหาคนที่วงสุ่มจากผู้ติดต่อ ไม่มีข้อยกเว้น",
+      "Target": "คนใส่แว่น",
+      "TargetType": "Condition",
+      "id": "SC028",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Social",
+      "Content": "แชร์ location ปัจจุบันให้คนในครอบครัวหรือเพื่อนที่ไม่ได้อยู่ในวง 1 คน แล้วอธิบายว่าอยู่ที่ไหน",
+      "Target": "คนใส่ต่างหู",
+      "TargetType": "Condition",
+      "id": "SC029",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Social",
+      "Content": "โพสต์รูปมือถือหรือของที่อยู่ข้างหน้าตอนนี้ลง story พร้อม caption ที่วงตั้งให้",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "SC030",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Social",
+      "Content": "ส่ง 'สวัสดี' ไปหาคน 5 คนที่ไม่ได้คุยกันนานที่สุดในรายการแชท พร้อมกันทุกคนในเวลาเดียวกัน",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "SC031",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Social",
+      "Content": "ถ่ายรูปหน้าตัวเองตอนทำหน้าบวมที่สุดแล้วโพสต์ลง story (ลบได้ทีหลัง) ถ้าไม่โพสต์ รับโทษ",
+      "Target": "คนที่โสดอยู่",
+      "TargetType": "Condition",
+      "id": "SC032",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ถ้าไม่โพสต์",
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ถ้าไม่โพสต์: รับโทษระดับ 2"
+    },
+    {
+      "Category": "Social",
+      "Content": "เปิดรายการผู้ติดต่อแล้วโทรหาคนที่ชื่อขึ้นต้นด้วยตัวอักษรที่วงเลือก ถ้าไม่มีคนนั้นรับโทษ",
+      "Target": "คนที่มีแฟนอยู่",
+      "TargetType": "Condition",
+      "id": "SC033",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Social",
+      "Content": "โพสต์รูปกลุ่มวงนี้ใน story พร้อมข้อความ 'คืนนี้กับคนสำคัญ' ถ้าปฏิเสธรับโทษ{lv:2}",
+      "Target": "คนที่แต่งงานแล้ว",
+      "TargetType": "Condition",
+      "id": "SC034",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Social",
+      "Content": "ส่งข้อความ 'ฉันมีเรื่องอยากเล่าให้ฟัง' ไปหาคนที่วงเลือก แล้วรอดูว่าเขาตอบว่าอะไร โชว์วง",
+      "Target": "คนที่เช็คโทรศัพท์ใน 5 นาทีที่ผ่านมา",
+      "TargetType": "Condition",
+      "id": "SC035",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    }
+  ]
+}

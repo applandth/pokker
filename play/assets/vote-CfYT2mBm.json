@@ -1,0 +1,1026 @@
+{
+  "mode_title": "Vote",
+  "description": "โหวต เสียงส่วนใหญ่ตัดสิน",
+  "cards": [
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้น่าจะแต่งงานก่อน — ใครได้โหวตมากสุดรับโทษเป็นรางวัลล่วงหน้าเลย",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V001",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้น่าจะรวยที่สุดตอนอายุ 40 — ใครได้โหวตมากสุดรับโทษเป็นรางวัล",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V002",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้น่าจะหลับก่อนคืนนี้ — ใครได้โหวตมากสุดรับโทษซ้อมไว้ก่อน เดี๋ยวจะได้ตื่น",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V003",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้เป็น 'พ่อแม่' ที่เข้มงวดที่สุดถ้ามีลูก — ใครได้โหวตมากสุดรับโทษฝึกวินัยตัวเองซะ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V004",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้น่าจะเป็น CEO ได้ — ใครได้โหวตมากสุดรับโทษเป็นรางวัล",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V005",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้น่าจะหลับก่อนในคืนนี้ — ใครได้โหวตมากสุดรับโทษก่อนหลับคาวง",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V006",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้ตกหลุมรักง่ายที่สุด — ใครได้โหวตมากสุดรับโทษปลอบใจ ใจอ่อนจริงๆ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V007",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้เป็นคนชอบดราม่ามากที่สุด — ใครได้โหวตมากสุดรับโทษ{lv:2} แต่ห้ามดราม่าตอนรับ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V008",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้น่าจะมีลูกก่อน — ใครได้โหวตมากสุดรับโทษเป็นรางวัลล่วงหน้า",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V009",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้น่าจะออกกำลังกายน้อยที่สุดในเดือนหน้า — ใครได้โหวตมากสุดรับโทษแทนการวิ่ง",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V010",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้น่าจะไปต่างประเทศก่อน — ใครได้โหวตมากสุดรับโทษเตรียมตัว",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V011",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้เปลี่ยนงานบ่อยที่สุดในอีก 5 ปี — ใครได้โหวตมากสุดรับโทษระหว่างรองานใหม่",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V012",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้อ้วนขึ้นมากที่สุดในอีก 5 ปี — ใครได้โหวตมากสุดรับโทษล้างแค้น",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V013",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้น่าจะเป็น influencer ในโซเชียล — ใครได้โหวตมากสุดรับโทษแล้วอัดลง story ด้วยเลย",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V014",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้น่าจะลาออกจากงานแบบดราม่าที่สุด — ใครได้โหวตมากสุดรับโทษซ้อมบทลาออก",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V015",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้เป็นคนที่เพื่อนโทรหาตอนดึกบ่อยที่สุด — ใครได้โหวตมากสุดรับโทษรับสายดึกๆ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V016",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้น่าจะเป็น workaholic มากที่สุด — ใครได้โหวตมากสุดรับโทษพักจากงานบ้าง",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V017",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้ซื้อของแพงโดยไม่จำเป็นบ่อยที่สุด — ใครได้โหวตมากสุดรับโทษก่อนรูดบัตรอีกรอบ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V018",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้พูดมากที่สุดในงานเลี้ยง — ใครได้โหวตมากสุดรับโทษพักปากหน่อย",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V019",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้น่าจะนั่งอยู่เป็นคนสุดท้ายในคืนนี้ — ใครได้โหวตมากสุดรับโทษยาวๆ ไม่ต้องรีบกลับ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V020",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้น่าจะยืมเงินแล้วคืนช้าที่สุด — ใครได้โหวตมากสุดรับโทษ{lv:2} ดอกเบี้ยค่อยว่ากัน",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V021",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้โกรธง่ายที่สุด — ใครได้โหวตมากสุดรับโทษใจเย็นๆ ซะ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V022",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้ใจดีที่สุด — ใครได้โหวตมากสุดรับโทษเป็นรางวัลความดี",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V023",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้โกหกเก่งที่สุด — ใครได้โหวตมากสุดรับโทษสารภาพความจริงสักที",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V024",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้น่าเชื่อถือที่สุด — ใครได้โหวตมากสุดรับโทษเป็นรางวัล",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V025",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้กินเก่งที่สุด — ใครได้โหวตมากสุดรับโทษเรียกน้ำย่อย",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V026",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้อกหักแล้วซึมนานที่สุด — ใครได้โหวตมากสุดรับโทษลืมๆ มันไป",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V027",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้รักษาเพื่อนไว้ได้นานที่สุด — ใครได้โหวตมากสุดรับโทษเป็นรางวัล",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V028",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้พูดตรงที่สุด — ใครได้โหวตมากสุดรับโทษก่อนพูดความจริงใส่หน้าอีกรอบ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V029",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้ซ่อนตัวตนจริงๆ ไว้เก่งที่สุด — ใครได้โหวตมากสุดรับโทษแล้วเปิดหน้ากากหน่อย",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V030",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้น่าจะเปิดร้านอาหารแล้วอร่อยที่สุด — ใครได้โหวตมากสุดรับโทษเป็นรางวัล",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V031",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้น่าจะหันมากิน vegan — ใครได้โหวตมากสุดรับโทษซะ ผักก็มีหัวใจนะ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V032",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้น่าจะออกเดทกับใครในวงได้เข้ากันที่สุด — คู่ที่ได้โหวตมากสุดรับโทษด้วยกัน",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V033",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "each",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1 คนละข้อ"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้ทำให้ทุกคนยิ้มได้ตลอดเวลา — ใครได้โหวตมากสุดรับโทษเป็นรางวัล",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V034",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้น่าจะถูกคิดถึงมากที่สุดถ้าวงนี้แยกย้ายกันไป — ใครได้โหวตมากสุดรับโทษก่อนน้ำตาไหล",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V035",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้น่าจะหลับในประชุมบ่อยที่สุด — ใครได้โหวตมากสุดรับโทษก่อนงีบรอบหน้า",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V036",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้ดูเหมือน 'คนดี' ภายนอกแต่จริงๆ ซน — ใครได้โหวตมากสุดรับโทษเปิดโปงความซน",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V037",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้ผิดหวังในความรักบ่อยที่สุด — ใครได้โหวตมากสุดรับโทษไปก่อน เดี๋ยวก็เจอคนใหม่",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V038",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้น่าจะโดนหักหลังง่ายที่สุด — ใครได้โหวตมากสุดรับโทษซะ ใจดีเกินไปนั่นแหละ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V039",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้เป็นคนที่น่ารักในสายตาคนนอกมากที่สุด — ใครได้โหวตมากสุดรับโทษเป็นรางวัล",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V040",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้น่าจะมีแฟนผ่านแอปก่อน — ใครได้โหวตมากสุดรับโทษก่อนปัด swipe ขวา",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V041",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้น่าจะเป็นคนที่พ่อแม่เป็นห่วงมากที่สุด — ใครได้โหวตมากสุดรับโทษ{lv:2} แล้วโทรรายงานตัวด้วย",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V042",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้น่าจะซื้อบ้านก่อน — ใครได้โหวตมากสุดรับโทษเป็นรางวัล",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V043",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้น่าจะย้ายบ้านบ่อยที่สุด — ใครได้โหวตมากสุดรับโทษก่อนแพ็คของรอบหน้า",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V044",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้น่าจะเป็น dramatic มากที่สุดในชีวิต — ใครได้โหวตมากสุดรับโทษแบบมีซีนหน่อย ขอน้ำตาด้วย",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V045",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้เก่งที่สุดในสายที่ตัวเองทำ — ใครได้โหวตมากสุดรับโทษเป็นรางวัล",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V046",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้ใจร้ายที่สุดตอนโกรธ — ใครได้โหวตมากสุดรับโทษ{lv:2} แบบยิ้มๆ ห้ามโกรธ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V047",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้น่าจะโพสต์ประกาศแต่งงานลง Facebook คนแรก — ใครได้โหวตมากสุดรับโทษก่อนส่งการ์ดแต่งงาน",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V048",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้น่าจะอยู่ได้นานสุดถ้าไปอยู่บนเกาะร้าง — ใครได้โหวตมากสุดรับโทษเป็นรางวัล",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V049",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้น่าจะเป็นคนที่โกรธยากที่สุด — ใครได้โหวตมากสุดรับโทษเป็นรางวัล",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V050",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Vote",
+      "Content": "วงโหวตว่าใครในวงนี้น่าจะเป็นคนที่ทุกคนอยากให้ได้เจอรักแท้มากที่สุด — ใครได้โหวตมากสุดรับโทษเป็นรางวัล",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "V051",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    }
+  ]
+}

@@ -1,0 +1,463 @@
+{
+  "mode_title": "Story",
+  "description": "เล่าเรื่อง สร้างสรรค์ไปด้วยกัน",
+  "cards": [
+    {
+      "Category": "Story",
+      "Content": "มึงเริ่มเรื่องด้วยประโยค 'คืนหนึ่งในวันที่ฝนตก...' แล้ววนรอบวง ทุกคนต่อเรื่องคนละ 1 ประโยค ใครหยุดนานกว่า 5 วินาทีรับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "ST001",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Story",
+      "Content": "มึงเริ่มเรื่องสยองขวัญ วนรอบวงต่อเรื่องคนละ 1 ประโยค ใครทำให้เรื่องตลกก่อนเรื่องน่ากลัวรับโทษ",
+      "Target": "คนนั่งขวามือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "ST002",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Story",
+      "Content": "เรื่องโรแมนติก — มึงเริ่มด้วย 'เขามองเธอ...' วนรอบต่อเรื่อง ใครทำให้เรื่องหักมุมแรงที่สุดวงโหวต คนนั้นได้รับคำชม",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "ST003",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Story",
+      "Content": "เรื่องแอ็คชั่น — มึงเริ่มด้วย 'นาฬิกานับถอยหลัง...' วนรอบต่อเรื่อง ใครเพิ่มตัวละครโดยไม่บอกล่วงหน้าได้ดีสุดชนะ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "ST004",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Story",
+      "Content": "มึงเริ่มเรื่องนิทาน วนรอบวง แต่ทุกประโยคต้องขึ้นต้นด้วยคำที่ลงท้ายด้วยพยางค์เดียวกับประโยคก่อน ใครผิดรับโทษ",
+      "Target": "คนใส่เสื้อสีดำ",
+      "TargetType": "Condition",
+      "id": "ST005",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Story",
+      "Content": "เรื่องสืบสวน — มึงตั้งปริศนาให้วงช่วยกันต่อเรื่องแบบตัวนักสืบ ใครเพิ่มเบาะแสได้เจ๋งสุดวงโหวต",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "ST006",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Story",
+      "Content": "ทุกคนช่วยกันสร้างเรื่องที่เกิดขึ้นในวงนี้คืนนี้ แต่เล่าในเชิงว่าเป็นฉากในหนังบล็อกบัสเตอร์ วนรอบต่อกัน",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "ST007",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Story",
+      "Content": "มึงเริ่มด้วย 'มีคนคนหนึ่งที่ไม่มีใครรู้ว่าเขาเป็นใคร...' วนรอบต่อเรื่อง คนสุดท้ายต้องจบเรื่องให้สมบูรณ์ ถ้าจบไม่ได้รับโทษ",
+      "Target": "คนใส่เสื้อมีลาย",
+      "TargetType": "Condition",
+      "id": "ST008",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Story",
+      "Content": "เรื่องตลก — มึงเริ่ม วนรอบต่อ แต่ทุกประโยคต้องทำให้คนถัดไปหัวเราะ ถ้าคนถัดไปไม่หัวเราะ คนที่พูดรับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "ST009",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Story",
+      "Content": "เรื่องซีไฟ — มึงเริ่มด้วย 'ในปี 2150...' วนรอบต่อเรื่อง ใครพูดสิ่งที่เป็นไปไม่ได้ในเชิงวิทยาศาสตร์รับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "ST010",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Story",
+      "Content": "ทุกคนเล่าเรื่องที่เกิดขึ้นกับตัวเองในอดีต แต่ต้องเล่าราวกับเป็นตัวละครในนิยาย ใครเล่าได้น่าฟังสุดวงโหวต คนนั้นได้จ่ายน้อยลง",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "ST011",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Story",
+      "Content": "เรื่อง 2 นาที — มึงเริ่ม วนรอบ ทุกคนต่อเรื่องคนละ 1 ประโยค แต่ต้องจบเรื่องให้ได้ภายใน 2 นาที ถ้าไม่จบรับโทษทั้งวง",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "ST012",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Story",
+      "Content": "มึงตั้งชื่อตัวละครให้ทุกคนในวง แล้วเริ่มเรื่องที่มีตัวละครเหล่านั้น วนรอบต่อ ใครเล่นตัวละครตัวเองได้น่าสนใจสุดวงโหวต",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "ST013",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Story",
+      "Content": "เรื่องย้อนเวลา — มึงเริ่มด้วย 'ฉันกลับมายังวันที่ฉันเสียใจที่สุด...' วนรอบต่อเรื่อง",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "ST014",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Story",
+      "Content": "ทุกคนช่วยกันเขียนบท pitch หนังสั้นเรื่องหนึ่งให้ครบ — มีตัวละคร ปัญหา และบทสรุป ใครเพิ่มทวิสต์เด็ดสุดวงโหวต",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "ST015",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Story",
+      "Content": "มึงเริ่มเรื่องที่คนหนึ่งในวงเป็นฮีโร่ วนรอบต่อ แต่ต้องเพิ่มอุปสรรคใหม่ทุกรอบ ใครหยุดนึกไม่ออกรับโทษ",
+      "Target": "คนผมยาวที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "ST016",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Story",
+      "Content": "เรื่องผีสิง — มึงเริ่มด้วย 'บ้านหลังนั้นว่างมาสิบปี...' วนรอบ ใครทำให้บรรยากาศน่ากลัวที่สุดชนะ วงโหวต",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "ST017",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Story",
+      "Content": "มึงเริ่มเรื่องที่ตัวเองเป็นพระเอก วนรอบต่อ แต่ทุกคนต้องเพิ่มสิ่งที่ทำให้ชีวิตพระเอกยุ่งยากขึ้น ใครหมดไอเดียรับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "ST018",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Story",
+      "Content": "ทุกคนช่วยกันแต่งเรื่องที่มีฉากเกิดขึ้นในสถานที่ที่นั่งอยู่ตอนนี้ ต้องสมจริงที่สุด",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "ST019",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Story",
+      "Content": "เรื่อง what if — มึงเริ่มด้วย 'ถ้าวันนี้โลกหยุดหมุน...' วนรอบต่อ ทุกคนต้องเพิ่มผลกระทบที่สมเหตุสมผล",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "ST020",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Story",
+      "Content": "มึงเริ่มนิทานก่อนนอน วนรอบต่อ ใครเพิ่มเนื้อหาที่ไม่เหมาะกับเด็กรับโทษ",
+      "Target": "คนที่ยิ้มตลอดเวลา",
+      "TargetType": "Condition",
+      "id": "ST021",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Story",
+      "Content": "เรื่องชีวิตประจำวัน — มึงเริ่มด้วย 'เช้านั้นฉันตื่นมาและรู้ว่ามีบางอย่างผิดปกติ...' วนรอบต่อ",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "ST022",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Story",
+      "Content": "ทุกคนช่วยกันสร้าง 'ตำนาน' ของวงนี้ — ราวกับว่าคนรุ่นต่อไปจะเล่าเรื่องคืนนี้ วนรอบต่อกัน",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "ST023",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Story",
+      "Content": "เรื่องอาชญากรรม — มึงตั้งคดีให้วง วนรอบต่อเรื่อง ใครเป็นคนเพิ่มหลักฐานที่ทำให้เรื่องสมบูรณ์ที่สุดชนะ",
+      "Target": "คนตัวสูงที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "ST024",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Story",
+      "Content": "มึงเริ่มด้วย 'จดหมายฉบับนี้จะไม่มีวันถูกส่ง...' วนรอบต่อเรื่อง ทุกคนต้องต่อในมุมของตัวเอง",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "ST025",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Story",
+      "Content": "ทุกคนช่วยกันแต่งเพลงกล่อมเด็กให้วงนี้ใช้ปิดตาก่อนนอน วนรอบแต่งท่อนละ 1 บรรทัด",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "ST026",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Story",
+      "Content": "เรื่อง parallel universe — มึงเริ่มด้วย 'ในโลกคู่ขนาน เราทุกคนในวงนี้...' วนรอบต่อ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "ST027",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Story",
+      "Content": "มึงเริ่มเรื่องที่มีตัวร้ายเป็นคนในวงคนหนึ่ง (ไม่บอกชื่อ) วนรอบต่อ วงต้องทายว่าตัวร้ายคือใคร",
+      "Target": "คนที่มีรอยสัก",
+      "TargetType": "Condition",
+      "id": "ST028",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Story",
+      "Content": "ทุกคนช่วยกันแต่งโฆษณาสมมติสำหรับวงนี้ — บอกว่าวงนี้ขายอะไรและทำไมคนถึงต้องซื้อ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "ST029",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Story",
+      "Content": "เรื่อง 5 ประโยคจบ — มึงมีแค่ 5 รอบเพื่อเล่าเรื่องให้จบ วนรอบ คนที่พูดประโยคที่ 5 ต้องจบเรื่องให้ได้ ถ้าจบไม่ดีรับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "ST030",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    }
+  ]
+}

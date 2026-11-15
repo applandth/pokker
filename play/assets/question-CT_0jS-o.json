@@ -1,0 +1,1985 @@
+{
+  "mode_title": "Question",
+  "description": "ถามตอบสนุก ต้องซื่อสัตย์กับคำตอบ",
+  "cards": [
+    {
+      "Category": "Question",
+      "Content": "เมืองหลวงของออสเตรเลียคืออะไร?",
+      "Target": "คนใส่แว่น",
+      "TargetType": "Condition",
+      "id": "Q001",
+      "Answer": "แคนเบอร์รา",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "แฟนของมึงรู้ว่ามึงมาที่นี่คืนนี้ไหม ตอบตรงๆ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "Q002",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1,
+            "when": "ถ้าไม่รู้"
+          }
+        ]
+      },
+      "Penalty": "ถ้าไม่รู้: รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "ดาวเคราะห์ดวงใหญ่ที่สุดในระบบสุริยะคือดาวอะไร?",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "Q003",
+      "Answer": "ดาวพฤหัส",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "ทำไมถึงยังโสด ตอบตรงๆ ถ้าบอกว่า 'ยังไม่เจอคนที่ใช่' รับโทษเพราะโกหกตัวเอง",
+      "Target": "คนที่โสดอยู่",
+      "TargetType": "Condition",
+      "id": "Q004",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "Bohemian Rhapsody ร้องโดยวงอะไร?",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "Q005",
+      "Answer": "Queen",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "ทุกคนตอบพร้อมกัน: 5+7×2=? ใครตอบ 24 รับโทษ ใครตอบ 19 รอด",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "Q006",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "level": 1,
+            "whoText": "คนที่ตอบ 24"
+          }
+        ]
+      },
+      "Penalty": "คนที่ตอบ 24 รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "จำชื่อครูคนโปรดตอนประถมได้ไหม ถ้าจำไม่ได้ รับโทษ",
+      "Target": "คนที่ใส่ต่างหู",
+      "TargetType": "Condition",
+      "id": "Q007",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "คนจั่วชอบกินอะไรเป็นอาหารจานโปรด ทายถูก คนจั่วรับโทษ ทายผิด ตัวเองรับโทษ",
+      "Target": "คนนั่งตรงข้ามคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "Q008",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "รหัสไปรษณีย์กรุงเทพฯ เริ่มต้นด้วยตัวเลขอะไร?",
+      "Target": "คนนั่งขวามือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "Q009",
+      "Answer": "10",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "ในความเห็นมึง สิ่งที่คนส่วนใหญ่เข้าใจผิดเกี่ยวกับมึงคืออะไร",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "Q010",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1,
+            "when": "ถ้าตอบว่าไม่มี"
+          }
+        ]
+      },
+      "Penalty": "ถ้าตอบว่าไม่มี: รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้าต้องเลือกระหว่างรวยแต่โสด กับ จนแต่มีคนรัก มึงเลือกอะไร และทำไม ตอบใน 10 วินาที",
+      "Target": "คนนั่งตรงข้ามคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "Q011",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1,
+            "when": "ถ้าตอบไม่ทัน"
+          }
+        ]
+      },
+      "Penalty": "ถ้าตอบไม่ทัน: รับโทษระดับ 1",
+      "timer": 10
+    },
+    {
+      "Category": "Question",
+      "Content": "จำวันเกิดของพ่อหรือแม่ได้ไหม ถ้าจำไม่ได้ รับโทษ{lv:2}",
+      "Target": "คนที่อายุน้อยที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "Q012",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้าวันพรุ่งนี้โลกจะสิ้นสุด คืนนี้หลังจากนี้มึงจะทำอะไร",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "Q013",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1,
+            "when": "ถ้าตอบว่าไม่รู้"
+          }
+        ]
+      },
+      "Penalty": "ถ้าตอบว่าไม่รู้: รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "Harry Potter เรียนอยู่บ้านไหน?",
+      "Target": "คนนั่งถัดไปทวนเข็มนาฬิกา",
+      "TargetType": "Mechanic",
+      "id": "Q014",
+      "Answer": "กริฟฟินดอร์",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "ตอนนี้ยังรักแฟนแบบเดิมอยู่หรือเป็นเพราะเคยชิน ตอบตรงๆ",
+      "Target": "คนที่มีแฟนมากกว่า 2 ปี",
+      "TargetType": "Condition",
+      "id": "Q015",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1,
+            "when": "ถ้าตอบหลบ"
+          }
+        ]
+      },
+      "Penalty": "ถ้าตอบหลบ: รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "ไทยมีกี่จังหวัด?",
+      "Target": "คนใส่แว่น",
+      "TargetType": "Condition",
+      "id": "Q016",
+      "Answer": "77",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1,
+            "when": "ตอบผิด"
+          }
+        ]
+      },
+      "Penalty": "ตอบผิด: รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "เพื่อนในวงนี้คนไหนที่มึงคิดว่าจะประสบความสำเร็จที่สุดในอีก 10 ปี บอกชื่อพร้อมเหตุผล",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "Q017",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1,
+            "when": "ถ้าไม่บอก"
+          }
+        ]
+      },
+      "Penalty": "ถ้าไม่บอก: รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "อะไรทำให้มึงเงียบคืนนี้ ตอบตรงๆ ถ้าบอกว่าไม่ได้เงียบ รับโทษ{lv:2}",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "Q018",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Question",
+      "Content": "ทุกคนยกมือถ้าเคยแอบชอบเพื่อนที่มีแฟนอยู่แล้ว ใครยกมือ รับโทษ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "Q019",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "น้ำหนักตัวเองตอนนี้คือกี่กิโล ถ้าบอกผิดเกิน 5 กิโล รับโทษ",
+      "Target": "คนใส่ต่างหู",
+      "TargetType": "Condition",
+      "id": "Q020",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้าอธิบายคนจั่วในฐานะอาหาร จะเป็นอาหารอะไร ทำไม",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "Q021",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1,
+            "when": "ถ้าไม่ตอบ"
+          }
+        ]
+      },
+      "Penalty": "ถ้าไม่ตอบ: รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "คนที่อยู่ในใจมึงตอนนี้คือใคร ถ้าบอกว่าไม่มี รับโทษ{lv:2}",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "Q022",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Question",
+      "Content": "เลิกกับเหตุผลอะไร ตอบตรงๆ ถ้าตอบว่า 'ไม่ fit กัน' รับโทษ{lv:2} เพราะนั่นไม่ใช่คำตอบจริง",
+      "Target": "คนที่เพิ่งเลิกกัน",
+      "TargetType": "Condition",
+      "id": "Q023",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้าต้องเลือกระหว่าง 'มองเห็น' กับ 'ได้ยิน' สูญเสียอะไรทนกว่า ตอบพร้อมเหตุผล",
+      "Target": "คนไม่มีเครื่องประดับใดๆ",
+      "TargetType": "Condition",
+      "id": "Q024",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1,
+            "when": "ถ้าไม่มีเหตุผล"
+          }
+        ]
+      },
+      "Penalty": "ถ้าไม่มีเหตุผล: รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "ทุกคนตอบว่าอีก 5 ปีข้างหน้าจะทำอาชีพอะไร พร้อมกัน ใครตอบว่า 'ไม่รู้' รับโทษ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "Q025",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "สิ่งที่กลัวสูญเสียมากที่สุดในชีวิตคืออะไร ตอบตรงๆ ถ้าตอบว่า 'ไม่มี' รับโทษ{lv:2}",
+      "Target": "คนใส่รองเท้าแตะ",
+      "TargetType": "Condition",
+      "id": "Q026",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Question",
+      "Content": "ตอนนี้กี่โมงตามนาฬิกา แล้วเวลาพวกนี้มีค่าไหม ตอบ",
+      "Target": "คนใส่นาฬิกา",
+      "TargetType": "Condition",
+      "id": "Q027",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1,
+            "when": "ถ้าตอบหลบ"
+          }
+        ]
+      },
+      "Penalty": "ถ้าตอบหลบ: รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "คนในวงนี้ใครที่มึงรู้จักน้อยที่สุด และอยากรู้จักมากกว่านี้",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "Q028",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1,
+            "when": "ถ้าไม่ตอบ"
+          }
+        ]
+      },
+      "Penalty": "ถ้าไม่ตอบ: รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้าย้อนเวลาได้ มึงจะเลือกคู่ครองคนเดิมไหม (ถ้าโสดให้สมมติคนล่าสุดที่ชอบ) ตอบตรงๆ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "Q029",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1,
+            "when": "ถ้าตอบหลบ"
+          }
+        ]
+      },
+      "Penalty": "ถ้าตอบหลบ: รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "มึงให้คะแนนตัวเองในฐานะเพื่อนกี่ points จาก 10 บอกพร้อมเหตุผล",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "Q030",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "บอก 3 คำที่นึกถึงเมื่อได้ยินชื่อคนจั่ว ห้ามพูดคำดีจัดหรือแย่จัด ต้องจริงใจ",
+      "Target": "คนนั่งตรงข้ามคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "Q031",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1,
+            "when": "ถ้าไม่บอก"
+          }
+        ]
+      },
+      "Penalty": "ถ้าไม่บอก: รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "สิ่งที่เสียดายมากที่สุดในชีวิตจนถึงวันนี้คืออะไร ถ้าตอบว่าไม่มี รับโทษ{lv:2}",
+      "Target": "คนใส่เสื้อมีลาย",
+      "TargetType": "Condition",
+      "id": "Q032",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Question",
+      "Content": "ยกมือถ้าเคยแอบร้องไห้คนเดียว แล้วทำหน้าปกติให้คนอื่นไม่รู้ ทุกคนที่ยก รับโทษ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "Q033",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้าโลกจะรู้ความคิดของมึงทุกอย่าง มึงกลัวเรื่องไหนมากที่สุด",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "Q034",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1,
+            "when": "ถ้าไม่ตอบ"
+          }
+        ]
+      },
+      "Penalty": "ถ้าไม่ตอบ: รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "ชีวิตช่วงนี้เป็นแบบนี้ด้วยไหม คือกำลังใกล้หมดพลัง ตอบตรงๆ",
+      "Target": "คนที่มีแบตมือถือน้อยกว่า 30%",
+      "TargetType": "Condition",
+      "id": "Q035",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้ามีซุปเปอร์พาวเวอร์ 1 อย่าง มึงจะใช้ทำสิ่งที่ดีหรือสิ่งที่อยากทำให้ตัวเองได้ประโยชน์ ตอบตรงๆ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "Q036",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1,
+            "when": "ถ้าตอบหลบ"
+          }
+        ]
+      },
+      "Penalty": "ถ้าตอบหลบ: รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "ตอนนี้มึงรู้สึกยังไงกับชีวิต ใน 1 ประโยค ห้ามบอกว่า 'ก็โอเค'",
+      "Target": "คนนั่งขวามือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "Q037",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1,
+            "when": "ถ้าบอกว่าโอเค"
+          }
+        ]
+      },
+      "Penalty": "ถ้าบอกว่าโอเค: รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "ถามอะไรก็ได้ที่อยากรู้จริงๆ จากคนในวงคนหนึ่ง แต่ถ้าไม่ถาม รับโทษ{lv:2}",
+      "Target": "คนผมสั้นที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "Q038",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Question",
+      "Content": "ทุกคนบอกว่าตอนนี้กำลัง worry เรื่องอะไรอยู่ ใครบอกว่าไม่มีเลย รับโทษ{lv:2}",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "Q039",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Question",
+      "Content": "เพื่อนสนิทที่สุดในวงนี้คือใคร ทำไม ถ้าบอกว่า 'ทุกคนสนิทเท่ากัน' รับโทษ เพราะโกหก",
+      "Target": "คนตัวสูงที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "Q040",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "เคยอยากตัดผมสั้นมากไหม แต่ไม่กล้า เพราะกลัวอะไร",
+      "Target": "คนที่ผมยาวที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "Q041",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1,
+            "when": "ถ้าไม่ตอบ"
+          }
+        ]
+      },
+      "Penalty": "ถ้าไม่ตอบ: รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "มึงนิยาม 'ความสุข' ว่าคืออะไร และตอนนี้มีความสุขไหม บอกตรงๆ",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "Q042",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้าต้องอยู่บนเกาะร้างกับคนในวงนี้คนเดียว 1 เดือน มึงจะเลือกใคร และทำไม",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "Q043",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1,
+            "when": "ถ้าไม่บอก"
+          }
+        ]
+      },
+      "Penalty": "ถ้าไม่บอก: รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "ยกมือถ้าเคยดูซีรีส์หรือหนังแล้วร้องไห้คนเดียว ทุกคนที่ยก รับโทษ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "Q044",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "ปัจจุบันมึง crush ใครอยู่ไหม ถ้ามี บอกลักษณะ ถ้าไม่มีเลย รับโทษ เพราะทุกคนต้องมี",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "Q045",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้าต้องบอกเหตุผลว่าทำไมคนจั่วถึงยังโสดอยู่ หรือยังไม่แต่งงาน จะบอกว่าอะไร",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "Q046",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1,
+            "when": "ถ้าไม่ตอบ"
+          }
+        ]
+      },
+      "Penalty": "ถ้าไม่ตอบ: รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "มีเรื่องที่รู้สึกว่าตัวเองยังไม่ได้พิสูจน์ให้ตัวเองเห็นไหม ตอบตรงๆ",
+      "Target": "คนที่เพิ่งเลิกกัน",
+      "TargetType": "Condition",
+      "id": "Q047",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1,
+            "when": "ถ้าตอบว่าไม่มี"
+          }
+        ]
+      },
+      "Penalty": "ถ้าตอบว่าไม่มี: รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้าต้องอธิบายตัวเองใน 3 คำ ห้ามใช้คำดีเกินจริง ตอบภายใน 5 วินาที",
+      "Target": "คนที่เช็คโทรศัพท์ใน 5 นาทีที่ผ่านมา",
+      "TargetType": "Condition",
+      "id": "Q048",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1,
+            "when": "ถ้าเกินเวลา"
+          }
+        ]
+      },
+      "Penalty": "ถ้าเกินเวลา: รับโทษระดับ 1",
+      "timer": 5
+    },
+    {
+      "Category": "Question",
+      "Content": "ทำงานที่ไม่ชอบนานแค่ไหน และทำไปเพื่ออะไร ตอบตรงๆ",
+      "Target": "คนที่เคยทำงานที่ไม่ชอบ",
+      "TargetType": "Condition",
+      "id": "Q049",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "คืนที่เลวร้ายที่สุดในชีวิตคืนนั้นเรียนรู้อะไรบ้าง ตอบสั้นๆ",
+      "Target": "คนที่หัวเราะล่าสุด",
+      "TargetType": "Condition",
+      "id": "Q050",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1,
+            "when": "ถ้าไม่ตอบ"
+          }
+        ]
+      },
+      "Penalty": "ถ้าไม่ตอบ: รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "ทุกคนบอกว่าถ้ามีชีวิตใหม่ อยากเกิดที่ไหนในโลก พร้อมกัน ใครบอกว่าไทยดีที่สุด รับโทษ{lv:1} (ตามใจ)",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "Q051",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้าพรุ่งนี้จะตาย คืนนี้อยากบอกอะไรกับคนในวงนี้",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "Q052",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1,
+            "when": "ถ้าไม่พูด"
+          }
+        ]
+      },
+      "Penalty": "ถ้าไม่พูด: รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "มึงเชื่อว่าตัวเองเป็น 'คนดี' จริงๆ ไหม ตอบก่อนแล้วค่อยอธิบาย",
+      "Target": "คนที่เงียบที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "Q053",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "ดูจากเสื้อผ้าคืนนี้ — มันตื่นมากี่โมง ตอบตรงๆ ถ้าหลังเที่ยง รับโทษ{lv:1}",
+      "Target": "คนที่ดูแต่งตัวสบายที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "Q054",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1,
+            "when": "ถ้าเหตุผลห่วย"
+          }
+        ]
+      },
+      "Penalty": "ถ้าเหตุผลห่วย: รับโทษระดับ 1"
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้ามึงต้องเลือกระหว่างลืมความทรงจำที่เจ็บปวดหรือเก็บไว้เพื่อเรียนรู้ มึงจะเลือกอะไร",
+      "Target": "คนที่พูดมากที่สุดในวงนี้",
+      "TargetType": "Condition",
+      "id": "Q055",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Question",
+      "Content": "อะไรคือสิ่งที่มึงทำแล้วรู้สึกว่าได้เป็นตัวเองมากที่สุด",
+      "Target": "คนที่เคยโดนเท",
+      "TargetType": "Condition",
+      "id": "Q056",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้าชีวิตมีปุ่ม pause มึงจะกดตอนไหน",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "Q057",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "มึงคิดว่าความสุขที่แท้จริงคืออะไร — ตอบให้ตรงไปตรงมา",
+      "Target": "คนมีรอยสัก",
+      "TargetType": "Condition",
+      "id": "Q058",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Question",
+      "Content": "ทุกคนบอกว่าตอนนี้ชีวิตให้คะแนนตัวเองได้เท่าไหร่จาก 10 คะแนน พร้อมเหตุผลสั้นๆ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "Q059",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "มีอะไรที่มึงอยากบอกครอบครัวแต่ยังไม่เคยพูดออกไปไหม",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "Q060",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้าต้องเลือกระหว่างรวยมากแต่อยู่คนเดียว กับพอมีพอกินแต่มีคนรัก มึงเลือกอะไร",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "Q061",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Question",
+      "Content": "อะไรที่มึงยังทำไม่ได้ในชีวิตแต่อยากทำก่อนอายุ 30 (หรือ 40)",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "Q062",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้าต้องเลือกอยู่ในโลกที่ทุกคนพูดความจริงตลอดเวลา หรือโลกปัจจุบัน มึงจะเลือกอะไร",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "Q063",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "มึงเชื่อในเรื่องโชคชะตาหรือทุกอย่างขึ้นอยู่กับตัวเองล้วนๆ",
+      "Target": "คนนั่งตรงข้ามคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "Q064",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Question",
+      "Content": "ทุกคนบอกว่าช่วงอายุไหนของชีวิตที่ตัวเองมีความสุขที่สุดและทำไม",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "Q065",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้ามึงรู้ว่าจะตายในอีก 1 ปี มึงจะทำอะไรที่แตกต่างออกไปจากตอนนี้",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "Q066",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "อะไรคือความกลัวที่ใหญ่ที่สุดของมึง — ไม่ใช่แมงมุมหรืองู แต่ความกลัวในชีวิตจริง",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "Q067",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "มึงคิดว่ามึงเป็นคนน่าเชื่อถือไหม และทำไมถึงคิดแบบนั้น",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "Q068",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "สิ่งที่มึงเสียใจที่สุดในชีวิตจนถึงตอนนี้คืออะไร",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "Q069",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้ามึงเห็นเพื่อนทำอะไรผิดๆ มึงจะบอกเขาหรือเงียบ — และทำไม",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "Q070",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "อะไรที่ทำให้มึงรู้สึกว่าชีวิตคุ้มค่าที่จะมีชีวิตอยู่",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "Q071",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "ทุกคนบอกว่าตอนนี้ต้องการอะไรมากที่สุดในชีวิต — ตอบจริงๆ ไม่ใช่สิ่งของ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "Q072",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้ามึงย้อนเวลาได้ มึงจะกลับไปบอกอะไรกับตัวเองตอนอายุ 15",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "Q073",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "มึงคิดว่าความสัมพันธ์ที่ดีต้องการอะไรมากที่สุด — ความไว้ใจ ความซื่อสัตย์ หรืออะไรอื่น",
+      "Target": "คนใส่รองเท้าแตะ",
+      "TargetType": "Condition",
+      "id": "Q074",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Question",
+      "Content": "สิ่งที่มึงภูมิใจในตัวเองมากที่สุดคืออะไร — พูดจริงๆ อย่าถ่อมตัว",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "Q075",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "มีครั้งไหนบ้างที่มึงรู้สึกว่าตัวเองแข็งแกร่งที่สุด",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "Q076",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้ามึงมีชีวิตอีกครั้ง มึงอยากเกิดในยุคไหน และทำไม",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "Q077",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "อะไรที่มึงยังอธิบายไม่ได้ว่าทำไมถึงยังทำอยู่ทั้งที่รู้ว่าไม่ดี",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "Q078",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "ทุกคนบอกว่าความฝันที่ตั้งแต่เด็กยังไม่เคยบอกใครคืออะไร",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "Q079",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้ามึงรู้ว่าจะไม่มีทางล้มเหลว มึงจะลองทำอะไร",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "Q080",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "คนที่มีอิทธิพลต่อความคิดของมึงมากที่สุดในชีวิตคือใคร",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "Q081",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "มึงนิยามความสำเร็จว่าคืออะไร — เงิน ชื่อเสียง ความสุข หรืออะไร",
+      "Target": "คนผมสั้นที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "Q082",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้ามึงต้องเลือกระหว่างเป็นคนที่ทุกคนรัก กับเป็นคนที่ทุกคนเคารพ มึงจะเลือกอะไร",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "Q083",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "ทุกคนบอกว่าถ้าต้องอธิบายตัวเองด้วยคำเดียว จะเป็นคำว่าอะไร",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "Q084",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "อะไรที่มึงทำแล้วรู้สึกผิดที่สุด แต่ยังทำอยู่",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "Q085",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้าต้องอยู่บนเกาะร้างคนเดียว 3 อย่างที่มึงจะเอาไปคืออะไร",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "Q086",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "มึงคิดว่าคนเราเปลี่ยนได้จริงไหม หรือลึกๆ แล้วคนไม่เคยเปลี่ยน",
+      "Target": "คนที่โสดอยู่",
+      "TargetType": "Condition",
+      "id": "Q087",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Question",
+      "Content": "มีอะไรในชีวิตที่มึงยังไม่ได้พูดขอโทษใคร แต่รู้ว่าควรพูด",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "Q088",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้ามึงเขียนหนังสือเล่มหนึ่ง ชื่อเรื่องจะเป็นอะไรและเนื้อหาจะเกี่ยวกับอะไร",
+      "Target": "คนที่เพิ่งเลิกกัน",
+      "TargetType": "Condition",
+      "id": "Q089",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Question",
+      "Content": "ทุกคนบอกว่าสิ่งที่อยากเปลี่ยนในตัวเองมากที่สุดคืออะไร",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "Q090",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "มึงคิดว่าเพื่อนในวงนี้รู้จักมึงจริงๆ แค่ไหน — 1-10 คะแนน",
+      "Target": "คนที่เช็คโทรศัพท์ใน 5 นาทีที่ผ่านมา",
+      "TargetType": "Condition",
+      "id": "Q091",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Question",
+      "Content": "ช่วงเวลาที่มึงรู้สึกโดดเดี่ยวที่สุดในชีวิตคือตอนไหน",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "Q092",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้ามึงมีพลังพิเศษได้ 1 อย่าง แต่ต้องเสียอะไรบางอย่างที่มีค่า มึงจะเลือกไหม",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "Q093",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "ความสัมพันธ์ไหนในชีวิตที่มึงรักษาไว้ได้ยากที่สุด",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "Q094",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้าต้องบอกจุดอ่อนที่สุดของตัวเองต่อหน้าคนทั้งวง มึงจะบอกว่าอะไร",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "Q095",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "มึงนิยามคำว่า 'เพื่อนแท้' ว่าอย่างไร",
+      "Target": "คนที่พูดมากที่สุดในวงนี้",
+      "TargetType": "Condition",
+      "id": "Q096",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Question",
+      "Content": "อะไรที่มึงยังทำไม่กล้าพูดกับพ่อแม่",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "Q097",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "ทุกคนบอกว่าถ้าพรุ่งนี้เป็นวันสุดท้ายของชีวิต คืนนี้จะทำอะไร",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "Q098",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้ามึงรู้ว่าชีวิตจะดีขึ้นในอีก 5 ปี แต่ต้องทนกับอะไรบางอย่างก่อน มึงจะสู้ไหม",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "Q099",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้ามึงต้องอธิบายตัวเองให้คนแปลกหน้าในลิฟต์ฟังภายใน 30 วินาที มึงจะพูดอะไร",
+      "Target": "คนมีรอยสัก",
+      "TargetType": "Condition",
+      "id": "Q100",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "timer": 30
+    },
+    {
+      "Category": "Question",
+      "Content": "อะไรทำให้มึงรู้สึกว่าคืนนี้คุ้มค่าที่ออกมา",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "Q101",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "ทุกคนบอกว่าอะไรคือสิ่งที่ทำให้ตัวเองดูดีที่สุดในสายตาคนอื่น",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "Q102",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "มึงคิดว่าคนที่อยู่คนเดียวนานๆ ขาดอะไรมากที่สุด",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "Q103",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้าต้องเปลี่ยนอาชีพพรุ่งนี้ มึงจะเลือกอาชีพอะไรและทำไม",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "Q104",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "ความรักที่มึงอยากได้มากที่สุดในชีวิตมันหน้าตาเป็นแบบไหน",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "Q105",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "อะไรในชีวิตที่มึงเพิ่งเริ่มเข้าใจหลังจากผ่านไปนาน",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "Q106",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "ทุกคนบอกว่าถ้าต้องเลือกระหว่างลืมทุกอย่างและเริ่มใหม่ กับจำทุกอย่างและแบกต่อไป จะเลือกอะไร",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "Q107",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "มึงคิดว่าคนเราต้องการอะไรมากที่สุดในยุคนี้",
+      "Target": "คนนั่งถัดไปทวนเข็มนาฬิกา",
+      "TargetType": "Mechanic",
+      "id": "Q108",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้ามึงอยู่ในหนังแนวไหน และมึงจะรับบทเป็นตัวละครแบบไหน",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "Q109",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "มึงเคยรู้สึกว่าตัวเองทำผิดพลาดแล้วชีวิตดีขึ้นกว่าเดิมไหม",
+      "Target": "คนใส่แว่น",
+      "TargetType": "Condition",
+      "id": "Q110",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Question",
+      "Content": "อะไรที่มึงอยากได้ยินจากคนอื่นมากที่สุด แต่ไม่เคยได้ยิน",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "Q111",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "ทุกคนบอกว่าอะไรคือสิ่งเดียวที่ถ้ามีชีวิตอยู่อีก 10 ปีจะตั้งใจทำให้ได้",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "Q112",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้าต้องอธิบายว่าคืนนี้รู้สึกยังไงด้วยคำ 3 คำ จะเป็นคำว่าอะไร",
+      "Target": "คนใส่ต่างหู",
+      "TargetType": "Condition",
+      "id": "Q113",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Question",
+      "Content": "ถ้ามึงต้องเลือกคนในวงนี้คนหนึ่งเป็น 'ผู้รักษาความลับ' ของมึง มึงจะเลือกใคร และทำไม",
+      "Target": "คนนั่งขวามือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "Q114",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
-  "version": "2.4.0",
+  "version": "2.5.0",
   "builtAt": "2026-11-15",
-  "apk": "download/pokker-2.4.0.apk",
-  "apkSha256": "e63a81d0bef54eef9459474a3d4b7a9e504d3068c68f74def6d5acce24c42052",
-  "apkSizeMB": "3.6",
+  "apk": "download/pokker-2.5.0.apk",
+  "apkSha256": "137b6bdbf0fdfc0901eae380ab9db97451ea96f95643708d6957404dab70d829",
+  "apkSizeMB": "3.7",
   "certSha256": "95:EA:42:09:EB:F5:D3:C3:FC:09:C7:1B:93:C9:12:48:8B:95:97:34:A6:C7:7D:F7:22:C4:8C:44:1B:BA:3E:E0"
 }

@@ -1,0 +1,626 @@
+{
+  "mode_title": "Music",
+  "description": "เกมดนตรี ฮัมเพลง เดาเพลง",
+  "cards": [
+    {
+      "Category": "Music",
+      "Content": "ฮัมเพลงที่วงขอให้วงทาย ถ้าวงทายถูกใน 30 วินาที มึงรับโทษ ถ้าทายไม่ถูก วงรับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "MU001",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1",
+      "timer": 30
+    },
+    {
+      "Category": "Music",
+      "Content": "ร้องเพลงที่วงขอให้ได้อย่างน้อย 1 ท่อน — ถ้าร้องคำผิดเกิน 3 คำรับโทษ",
+      "Target": "คนนั่งขวามือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "MU002",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Music",
+      "Content": "แข่งต่อเนื้อเพลง — คนจั่วร้องท่อนแรก คนถัดไปต้องต่อทันที ใครหยุดนานกว่า 3 วินาทีรับโทษ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "MU003",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1",
+      "timer": 3
+    },
+    {
+      "Category": "Music",
+      "Content": "เปิดเพลงสุ่มจาก playlist ในมือถือ ถ้าเป็นเพลงที่วงไม่รู้จักแม้แต่คนเดียวมึงรับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "MU004",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Music",
+      "Content": "ร้องเพลงโฆษณาที่วงขอให้จำได้ — ถ้าร้องได้ดี วงรับโทษ ถ้าร้องไม่ได้ มึงรับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "MU005",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Music",
+      "Content": "วงแข่งกันทายเพลงจากเนื้อเพลงที่คนจั่วอ่านให้ฟัง — ใครทายถูกก่อนได้สิทธิ์ให้คนอื่นรับโทษ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "MU006",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Music",
+      "Content": "ร้องเพลงที่มึงชอบมากที่สุดตอนอายุ 15 — ถ้าวงไม่รู้จักเพลงนั้นเลยมึงรับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "MU007",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Music",
+      "Content": "มึงต้องทายชื่อเพลงจากท่อนที่คนทางซ้ายฮัมให้ ถ้าทายไม่ถูกใน 3 ครั้งมึงรับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "MU008",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1",
+      "partner": "left"
+    },
+    {
+      "Category": "Music",
+      "Content": "แข่งกันบอกชื่อเพลงของศิลปินที่วงเลือก — ใครนึกไม่ออกรับโทษ คนที่นึกออกเยอะสุดสั่งให้ใครรับโทษก็ได้",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "MU009",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Music",
+      "Content": "ร้องเพลงช้าๆ แบบ slow version ของเพลงที่วงขอ วงโหวตว่าน่าฟังไหม ถ้าไม่ผ่านรับโทษ",
+      "Target": "คนใส่เสื้อสีดำ",
+      "TargetType": "Condition",
+      "id": "MU010",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Music",
+      "Content": "เปิดเพลงในมือถือแล้วเต้นท่าที่วงขอตามจังหวะ 30 วินาที ถ้าหยุดก่อนรับโทษ",
+      "Target": "คนใส่เสื้อมีลาย",
+      "TargetType": "Condition",
+      "id": "MU011",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1",
+      "timer": 30
+    },
+    {
+      "Category": "Music",
+      "Content": "ทุกคนร้องเพลงเดียวกันพร้อมกัน — วงเลือกเพลง ร้องพร้อมกัน 1 ท่อน ใครร้องเพี้ยนที่สุดรับโทษ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "MU012",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Music",
+      "Content": "มึงต้องบอกชื่อศิลปินจากท่อนเพลงที่วงพูดให้ฟัง ถ้าบอกไม่ได้ รับโทษ ถ้าบอกได้ วงรับโทษ",
+      "Target": "คนผมยาวที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "MU013",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Music",
+      "Content": "มึงต้องร้องเพลงที่วงขอ แต่ให้ร้องแบบ opera — วงโหวตว่าน่าฟังไหม ถ้าไม่ผ่านรับโทษ",
+      "Target": "คนผมสั้นที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "MU014",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Music",
+      "Content": "เปิดเพลงในมือถือ ถ้าเป็นเพลงที่วงรู้จักทุกคน มึงรับโทษ ถ้ามีคนไม่รู้จักอย่างน้อย 1 คน วงรับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "MU015",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Music",
+      "Content": "แข่งกันต่อชื่อเพลงที่ขึ้นต้นด้วยพยัญชนะตัวที่คนจั่วเลือก — ใครนึกไม่ออกรับโทษ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "MU016",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Music",
+      "Content": "มึงต้องแต่งเนื้อเพลงสดๆ 4 บรรทัดเกี่ยวกับคนทางซ้าย — วงโหวตว่าดีพอไหม",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "MU017",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "partner": "left"
+    },
+    {
+      "Category": "Music",
+      "Content": "ร้องเพลงที่วงขอแต่ต้องร้องโดยไม่ใช้พยัญชนะต้น — ถ้าฟังรู้เรื่องวงยอมรับโทษแทน ถ้าฟังไม่รู้เรื่อง มึงรับโทษ",
+      "Target": "คนที่เงียบที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "MU018",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Music",
+      "Content": "วงโหวตเพลงประจำตัวให้ทุกคนในวง — แต่ละคนบอกว่าเพลงที่ได้รับเหมาะกับตัวเองไหม",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "MU019",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Music",
+      "Content": "มึงต้องทายว่าคนทางขวาชอบเพลงแนวอะไรมากที่สุด ถ้าทายผิดรับโทษ ถ้าทายถูกคนทางขวารับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "MU020",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ถ้าทายผิด",
+            "who": "drawer",
+            "level": 1
+          },
+          {
+            "when": "ถ้าทายถูก",
+            "who": "custom",
+            "whoText": "คนทางขวา",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "ถ้าทายผิด: คนจั่ว รับโทษระดับ 1 / ถ้าทายถูก: คนทางขวา รับโทษระดับ 1",
+      "partner": "right"
+    },
+    {
+      "Category": "Music",
+      "Content": "มึงร้องเพลง 10 วินาที วงต้องทายชื่อเพลง ถ้าทายไม่ได้ มึงรับโทษ ถ้าทายได้ วงรับโทษ",
+      "Target": "คนที่ยิ้มตลอดเวลา",
+      "TargetType": "Condition",
+      "id": "MU021",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1",
+      "timer": 10
+    },
+    {
+      "Category": "Music",
+      "Content": "ทุกคนฮัมเพลงพร้อมกันคนละเพลงที่ต่างกัน 30 วินาที — ใครหยุดก่อนรับโทษ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "MU022",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "level": 1,
+            "whoText": "คนที่หยุดก่อน"
+          }
+        ]
+      },
+      "Penalty": "คนที่หยุดก่อน รับโทษระดับ 1",
+      "timer": 30
+    },
+    {
+      "Category": "Music",
+      "Content": "มึงต้องร้องเพลงที่มึงอาย/เขินที่จะยอมรับว่าชอบ — วงห้ามหัวเราะ ถ้าใครหัวเราะคนนั้นรับโทษ",
+      "Target": "คนที่เช็คโทรศัพท์ใน 5 นาทีที่ผ่านมา",
+      "TargetType": "Condition",
+      "id": "MU023",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Music",
+      "Content": "วงเลือกศิลปิน มึงต้องบอกชื่อเพลงของศิลปินนั้นให้ได้ 5 เพลงใน 30 วินาที ถ้าไม่ถึง 5 เพลงรับโทษ",
+      "Target": "คนที่ยังไม่โดนโทษรอบนี้",
+      "TargetType": "Condition",
+      "id": "MU024",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1",
+      "timer": 30
+    },
+    {
+      "Category": "Music",
+      "Content": "แข่งกัน karaoke — คนจั่วเปิดเพลงสุ่ม ทุกคนร้องตาม ใครร้องแย่ที่สุดวงโหวต คนนั้นรับโทษ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "MU025",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Music",
+      "Content": "มึงต้องบรรยายอารมณ์ของเพลงล่าสุดที่มึงฟังในมือถือโดยไม่บอกชื่อ วงทาย ถ้าทายถูกมึงรับโทษ",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "MU026",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Music",
+      "Content": "มึงต้องร้องเพลงที่วงขอแต่ต้องเปลี่ยนเนื้อเป็นเรื่องของคนในวง — วงโหวตว่าน่าฟังไหม",
+      "Target": "คนใส่ต่างหู",
+      "TargetType": "Condition",
+      "id": "MU027",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Music",
+      "Content": "ทุกคนเปิดเพลงที่ชอบที่สุดตอนนี้พร้อมกัน 10 วินาที วงโหวตว่าชุดเพลงของใครเข้ากันกับคืนนี้มากสุด",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "MU028",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "timer": 10
+    },
+    {
+      "Category": "Music",
+      "Content": "มึงเลือกเพลงที่สะท้อนความรู้สึกของมึงคืนนี้ เปิดให้วงฟัง แล้วอธิบายว่าทำไมถึงเลือกเพลงนี้",
+      "Target": "คนที่โสดอยู่",
+      "TargetType": "Condition",
+      "id": "MU029",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Music",
+      "Content": "ทุกคนร้องเพลงเดียวกัน แต่แต่ละคนร้องในโทนเสียงที่ต่างกัน ใครเพี้ยนที่สุดวงโหวต คนนั้นรับโทษ",
+      "Target": "ทุกคน",
+      "TargetType": "Group",
+      "id": "MU030",
+      "actor_role": "drawer",
+      "target_role": "group",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    }
+  ]
+}

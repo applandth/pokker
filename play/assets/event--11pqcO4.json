@@ -1,0 +1,525 @@
+{
+  "mode_title": "เหตุการณ์พิเศษ",
+  "description": "มินิเกมทั้งวง โผล่มาเองทุก 15–20 ใบ",
+  "cards": [
+    {
+      "Category": "Event",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "EV001",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "Content": "🎉 เป่ายิ้งฉุบพร้อมกันทั้งวง ใครแพ้เป็นคนสุดท้ายรับโทษ{lv:2}",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่แพ้คนสุดท้าย",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนที่แพ้คนสุดท้าย รับโทษระดับ 2"
+    },
+    {
+      "Category": "Event",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "EV002",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "Content": "🎉 ทุกคนหาของสีแดงมาวางกลางวงภายใน 10 วินาที ใครช้าสุดหรือหาไม่ได้รับโทษ{lv:2}",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่ช้าสุด",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนที่ช้าสุด รับโทษระดับ 2",
+      "timer": 10
+    },
+    {
+      "Category": "Event",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "EV003",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "Content": "🎉 เงียบทั้งวง 30 วินาที ใครหลุดพูดหรือหัวเราะก่อนรับโทษ{lv:2}",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่หลุดก่อน",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนที่หลุดก่อน รับโทษระดับ 2",
+      "timer": 30
+    },
+    {
+      "Category": "Event",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "EV004",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "Content": "🎉 ทุกคนแข็งเป็นรูปปั้น 20 วินาที ใครขยับก่อนรับโทษ{lv:2}",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่ขยับก่อน",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนที่ขยับก่อน รับโทษระดับ 2",
+      "timer": 20
+    },
+    {
+      "Category": "Event",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "EV005",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "Content": "🎉 ชี้พร้อมกัน: ใครน่าจะโดนโทษเยอะที่สุดคืนนี้ คนที่โดนชี้มากสุดรับโทษ{lv:1}",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่โดนชี้มากสุด",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "คนที่โดนชี้มากสุด รับโทษระดับ 1",
+      "countdown": true
+    },
+    {
+      "Category": "Event",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "EV006",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "Content": "🎉 วนรอบวงพูดคำที่ขึ้นต้นด้วย \"ก\" ห้ามซ้ำ ใครคิดไม่ออกใน 5 วินาทีรับโทษ{lv:2}",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่คิดไม่ออก",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนที่คิดไม่ออก รับโทษระดับ 2",
+      "timer": 5
+    },
+    {
+      "Category": "Event",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "EV007",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "Content": "🎉 วนรอบวงร้องเพลงคนละท่อนต่อกัน ใครต่อไม่ได้รับโทษ{lv:2}",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่ต่อไม่ได้",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนที่ต่อไม่ได้ รับโทษระดับ 2"
+    },
+    {
+      "Category": "Event",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "EV008",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "Content": "🎉 ทุกคนยกแขนขึ้นค้างไว้ ใครเอาลงก่อนรับโทษ{lv:2}",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่เอาลงก่อน",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนที่เอาลงก่อน รับโทษระดับ 2"
+    },
+    {
+      "Category": "Event",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "EV009",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "Content": "🎉 นับเลข 1 ถึง 30 วนรอบวง เลขที่มีเลข 3 หรือหาร 3 ลงตัวให้ตบมือแทน ใครพลาดรับโทษ{lv:2}",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่พลาด",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนที่พลาด รับโทษระดับ 2"
+    },
+    {
+      "Category": "Event",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "EV010",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "Content": "🎉 ทุกคนชูนิ้ว 1 ถึง 5 พร้อมกันหลังนับ 3 2 1 ใครชูเลขซ้ำกับคนอื่นรับโทษ{lv:1}",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่ชูซ้ำ",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "คนที่ชูซ้ำ รับโทษระดับ 1",
+      "countdown": true
+    },
+    {
+      "Category": "Event",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "EV011",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "Content": "🎉 วนรอบวงทำหน้าตลกที่สุดคนละ 3 วินาที วงโหวตคนที่ตลกน้อยสุดรับโทษ{lv:2}",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่ได้โหวตน้อยสุด",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนที่ได้โหวตน้อยสุด รับโทษระดับ 2",
+      "timer": 3
+    },
+    {
+      "Category": "Event",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "EV012",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "Content": "🎉 ทุกคนลุกขึ้นยืนเดี๋ยวนี้! คนสุดท้ายที่ยืนรับโทษ{lv:1}",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่ยืนช้าสุด",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "คนที่ยืนช้าสุด รับโทษระดับ 1"
+    },
+    {
+      "Category": "Event",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "EV013",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "Content": "🎉 ทุกคนแตะจมูกเร็ว! คนสุดท้ายที่แตะรับโทษ{lv:1}",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่แตะช้าสุด",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "คนที่แตะช้าสุด รับโทษระดับ 1"
+    },
+    {
+      "Category": "Event",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "EV014",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "Content": "🎉 ทุกคนผลัดกันพูดชื่อทุกคนในวงให้ครบภายใน 10 วินาที ใครพลาดรับโทษ{lv:2}",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่พลาด",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนที่พลาด รับโทษระดับ 2",
+      "timer": 10
+    },
+    {
+      "Category": "Event",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "EV015",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "Content": "🎉 วนรอบวงชมคนทางซ้ายของตัวเองคนละประโยค ใครชมซ้ำหรือติดรับโทษ{lv:1}",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่ชมซ้ำหรือติด",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "คนที่ชมซ้ำหรือติด รับโทษระดับ 1"
+    },
+    {
+      "Category": "Event",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "EV016",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "Content": "🎉 ทุกคนชูนิ้ว 1 หรือ 2 พร้อมกันหลังนับ 3 2 1 ฝั่งที่มีคนน้อยกว่ารับโทษ{lv:1}",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "ฝั่งที่มีคนน้อยกว่า",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "ฝั่งที่มีคนน้อยกว่า รับโทษระดับ 1",
+      "countdown": true
+    },
+    {
+      "Category": "Event",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "EV017",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "Content": "🎉 วนรอบวงบอกชื่อผลไม้ห้ามซ้ำ ใครคิดไม่ออกใน 5 วินาทีรับโทษ{lv:2}",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่คิดไม่ออก",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนที่คิดไม่ออก รับโทษระดับ 2",
+      "timer": 5
+    },
+    {
+      "Category": "Event",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "EV018",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "Content": "🎉 ทุกคนห้ามยิ้ม 20 วินาที คนจั่วใบก่อนหน้าทำหน้าตลกใส่ ใครยิ้มก่อนรับโทษ{lv:2}",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่ยิ้มก่อน",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนที่ยิ้มก่อน รับโทษระดับ 2",
+      "timer": 20
+    },
+    {
+      "Category": "Event",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "EV019",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "Content": "🎉 ทุกคนหลับตา แล้วชี้ไปทางที่คิดว่าเป็นทิศเหนือพร้อมกัน ใครชี้ห่างจากเพื่อนที่สุดรับโทษ{lv:1}",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่ชี้ต่างที่สุด",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "คนที่ชี้ต่างที่สุด รับโทษระดับ 1"
+    },
+    {
+      "Category": "Event",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "EV020",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "Content": "🎉 วนรอบวงเล่าเรื่องต่อกันคนละประโยค ใครทำเรื่องไม่ต่อกันหรือติดเกิน 5 วินาทีรับโทษ{lv:2}",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่ทำเรื่องขาด",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนที่ทำเรื่องขาด รับโทษระดับ 2",
+      "timer": 5
+    },
+    {
+      "Category": "Event",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "EV021",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "Content": "🎉 ทุกคนพูดคำว่า \"ปาร์ตี้\" พร้อมกันด้วยเสียงที่ต่างกัน วงโหวตเสียงที่แย่สุดรับโทษ{lv:1}",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่ได้โหวตเสียงแย่สุด",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "คนที่ได้โหวตเสียงแย่สุด รับโทษระดับ 1"
+    },
+    {
+      "Category": "Event",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "EV022",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "Content": "🎉 ทุกคนวางมือบนโต๊ะ ใครยกมือขึ้นก่อนภายใน 30 วินาทีรับโทษ{lv:1} — ระหว่างนี้คุยกันปกติ",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่ยกมือก่อน",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "คนที่ยกมือก่อน รับโทษระดับ 1",
+      "timer": 30
+    },
+    {
+      "Category": "Event",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "EV023",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "Content": "🎉 ทุกคนเลียนแบบท่าทางของคนที่นั่งตรงข้าม 15 วินาที วงโหวตคนที่เหมือนน้อยสุดรับโทษ{lv:2}",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่เหมือนน้อยสุด",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนที่เหมือนน้อยสุด รับโทษระดับ 2",
+      "timer": 15
+    },
+    {
+      "Category": "Event",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "EV024",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "Content": "🎉 ชี้พร้อมกัน: ใครน่าจะทำภารกิจลับเนียนที่สุดในวง คนที่โดนชี้มากสุดรับโทษ{lv:1}",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่โดนชี้มากสุด",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "คนที่โดนชี้มากสุด รับโทษระดับ 1",
+      "countdown": true
+    }
+  ]
+}

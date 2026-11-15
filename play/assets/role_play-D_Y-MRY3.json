@@ -1,0 +1,577 @@
+{
+  "mode_title": "Role Play",
+  "description": "แสดงบทบาท ใครแสดงได้น่าเชื่อกว่า",
+  "cards": [
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นนักขายประกันที่ต้องปิดการขายกับคนทางซ้ายใน 60 วินาที ถ้ามันไม่ซื้อ มึงรับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "RP001",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2",
+      "partner": "left",
+      "timer": 60
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นหมอที่ต้องแจ้งผลตรวจให้คนทางขวาฟัง วงเลือกว่าผลตรวจเป็นอะไร — มึงต้องแจ้งอย่างจริงจัง",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "RP002",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "partner": "right"
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นตำรวจสอบสวนคนทางซ้ายในข้อหาที่วงเลือก ใช้เวลา 1 นาที ถ้ามึงหัวเราะก่อนมึงรับโทษ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "RP003",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2",
+      "partner": "left",
+      "timer": 60
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นนักการเมืองหาเสียง มีเวลา 45 วินาทีโน้มน้าววงให้โหวตให้มึง ถ้าวงไม่โหวตมึงรับโทษ",
+      "Target": "คนใส่เสื้อมีปก",
+      "TargetType": "Condition",
+      "id": "RP004",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2",
+      "timer": 45
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นเชฟชื่อดังรีวิวอาหารที่อยู่บนโต๊ะตอนนี้ราวกับเป็นอาหารระดับ Michelin",
+      "Target": "คนใส่เสื้อสีขาว",
+      "TargetType": "Condition",
+      "id": "RP005",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นครูสอนวิชา 'วิทยาศาสตร์ของความขี้เกียจ' อธิบายให้วงเข้าใจว่าทำไมคนเราถึงชอบเลื่อนนาฬิกาปลุก ถ้าวงไม่เชื่อ รับโทษ",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "RP006",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นโค้ชชีวิตให้กำลังใจคนทางขวาในเรื่องที่วงเลือก — ต้องพูดอย่างจริงจังและดูมีอำนาจ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "RP007",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "partner": "right"
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นนักจิตวิทยาวิเคราะห์บุคลิกคนทางซ้ายจากท่าทางนั่งของมัน ต้องฟังดูน่าเชื่อ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "RP008",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "partner": "left"
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นพิธีกรข่าวรายงานสดเหตุการณ์ที่เกิดขึ้นในวงนี้ตอนนี้ ห้ามหัวเราะ",
+      "Target": "คนใส่แว่น",
+      "TargetType": "Condition",
+      "id": "RP009",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นทนายแก้ต่างให้ตัวเองในข้อหาที่วงตั้งให้ มีเวลา 1 นาที วงโหวตว่ามึงผิดหรือไม่ผิด คนแพ้รับโทษ",
+      "Target": "คนใส่ต่างหู",
+      "TargetType": "Condition",
+      "id": "RP010",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "loser",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "คนแพ้ รับโทษระดับ 2",
+      "timer": 60
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นสายลับแทรกซึมเข้ามาในวงนี้ บอกว่าภารกิจของมึงคืออะไร และทำไมถึงเลือกคนในวงคนนี้",
+      "Target": "คนใส่นาฬิกา",
+      "TargetType": "Condition",
+      "id": "RP011",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นพ่อครัวรายการทีวี สาธิตการทำเมนูสมมติให้วงดูใน 45 วินาที ต้องอธิบายทุกขั้นตอน",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "RP012",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "timer": 45
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นหมอดูอ่านลายมือให้คนทางขวา ทำนายอนาคตให้ฟังดูน่าเชื่ออย่างจริงจัง",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "RP013",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "partner": "right"
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นนักข่าวสัมภาษณ์คนทางซ้ายราวกับมันเป็นดาราระดับโลก ถามอย่างน้อย 3 คำถาม",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "RP014",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "partner": "left"
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นผู้จัดการโรงแรม 5 ดาวต้อนรับวงนี้ สาธิตมาตรฐานการบริการใน 1 นาที",
+      "Target": "คนมีรอยสัก",
+      "TargetType": "Condition",
+      "id": "RP015",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "timer": 60
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นเด็กอายุ 5 ขวบที่ถามคำถามเกี่ยวกับชีวิตผู้ใหญ่กับคนทางขวา — ต้องพูดเหมือนเด็กจริงๆ",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "RP016",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "partner": "right"
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็น AI ที่เพิ่งมีความรู้สึก ตอบทุกคำถามที่วงถามในแบบ AI ที่กำลังตื่นตัวครั้งแรก",
+      "Target": "คนใส่กางเกงยีนส์",
+      "TargetType": "Condition",
+      "id": "RP017",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นนักแสดงในฉากร้องไห้อกหัก ต้องแสดงให้น่าประทับใจที่สุดใน 30 วินาที วงโหวต คนน่าเบื่อสุดรับโทษ",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "RP018",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2",
+      "timer": 30
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็น YouTuber รีวิวสถานที่ที่มึงนั่งอยู่ตอนนี้ ต้องทำท่าถือกล้องและพูดอย่างน่าสนใจ",
+      "Target": "คนที่ผมมีสีย้อม",
+      "TargetType": "Condition",
+      "id": "RP019",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นนักเจรจาต่อรองที่ต้องโน้มน้าวให้คนทางซ้ายรับโทษแทนมึง ถ้าสำเร็จคนนั้นรับโทษ ถ้าไม่สำเร็จมึงรับโทษ{lv:3}",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "RP020",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "left",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ถ้าโน้มน้าวสำเร็จ",
+            "who": "custom",
+            "whoText": "คนทางซ้าย",
+            "level": 3
+          },
+          {
+            "when": "ถ้าไม่สำเร็จ",
+            "who": "drawer",
+            "level": 3
+          }
+        ]
+      },
+      "Penalty": "ถ้าโน้มน้าวสำเร็จ: คนทางซ้าย รับโทษระดับ 3 / ถ้าไม่สำเร็จ: คนจั่ว รับโทษระดับ 3",
+      "partner": "left"
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นล่ามแปลสิ่งที่คนทางขวาพูดเป็น 'ภาษาสมมติ' ที่มึงสร้างขึ้นเอง ต้องแปลทุกประโยคที่มันพูดใน 1 นาที",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "RP021",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "partner": "right",
+      "timer": 60
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นผู้ประกาศรางวัลออสการ์ ประกาศว่าคนในวงคนไหนได้รางวัลอะไรพร้อมเหตุผล",
+      "Target": "คนผมหยิก",
+      "TargetType": "Condition",
+      "id": "RP022",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นนักบำบัดความสัมพันธ์ให้คำปรึกษาคู่รักสมมติที่วงเลือก ต้องฟังดูเป็นมืออาชีพ",
+      "Target": "คนใส่กางเกงขาสั้น",
+      "TargetType": "Condition",
+      "id": "RP023",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นหัวหน้าทีมแนะนำสมาชิกทีม (คนในวง) ให้ลูกค้าสมมติฟัง ต้องชมทุกคนอย่างน้อย 1 จุด",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "RP024",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นนักวิจารณ์ศิลปะวิเคราะห์ท่านั่งของคนทางขวาราวกับเป็นงานศิลปะ ใช้คำศัพท์โก้หรู",
+      "Target": "คนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "RP025",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "target_position": "right",
+      "partner": "right"
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นโปรแกรมเมอร์อธิบายว่าทำไมคืนนี้ถึงมีบัก (bug) เกิดขึ้น และมึงจะ debug ยังไง",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "RP026",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นนักมายากลประกาศทำกลที่ยิ่งใหญ่ แต่ต้องทำจริงด้วยของที่มีในมือตอนนี้เท่านั้น",
+      "Target": "คนนั่งขวามือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "RP027",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นผู้กำกับภาพยนตร์กำลังคัดเลือกนักแสดงจากวง ให้แต่ละคนออดิชั่น 10 วินาที มึงเป็นคนตัดสิน",
+      "Target": "คนนั่งตรงข้ามคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "RP028",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "timer": 10
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นนักร้องเปิดตัวเพลงใหม่ วงเลือกชื่อเพลงและท่อน hook มึงต้องร้องอย่างจริงจัง",
+      "Target": "คนใส่เสื้อมีปก",
+      "TargetType": "Condition",
+      "id": "RP029",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นพนักงานต้อนรับบนเครื่องบินที่กำลังมีเหตุฉุกเฉิน แนะนำวิธีรอดชีวิตให้วงฟัง",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "RP030",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นนักปรัชญาอธิบายความหมายของการนั่งเล่นเกมคืนนี้ในเชิงปรัชญา ต้องฟังดูฉลาดมาก ถ้าวงหัวเราะก่อนจบ รับโทษ",
+      "Target": "คนใส่เสื้อสีขาว",
+      "TargetType": "Condition",
+      "id": "RP031",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นแม่ทัพนำทัพ (วงนี้) เข้าสู่สงคราม บรรยาย strategy ของมึง และเลือกคนทำหน้าที่ต่างๆ",
+      "Target": "คนใส่เสื้อสีดำ",
+      "TargetType": "Condition",
+      "id": "RP032",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นนักอุตุนิยมวิทยาพยากรณ์อากาศของอารมณ์วงนี้ในคืนนี้ ต้องมีแผนที่อากาศสมมติ",
+      "Target": "คนใส่เสื้อมีลาย",
+      "TargetType": "Condition",
+      "id": "RP033",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นผู้ต้องหาที่ต้องพิสูจน์ความบริสุทธิ์ต่อหน้าศาล (วง) ในเรื่องที่วงตั้งข้อหาให้",
+      "Target": "คนใส่แว่น",
+      "TargetType": "Condition",
+      "id": "RP034",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Roleplay",
+      "Content": "มึงเป็นนักประมูลประกาศขายคนในวงคนหนึ่ง บรรยายคุณสมบัติให้น่าซื้อ วงโหวตว่าราคาสมเหตุผลไหม",
+      "Target": "คนใส่ต่างหู",
+      "TargetType": "Condition",
+      "id": "RP035",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,906 @@
+{
+  "mode_title": "ภารกิจลับ",
+  "description": "คนจั่วกดค้างดูคนเดียว แล้วแอบทำให้สำเร็จก่อนโดนจับได้",
+  "cards": [
+    {
+      "Category": "Mission",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "MS001",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "mission": {
+        "rounds": 3
+      },
+      "Content": "🤫 ทำให้ใครก็ได้ในวงพูดคำว่า \"ไม่รู้\" 2 ครั้ง",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ทำสำเร็จ",
+            "who": "custom",
+            "whoText": "คนที่มึงเลือก",
+            "level": 2
+          },
+          {
+            "when": "โดนจับได้หรือหมดเวลา",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ทำสำเร็จ: คนที่มึงเลือก รับโทษระดับ 2 / โดนจับได้หรือหมดเวลา: คนจั่ว รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mission",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "MS002",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "mission": {
+        "rounds": 2
+      },
+      "Content": "🤫 แตะไหล่คนในวงให้ครบ 3 คน โดยไม่มีใครสงสัย",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ทำสำเร็จ",
+            "who": "custom",
+            "whoText": "คนที่มึงเลือก",
+            "level": 2
+          },
+          {
+            "when": "โดนจับได้หรือหมดเวลา",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ทำสำเร็จ: คนที่มึงเลือก รับโทษระดับ 2 / โดนจับได้หรือหมดเวลา: คนจั่ว รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mission",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "MS003",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "mission": {
+        "rounds": 2
+      },
+      "Content": "🤫 พูดคำว่า \"ขนมครก\" แทรกในบทสนทนาให้ได้ 2 ครั้งแบบเนียน ๆ",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ทำสำเร็จ",
+            "who": "custom",
+            "whoText": "คนที่มึงเลือก",
+            "level": 2
+          },
+          {
+            "when": "โดนจับได้หรือหมดเวลา",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ทำสำเร็จ: คนที่มึงเลือก รับโทษระดับ 2 / โดนจับได้หรือหมดเวลา: คนจั่ว รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mission",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "MS004",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "mission": {
+        "rounds": 3
+      },
+      "Content": "🤫 ทำให้คนทางซ้ายหัวเราะออกมาเสียงดัง 1 ครั้ง",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ทำสำเร็จ",
+            "who": "custom",
+            "whoText": "คนที่มึงเลือก",
+            "level": 2
+          },
+          {
+            "when": "โดนจับได้หรือหมดเวลา",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ทำสำเร็จ: คนที่มึงเลือก รับโทษระดับ 2 / โดนจับได้หรือหมดเวลา: คนจั่ว รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mission",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "MS005",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "mission": {
+        "rounds": 2
+      },
+      "Content": "🤫 ชมคนในวงให้ครบ 3 คน แบบที่ฟังดูจริงใจ",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ทำสำเร็จ",
+            "who": "custom",
+            "whoText": "คนที่มึงเลือก",
+            "level": 2
+          },
+          {
+            "when": "โดนจับได้หรือหมดเวลา",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ทำสำเร็จ: คนที่มึงเลือก รับโทษระดับ 2 / โดนจับได้หรือหมดเวลา: คนจั่ว รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mission",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "MS006",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "mission": {
+        "rounds": 2
+      },
+      "Content": "🤫 ทำให้ใครสักคนยื่นของอะไรก็ได้มาให้มึงถือ",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ทำสำเร็จ",
+            "who": "custom",
+            "whoText": "คนที่มึงเลือก",
+            "level": 2
+          },
+          {
+            "when": "โดนจับได้หรือหมดเวลา",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ทำสำเร็จ: คนที่มึงเลือก รับโทษระดับ 2 / โดนจับได้หรือหมดเวลา: คนจั่ว รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mission",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "MS007",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "mission": {
+        "rounds": 3
+      },
+      "Content": "🤫 เลียนแบบท่านั่งของคนนั่งตรงข้ามโดยที่เขาไม่รู้ตัว",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ทำสำเร็จ",
+            "who": "custom",
+            "whoText": "คนที่มึงเลือก",
+            "level": 2
+          },
+          {
+            "when": "โดนจับได้หรือหมดเวลา",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ทำสำเร็จ: คนที่มึงเลือก รับโทษระดับ 2 / โดนจับได้หรือหมดเวลา: คนจั่ว รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mission",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "MS008",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "mission": {
+        "rounds": 2
+      },
+      "Content": "🤫 แตะจมูกตัวเองทุกครั้งที่มีคนเรียกชื่อมึง",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ทำสำเร็จ",
+            "who": "custom",
+            "whoText": "คนที่มึงเลือก",
+            "level": 2
+          },
+          {
+            "when": "โดนจับได้หรือหมดเวลา",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ทำสำเร็จ: คนที่มึงเลือก รับโทษระดับ 2 / โดนจับได้หรือหมดเวลา: คนจั่ว รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mission",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "MS009",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "mission": {
+        "rounds": 2
+      },
+      "Content": "🤫 พูดประโยคที่ลงท้ายด้วยคำว่า \"ป่ะล่ะ\" ให้ได้ 3 ครั้ง",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ทำสำเร็จ",
+            "who": "custom",
+            "whoText": "คนที่มึงเลือก",
+            "level": 2
+          },
+          {
+            "when": "โดนจับได้หรือหมดเวลา",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ทำสำเร็จ: คนที่มึงเลือก รับโทษระดับ 2 / โดนจับได้หรือหมดเวลา: คนจั่ว รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mission",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "MS010",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "mission": {
+        "rounds": 3
+      },
+      "Content": "🤫 ทำให้คนในวงลุกขึ้นยืนอย่างน้อย 1 คน",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ทำสำเร็จ",
+            "who": "custom",
+            "whoText": "คนที่มึงเลือก",
+            "level": 2
+          },
+          {
+            "when": "โดนจับได้หรือหมดเวลา",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ทำสำเร็จ: คนที่มึงเลือก รับโทษระดับ 2 / โดนจับได้หรือหมดเวลา: คนจั่ว รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mission",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "MS011",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "mission": {
+        "rounds": 2
+      },
+      "Content": "🤫 ฮัมเพลงเดิมเบา ๆ จนมีคนถามว่าเพลงอะไร",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ทำสำเร็จ",
+            "who": "custom",
+            "whoText": "คนที่มึงเลือก",
+            "level": 2
+          },
+          {
+            "when": "โดนจับได้หรือหมดเวลา",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ทำสำเร็จ: คนที่มึงเลือก รับโทษระดับ 2 / โดนจับได้หรือหมดเวลา: คนจั่ว รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mission",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "MS012",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "mission": {
+        "rounds": 2
+      },
+      "Content": "🤫 ทำให้ใครสักคนอุทานว่า \"เอ้ย\"",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ทำสำเร็จ",
+            "who": "custom",
+            "whoText": "คนที่มึงเลือก",
+            "level": 2
+          },
+          {
+            "when": "โดนจับได้หรือหมดเวลา",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ทำสำเร็จ: คนที่มึงเลือก รับโทษระดับ 2 / โดนจับได้หรือหมดเวลา: คนจั่ว รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mission",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "MS013",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "mission": {
+        "rounds": 3
+      },
+      "Content": "🤫 ไขว้ขาสลับข้างทุกครั้งที่มีคนจั่วการ์ด",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ทำสำเร็จ",
+            "who": "custom",
+            "whoText": "คนที่มึงเลือก",
+            "level": 2
+          },
+          {
+            "when": "โดนจับได้หรือหมดเวลา",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ทำสำเร็จ: คนที่มึงเลือก รับโทษระดับ 2 / โดนจับได้หรือหมดเวลา: คนจั่ว รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mission",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "MS014",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "mission": {
+        "rounds": 2
+      },
+      "Content": "🤫 ทำให้วงคุยเรื่องของกิน 1 เรื่อง โดยไม่ให้ใครรู้ว่ามึงเป็นคนเริ่ม",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ทำสำเร็จ",
+            "who": "custom",
+            "whoText": "คนที่มึงเลือก",
+            "level": 2
+          },
+          {
+            "when": "โดนจับได้หรือหมดเวลา",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ทำสำเร็จ: คนที่มึงเลือก รับโทษระดับ 2 / โดนจับได้หรือหมดเวลา: คนจั่ว รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mission",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "MS015",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "mission": {
+        "rounds": 2
+      },
+      "Content": "🤫 ทำให้คนทางขวาเรียกชื่อมึง 2 ครั้ง",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ทำสำเร็จ",
+            "who": "custom",
+            "whoText": "คนที่มึงเลือก",
+            "level": 2
+          },
+          {
+            "when": "โดนจับได้หรือหมดเวลา",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ทำสำเร็จ: คนที่มึงเลือก รับโทษระดับ 2 / โดนจับได้หรือหมดเวลา: คนจั่ว รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mission",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "MS016",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "mission": {
+        "rounds": 3
+      },
+      "Content": "🤫 ขยิบตาใส่คนในวงให้ได้ 2 คน โดยไม่มีใครจับได้",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ทำสำเร็จ",
+            "who": "custom",
+            "whoText": "คนที่มึงเลือก",
+            "level": 2
+          },
+          {
+            "when": "โดนจับได้หรือหมดเวลา",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ทำสำเร็จ: คนที่มึงเลือก รับโทษระดับ 2 / โดนจับได้หรือหมดเวลา: คนจั่ว รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mission",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "MS017",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "mission": {
+        "rounds": 2
+      },
+      "Content": "🤫 พูดว่า \"ประมาณนั้นแหละ\" ต่อท้ายประโยคให้ได้ 3 ครั้ง",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ทำสำเร็จ",
+            "who": "custom",
+            "whoText": "คนที่มึงเลือก",
+            "level": 2
+          },
+          {
+            "when": "โดนจับได้หรือหมดเวลา",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ทำสำเร็จ: คนที่มึงเลือก รับโทษระดับ 2 / โดนจับได้หรือหมดเวลา: คนจั่ว รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mission",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "MS018",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "mission": {
+        "rounds": 2
+      },
+      "Content": "🤫 ทำให้มีคนถามมึงว่า \"เป็นอะไรป่ะ\"",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ทำสำเร็จ",
+            "who": "custom",
+            "whoText": "คนที่มึงเลือก",
+            "level": 2
+          },
+          {
+            "when": "โดนจับได้หรือหมดเวลา",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ทำสำเร็จ: คนที่มึงเลือก รับโทษระดับ 2 / โดนจับได้หรือหมดเวลา: คนจั่ว รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mission",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "MS019",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "mission": {
+        "rounds": 3
+      },
+      "Content": "🤫 ทำให้ทั้งวงพูดคำว่า \"โอเค\" รวมกันให้ได้ 3 ครั้ง",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ทำสำเร็จ",
+            "who": "custom",
+            "whoText": "คนที่มึงเลือก",
+            "level": 2
+          },
+          {
+            "when": "โดนจับได้หรือหมดเวลา",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ทำสำเร็จ: คนที่มึงเลือก รับโทษระดับ 2 / โดนจับได้หรือหมดเวลา: คนจั่ว รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mission",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "MS020",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "mission": {
+        "rounds": 2
+      },
+      "Content": "🤫 แอบเปลี่ยนเรื่องคุยให้วงคุยเรื่องสัตว์",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ทำสำเร็จ",
+            "who": "custom",
+            "whoText": "คนที่มึงเลือก",
+            "level": 2
+          },
+          {
+            "when": "โดนจับได้หรือหมดเวลา",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ทำสำเร็จ: คนที่มึงเลือก รับโทษระดับ 2 / โดนจับได้หรือหมดเวลา: คนจั่ว รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mission",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "MS021",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "mission": {
+        "rounds": 2
+      },
+      "Content": "🤫 ตอบคำถามด้วยคำถามกลับให้ได้ 2 ครั้ง",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ทำสำเร็จ",
+            "who": "custom",
+            "whoText": "คนที่มึงเลือก",
+            "level": 2
+          },
+          {
+            "when": "โดนจับได้หรือหมดเวลา",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ทำสำเร็จ: คนที่มึงเลือก รับโทษระดับ 2 / โดนจับได้หรือหมดเวลา: คนจั่ว รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mission",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "MS022",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "mission": {
+        "rounds": 3
+      },
+      "Content": "🤫 หัวเราะช้ากว่าคนอื่น 1 จังหวะให้ได้ 3 ครั้ง",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ทำสำเร็จ",
+            "who": "custom",
+            "whoText": "คนที่มึงเลือก",
+            "level": 2
+          },
+          {
+            "when": "โดนจับได้หรือหมดเวลา",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ทำสำเร็จ: คนที่มึงเลือก รับโทษระดับ 2 / โดนจับได้หรือหมดเวลา: คนจั่ว รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mission",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "MS023",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "mission": {
+        "rounds": 2
+      },
+      "Content": "🤫 ทำให้คนนั่งตรงข้ามยกมือขึ้น",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ทำสำเร็จ",
+            "who": "custom",
+            "whoText": "คนที่มึงเลือก",
+            "level": 2
+          },
+          {
+            "when": "โดนจับได้หรือหมดเวลา",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ทำสำเร็จ: คนที่มึงเลือก รับโทษระดับ 2 / โดนจับได้หรือหมดเวลา: คนจั่ว รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mission",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "MS024",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "mission": {
+        "rounds": 2
+      },
+      "Content": "🤫 พูดคำว่า \"หนึ่ง\" \"สอง\" \"สาม\" ในประโยคต่าง ๆ ให้ครบตามลำดับ",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ทำสำเร็จ",
+            "who": "custom",
+            "whoText": "คนที่มึงเลือก",
+            "level": 2
+          },
+          {
+            "when": "โดนจับได้หรือหมดเวลา",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ทำสำเร็จ: คนที่มึงเลือก รับโทษระดับ 2 / โดนจับได้หรือหมดเวลา: คนจั่ว รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mission",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "MS025",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "mission": {
+        "rounds": 3
+      },
+      "Content": "🤫 ทำให้ใครสักคนเล่าเรื่องสมัยเรียนให้ฟัง",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ทำสำเร็จ",
+            "who": "custom",
+            "whoText": "คนที่มึงเลือก",
+            "level": 2
+          },
+          {
+            "when": "โดนจับได้หรือหมดเวลา",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ทำสำเร็จ: คนที่มึงเลือก รับโทษระดับ 2 / โดนจับได้หรือหมดเวลา: คนจั่ว รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mission",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "MS026",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "mission": {
+        "rounds": 2
+      },
+      "Content": "🤫 ทำท่าเกาหัวทุกครั้งที่มีคนรับโทษ",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ทำสำเร็จ",
+            "who": "custom",
+            "whoText": "คนที่มึงเลือก",
+            "level": 2
+          },
+          {
+            "when": "โดนจับได้หรือหมดเวลา",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ทำสำเร็จ: คนที่มึงเลือก รับโทษระดับ 2 / โดนจับได้หรือหมดเวลา: คนจั่ว รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mission",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "MS027",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "mission": {
+        "rounds": 2
+      },
+      "Content": "🤫 ทำให้ใครสักคนพูดคำว่า \"จริงดิ\"",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ทำสำเร็จ",
+            "who": "custom",
+            "whoText": "คนที่มึงเลือก",
+            "level": 2
+          },
+          {
+            "when": "โดนจับได้หรือหมดเวลา",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ทำสำเร็จ: คนที่มึงเลือก รับโทษระดับ 2 / โดนจับได้หรือหมดเวลา: คนจั่ว รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mission",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "MS028",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "mission": {
+        "rounds": 3
+      },
+      "Content": "🤫 ถามคนในวงว่า \"ถ้า...จะทำไง\" ให้ได้ 2 คน",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ทำสำเร็จ",
+            "who": "custom",
+            "whoText": "คนที่มึงเลือก",
+            "level": 2
+          },
+          {
+            "when": "โดนจับได้หรือหมดเวลา",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ทำสำเร็จ: คนที่มึงเลือก รับโทษระดับ 2 / โดนจับได้หรือหมดเวลา: คนจั่ว รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mission",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "MS029",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "mission": {
+        "rounds": 2
+      },
+      "Content": "🤫 จับมือทักทายคนในวงให้ได้ 2 คน โดยหาเหตุผลเนียน ๆ",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ทำสำเร็จ",
+            "who": "custom",
+            "whoText": "คนที่มึงเลือก",
+            "level": 2
+          },
+          {
+            "when": "โดนจับได้หรือหมดเวลา",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ทำสำเร็จ: คนที่มึงเลือก รับโทษระดับ 2 / โดนจับได้หรือหมดเวลา: คนจั่ว รับโทษระดับ 2"
+    },
+    {
+      "Category": "Mission",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "MS030",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "mission": {
+        "rounds": 2
+      },
+      "Content": "🤫 ทำให้คนทางซ้ายพูดชื่อสีอะไรก็ได้ 1 สี",
+      "penalty": {
+        "outcomes": [
+          {
+            "when": "ทำสำเร็จ",
+            "who": "custom",
+            "whoText": "คนที่มึงเลือก",
+            "level": 2
+          },
+          {
+            "when": "โดนจับได้หรือหมดเวลา",
+            "who": "drawer",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "ทำสำเร็จ: คนที่มึงเลือก รับโทษระดับ 2 / โดนจับได้หรือหมดเวลา: คนจั่ว รับโทษระดับ 2"
+    }
+  ]
+}

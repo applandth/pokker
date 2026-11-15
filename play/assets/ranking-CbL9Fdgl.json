@@ -1,0 +1,691 @@
+{
+  "mode_title": "Ranking",
+  "description": "จัดอันดับ ใครอยู่ตรงไหนในใจคุณ",
+  "cards": [
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'น่าเชื่อถือมากสุด' ถึง 'น้อยสุด' พร้อมเหตุผลสั้นๆ — คนที่ได้อันดับสุดท้ายรับโทษ",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "RK001",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'น่าจะรวยที่สุดในอีก 10 ปี' ถึง 'น้อยสุด' — คนอันดับ 1 รับโทษเป็นรางวัล คนสุดท้ายรับโทษ",
+      "Target": "คนนั่งขวามือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "RK002",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "each",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1 คนละข้อ"
+    },
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'เก็บความลับได้ดีที่สุด' ถึง 'แย่สุด' — คนที่ได้อันดับสุดท้ายรับโทษ{lv:2}",
+      "Target": "คนนั่งตรงข้ามคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "RK003",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'ใจดีที่สุด' ถึง 'น้อยสุด' พร้อมเหตุผล — คนอันดับ 1 รับโทษเป็นรางวัล",
+      "Target": "คนตัวสูงที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "RK004",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'น่าจะเป็นเพื่อนที่ดีที่สุดในยามวิกฤต' ถึง 'น้อยสุด' — คนอันดับสุดท้ายรับโทษ",
+      "Target": "คนตัวเตี้ยที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "RK005",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'โกหกเก่งที่สุด' ถึง 'แย่สุด' — คนอันดับ 1 รับโทษ{lv:2}",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "RK006",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'น่าจะประสบความสำเร็จในอาชีพมากสุด' ถึง 'น้อยสุด' — คนอันดับ 1 รับโทษเป็นรางวัล",
+      "Target": "คนอายุน้อยที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "RK007",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'แข็งแกร่งในชีวิตมากสุด' ถึง 'น้อยสุด' พร้อมเหตุผล — คนอันดับ 1 รับโทษเป็นรางวัล",
+      "Target": "คนอายุมากที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "RK008",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'น่าจะแต่งงานก่อน' ถึง 'ช้าสุด' — คนอันดับ 1 รับโทษเป็นรางวัล คนสุดท้ายรับโทษเสียใจ",
+      "Target": "คนใส่แว่น",
+      "TargetType": "Condition",
+      "id": "RK009",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "each",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1 คนละข้อ"
+    },
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'ดูดีที่สุดคืนนี้' ถึง 'น้อยสุด' — คนอันดับสุดท้ายรับโทษ",
+      "Target": "คนใส่ต่างหู",
+      "TargetType": "Condition",
+      "id": "RK010",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'โกรธยากที่สุด' ถึง 'ง่ายสุด' — คนที่โกรธง่ายสุด (อันดับสุดท้าย) รับโทษ",
+      "Target": "คนใส่นาฬิกา",
+      "TargetType": "Condition",
+      "id": "RK011",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'พูดตรงที่สุด' ถึง 'อ้อมค้อมที่สุด' — คนอันดับสุดท้ายรับโทษ",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "RK012",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'น่าจะ miss มากสุดถ้าวงนี้แยกย้ายกัน' ถึง 'น้อยสุด' — คนอันดับ 1 รับโทษเป็นรางวัล คนสุดท้ายรับโทษ",
+      "Target": "คนที่โสดอยู่",
+      "TargetType": "Condition",
+      "id": "RK013",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "each",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1 คนละข้อ"
+    },
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'รับมือกับความเจ็บปวดได้ดีที่สุด' ถึง 'น้อยสุด' — คนอันดับ 1 รับโทษเป็นรางวัล",
+      "Target": "คนที่มีแฟนอยู่",
+      "TargetType": "Condition",
+      "id": "RK014",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'น่าจะอยู่ถึงเช้าได้มากสุด' ถึง 'น่าจะหลับก่อน' — ถ้าวงไม่เห็นด้วยกับอันดับ 1 มึงรับโทษ",
+      "Target": "คนที่พูดมากที่สุดในวงนี้",
+      "TargetType": "Condition",
+      "id": "RK015",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'เป็นตัวเองมากที่สุด' ถึง 'น้อยสุด' — คนอันดับสุดท้ายต้องอธิบายว่าตัวเองจริงๆ เป็นแบบไหน",
+      "Target": "คนที่เงียบที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "RK016",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'น่าจะเดินทางคนเดียวได้ดีที่สุด' ถึง 'แย่สุด' — คนอันดับสุดท้ายรับโทษ",
+      "Target": "คนผมยาวที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "RK017",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'น่าจะเป็นพ่อแม่ที่ดีที่สุด' ถึง 'น้อยสุด' — คนอันดับ 1 รับโทษเป็นรางวัล",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "RK018",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'ฟังคนอื่นได้ดีที่สุด' ถึง 'แย่สุด' — คนอันดับสุดท้ายรับโทษและสัญญาว่าจะฟังมากขึ้น",
+      "Target": "คนผมสั้นที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "RK019",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'น่าจะจัดการเรื่องเงินได้ดีที่สุด' ถึง 'แย่สุด' — คนอันดับสุดท้ายรับโทษ",
+      "Target": "คนที่เคยโดนเท",
+      "TargetType": "Condition",
+      "id": "RK020",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'น่าจะ overthink มากที่สุด' ถึง 'น้อยสุด' — คนอันดับ 1 รับโทษ{lv:2}",
+      "Target": "คนนั่งซ้ายมือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "RK021",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 2
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 2"
+    },
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'น่าจะสำเร็จในความรักมากสุด' ถึง 'น้อยสุด' — คนอันดับ 1 รับโทษเป็นรางวัล คนสุดท้ายรับโทษปลอบใจ",
+      "Target": "คนนั่งขวามือคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "RK022",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "each",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1 คนละข้อ"
+    },
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'creative ที่สุด' ถึง 'น้อยสุด' — คนอันดับ 1 รับโทษเป็นรางวัล",
+      "Target": "คนนั่งตรงข้ามคนจั่ว",
+      "TargetType": "Mechanic",
+      "id": "RK023",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'กล้าหาญที่สุด' ถึง 'น้อยสุด' — คนอันดับสุดท้ายต้องทำสิ่งที่กล้าที่สุดที่มันทำได้ตอนนี้",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "RK024",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty"
+    },
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'ขำง่ายที่สุด' ถึง 'ยากที่สุด' — คนอันดับ 1 ต้องพยายามไม่หัวเราะนาน 30 วินาที ถ้าหัวเราะรับโทษ",
+      "Target": "คนตัวสูงที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "RK025",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1",
+      "timer": 30
+    },
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'น่าจะนอนดึกที่สุดคืนนี้' ถึง 'เร็วสุด' — คนอันดับ 1 รับโทษ",
+      "Target": "คนตัวเตี้ยที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "RK026",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'น่าจะเป็น leader ได้ดีที่สุด' ถึง 'น้อยสุด' — คนอันดับ 1 ต้องสั่งวงทำอะไรก็ได้ 1 อย่าง",
+      "Target": "คนอายุน้อยที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "RK027",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'คิดบวกที่สุด' ถึง 'น้อยสุด' — คนอันดับสุดท้ายรับโทษและพูดอะไรบางอย่างที่คิดบวกเกี่ยวกับชีวิต",
+      "Target": "คนอายุมากที่สุดในวง",
+      "TargetType": "Condition",
+      "id": "RK028",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ],
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'น่าจะมีความสุขมากที่สุดตอนนี้' ถึง 'น้อยสุด' — คนอันดับสุดท้ายบอกวงว่าต้องการอะไร",
+      "Target": "คนใส่แว่น",
+      "TargetType": "Condition",
+      "id": "RK029",
+      "actor_role": "drawer",
+      "target_role": "responder",
+      "target_lock": false,
+      "card_type": "penalty",
+      "fallback_chain": [
+        "positional_left",
+        "drawer"
+      ]
+    },
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'น่าจะทิ้งทุกอย่างแล้วไปเริ่มต้นใหม่ในต่างประเทศได้มากที่สุด' ถึง 'น้อยสุด' — คนอันดับ 1 รับโทษเป็นรางวัล",
+      "Target": "คนจั่วเลือกเอง",
+      "TargetType": "Select",
+      "id": "RK030",
+      "actor_role": "drawer",
+      "target_role": "select_by_drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "target",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1"
+    },
+    {
+      "Category": "Ranking",
+      "Content": "จัดอันดับคนในวงจาก 'ทำให้คนอื่นยิ้มได้มากที่สุด' ถึง 'น้อยสุด' — คนอันดับ 1 รับโทษเป็นรางวัล คนสุดท้ายรับโทษและยิ้มให้ทุกคน",
+      "Target": "คนจั่ว",
+      "TargetType": "Condition",
+      "id": "RK031",
+      "actor_role": "drawer",
+      "target_role": "drawer",
+      "target_lock": true,
+      "card_type": "penalty",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "each",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "รับโทษระดับ 1 คนละข้อ"
+    }
+  ]
+}

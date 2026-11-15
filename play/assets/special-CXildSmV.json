@@ -310,7 +310,7 @@
     },
     {
       "Category": "Special",
-      "Content": "Shuffle: ทุกคนสลับที่นั่ง แล้วเริ่มรอบใหม่จากคนซ้ายของที่นั่งเดิมของคนจั่ว",
+      "Content": "Shuffle: ทุกคนสลับที่นั่งกันใหม่ตามใจ แล้วกดปุ่ม \"จัดที่นั่งใหม่\" ในแอปให้ตรงกับที่นั่งจริง",
       "Target": "ทุกคน",
       "TargetType": "Group",
       "id": "SP013",
@@ -327,7 +327,8 @@
           }
         ]
       },
-      "Penalty": "สลับที่นั่ง"
+      "Penalty": "สลับที่นั่ง",
+      "turn_effect": "reseat"
     },
     {
       "Category": "Special",
@@ -1071,7 +1072,8 @@
           }
         ]
       },
-      "Penalty": "รับโทษระดับ 2"
+      "Penalty": "รับโทษระดับ 2",
+      "turn_effect": "swap_pick"
     },
     {
       "Category": "Special",
@@ -1117,14 +1119,15 @@
     },
     {
       "Category": "Special",
-      "Content": "การ์ด Reverse — มึงสั่งให้วงหมุนทิศทางการจั่วกลับด้าน และมึงได้จั่วอีกครั้ง",
+      "Content": "🔄 การ์ด Reverse — ทิศการจั่วกลับด้านทันที คนที่จั่วก่อนหน้ามึงได้จั่วต่อ",
       "Target": "คนจั่ว",
       "TargetType": "Mechanic",
       "id": "SP048",
       "actor_role": "drawer",
       "target_role": "drawer",
       "target_lock": true,
-      "card_type": "penalty"
+      "card_type": "penalty",
+      "turn_effect": "reverse"
     },
     {
       "Category": "Special",
@@ -2082,6 +2085,210 @@
         ]
       },
       "Penalty": "ทีมที่แพ้ รับโทษระดับ 2 คนละข้อ"
+    },
+    {
+      "Category": "Special",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "SP131",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "turn_effect": "reverse",
+      "Content": "🔄 ย้อนทาง! ทิศการจั่วกลับด้านทันที — คนที่เพิ่งจั่วก่อนมึงได้จั่วต่อ ใครเพิ่งรอดก็ดีใจไปก่อนนะ"
+    },
+    {
+      "Category": "Special",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "SP132",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "turn_effect": "reverse",
+      "Content": "🔄 ย้อนทางแบบมีค่าผ่านทาง — ทิศการจั่วกลับด้าน และคนที่ได้จั่วต่อ (คนก่อนหน้ามึง) รับโทษ{lv:1} ก่อนจั่ว",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่ได้จั่วต่อ",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "คนที่ได้จั่วต่อ รับโทษระดับ 1"
+    },
+    {
+      "Category": "Special",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "SP133",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "turn_effect": "skip",
+      "Content": "⏭ ข้าม! คนถัดไปโดนข้ามตา 1 ครั้ง แต่ต้องรับโทษ{lv:1} เป็นค่าผ่านทาง",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่โดนข้าม",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "คนที่โดนข้าม รับโทษระดับ 1"
+    },
+    {
+      "Category": "Special",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "SP134",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "turn_effect": "skip2",
+      "Content": "⏭⏭ ข้ามสองต่อ! สองคนถัดไปโดนข้ามตา — ทั้งคู่โบกมือลาให้วงดูแบบนางงามตกรอบ"
+    },
+    {
+      "Category": "Special",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "SP135",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "turn_effect": "again",
+      "Content": "🔁 จั่วอีกใบ! มึงจั่วต่อทันทีอีก 1 ใบ — โชคดีหรือซวยเดี๋ยวก็รู้"
+    },
+    {
+      "Category": "Special",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "SP136",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "turn_effect": "plus2",
+      "Content": "➕2 คนถัดไปต้องจั่ว 2 ใบติดกัน และทำให้ครบทั้ง 2 ใบ ห้ามข้าม — ขอให้โชคดี"
+    },
+    {
+      "Category": "Special",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "SP137",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "turn_effect": "back",
+      "Content": "⏪ ถอยหลัง! คนที่จั่วก่อนหน้ามึงต้องกลับมาจั่วอีกรอบ — นึกว่ารอดแล้วใช่ไหม"
+    },
+    {
+      "Category": "Special",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "SP138",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "turn_effect": "pick_next",
+      "Content": "🎯 มึงเลือกใครก็ได้ให้จั่วใบถัดไป — แล้วเกมจะเดินต่อจากคนนั้น เลือกคนที่ยังไม่ค่อยโดนเลย"
+    },
+    {
+      "Category": "Special",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "SP139",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "turn_effect": "swap_pick",
+      "Content": "🔀 เลือกคน 1 คนในวงมาสลับที่นั่งกับมึง ลุกย้ายไปนั่งจริง ๆ ใครย้ายช้ากว่ารับโทษ{lv:1}",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่ย้ายช้ากว่า",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "คนที่ย้ายช้ากว่า รับโทษระดับ 1"
+    },
+    {
+      "Category": "Special",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "SP140",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "turn_effect": "swap_opposite",
+      "Content": "🔀 มึงกับคนนั่งตรงข้ามสลับที่นั่งกันเดี๋ยวนี้ ใครถึงที่ใหม่ช้ากว่ารับโทษ{lv:1}",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่ถึงช้ากว่า",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "คนที่ถึงช้ากว่า รับโทษระดับ 1"
+    },
+    {
+      "Category": "Special",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Mechanic",
+      "card_type": "penalty",
+      "id": "SP141",
+      "target_role": "drawer",
+      "Target": "คนจั่ว",
+      "turn_effect": "swap_neighbors",
+      "Content": "🔀 คนทางซ้ายกับคนทางขวาของมึงสลับที่นั่งกัน — มึงนั่งตรงกลางเป็นกรรมการ ใครถึงที่ใหม่ช้ากว่ารับโทษ{lv:1}",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่ถึงช้ากว่า",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "คนที่ถึงช้ากว่า รับโทษระดับ 1"
+    },
+    {
+      "Category": "Special",
+      "actor_role": "drawer",
+      "target_lock": true,
+      "TargetType": "Group",
+      "card_type": "penalty",
+      "id": "SP142",
+      "target_role": "group",
+      "Target": "ทุกคน",
+      "turn_effect": "reseat",
+      "Content": "🪑 เก้าอี้ดนตรี! ทุกคนลุกเดินวนรอบวง พอคนจั่วตะโกน \"นั่ง!\" ให้รีบหาที่นั่งใหม่ ใครนั่งช้าสุดรับโทษ{lv:1} แล้วกดปุ่ม \"จัดที่นั่งใหม่\" ในแอป",
+      "penalty": {
+        "outcomes": [
+          {
+            "who": "custom",
+            "whoText": "คนที่นั่งช้าสุด",
+            "level": 1
+          }
+        ]
+      },
+      "Penalty": "คนที่นั่งช้าสุด รับโทษระดับ 1"
     }
   ]
 }
